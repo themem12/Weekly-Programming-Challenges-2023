@@ -34,8 +34,8 @@ struct ContentView: View {
                         Text(cell.title)
                     }
                 case "Tennis game":
-                    NavigationLink(destination: L33tView()) {
-                        Text("\(cell.title) Próximamente")
+                    NavigationLink(destination: TennisGameView()) {
+                        Text("\(cell.title)")
                     }
                 case "Password Generator":
                     NavigationLink(destination: PassWordGeneratorView()) {

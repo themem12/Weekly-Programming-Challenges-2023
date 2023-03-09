@@ -21,6 +21,8 @@
 		F1ACEC6029B911EC003C0FCE /* APIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ACEC5F29B911EC003C0FCE /* APIView.swift */; };
 		F1ACEC6229B9145B003C0FCE /* Hete-Iso-PangramaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ACEC6129B9145B003C0FCE /* Hete-Iso-PangramaViewModel.swift */; };
 		F1ACEC6429B9B032003C0FCE /* APIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ACEC6329B9B032003C0FCE /* APIViewModel.swift */; };
+		F1CD78E129BA37A400787330 /* TennisGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CD78E029BA37A400787330 /* TennisGameView.swift */; };
+		F1CD78E329BA3CE100787330 /* TennisGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CD78E229BA3CE100787330 /* TennisGameViewModel.swift */; };
 		F1D0088A29B7E13F00767618 /* RPSLSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0088929B7E13F00767618 /* RPSLSView.swift */; };
 		F1D0088C29B7E17D00767618 /* RPSLSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0088B29B7E17D00767618 /* RPSLSViewModel.swift */; };
 		F1D0089129B84B1200767618 /* Pseudorandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0089029B84B1200767618 /* Pseudorandom.swift */; };
@@ -49,6 +51,8 @@
 		F1ACEC5F29B911EC003C0FCE /* APIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIView.swift; sourceTree = "<group>"; };
 		F1ACEC6129B9145B003C0FCE /* Hete-Iso-PangramaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hete-Iso-PangramaViewModel.swift"; sourceTree = "<group>"; };
 		F1ACEC6329B9B032003C0FCE /* APIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIViewModel.swift; sourceTree = "<group>"; };
+		F1CD78E029BA37A400787330 /* TennisGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisGameView.swift; sourceTree = "<group>"; };
+		F1CD78E229BA3CE100787330 /* TennisGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisGameViewModel.swift; sourceTree = "<group>"; };
 		F1D0088929B7E13F00767618 /* RPSLSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSLSView.swift; sourceTree = "<group>"; };
 		F1D0088B29B7E17D00767618 /* RPSLSViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSLSViewModel.swift; sourceTree = "<group>"; };
 		F1D0089029B84B1200767618 /* Pseudorandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pseudorandom.swift; sourceTree = "<group>"; };
@@ -90,6 +94,7 @@
 		3A196016295E4B1600CB283B /* WeeklyChallenges2023 */ = {
 			isa = PBXGroup;
 			children = (
+				F1CD78DF29BA379300787330 /* TennisGame */,
 				F1ACEC5E29B911E0003C0FCE /* API */,
 				F1ACEC5B29B91198003C0FCE /* HolaMundo */,
 				F1ACEC5829B9106E003C0FCE /* SortingHat */,
@@ -168,6 +173,15 @@
 				F1ACEC6329B9B032003C0FCE /* APIViewModel.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		F1CD78DF29BA379300787330 /* TennisGame */ = {
+			isa = PBXGroup;
+			children = (
+				F1CD78E029BA37A400787330 /* TennisGameView.swift */,
+				F1CD78E229BA3CE100787330 /* TennisGameViewModel.swift */,
+			);
+			path = TennisGame;
 			sourceTree = "<group>";
 		};
 		F1D0088829B7E12D00767618 /* RPSLS */ = {
@@ -286,9 +300,11 @@
 				F1D5EDE329B6BB59004D49EA /* SwitchButton.swift in Sources */,
 				F1ACEC6429B9B032003C0FCE /* APIViewModel.swift in Sources */,
 				3A196028295E50AB00CB283B /* FizzBuzzView.swift in Sources */,
+				F1CD78E329BA3CE100787330 /* TennisGameViewModel.swift in Sources */,
 				F1ACEC5729B91032003C0FCE /* Hete-Iso-PangramaView.swift in Sources */,
 				F1D5EDDD29B6489A004D49EA /* PassWordGeneratorView.swift in Sources */,
 				3A19601A295E4B1700CB283B /* ContentView.swift in Sources */,
+				F1CD78E129BA37A400787330 /* TennisGameView.swift in Sources */,
 				F1D0089129B84B1200767618 /* Pseudorandom.swift in Sources */,
 				F1D5EDE629B6EE23004D49EA /* PrimeFibonachiPairView.swift in Sources */,
 				3A4BF93B296A39DF000C17EA /* L33tStringExtensions.swift in Sources */,
