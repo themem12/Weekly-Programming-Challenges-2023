@@ -47,6 +47,10 @@ struct FizzBuzzView: View {
                         ForEach(row) { item in
                             let title = item.isFizzBuzz == "" ? item.number : item.isFizzBuzz
                             Text(title)
+                                .frame(width: 73, height: 40)
+                                .background(Color.gray)
+                                .cornerRadius(10)
+                                .foregroundColor(.white)
                         }
                     }
                 }

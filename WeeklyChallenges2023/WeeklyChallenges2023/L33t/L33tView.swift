@@ -19,34 +19,43 @@ struct L33tView: View {
                     typeTranslate = Alphabets.Alphabets.basic
                 } label: {
                     Text("Basic")
-                        .background(Color.blue)
                         .foregroundColor(.white)
                 }
+                .frame(width: 100, height: 50)
+                .background(typeTranslate == .basic ? Color.green : Color.gray)
+                .cornerRadius(10)
                 
                 Button {
                     typeTranslate = Alphabets.Alphabets.intermediate
                 } label: {
                     Text("Intermediate")
-                        .background(Color.blue)
                         .foregroundColor(.white)
                 }
+                .frame(width: 100, height: 50)
+                .background(typeTranslate == .intermediate ? Color.green : Color.gray)
+                .cornerRadius(10)
                 
                 Button {
                     typeTranslate = Alphabets.Alphabets.advande
                 } label: {
                     Text("Advance")
-                        .background(Color.blue)
                         .foregroundColor(.white)
                 }
+                .frame(width: 100, height: 50)
+                .background(typeTranslate == .advande ? Color.green : Color.gray)
+                .cornerRadius(10)
                 
                 Button {
                     typeTranslate = Alphabets.Alphabets.fullRetard
                 } label: {
                     Text("Full retard")
-                        .background(Color.blue)
                         .foregroundColor(.white)
                 }
+                .frame(width: 100, height: 50)
+                .background(typeTranslate == .fullRetard ? Color.green : Color.gray)
+                .cornerRadius(10)
             }
+            .padding(8)
             TextField(text: $textToTranslate) {
                 Text("Escribe el mensaje a traducir")
             }
