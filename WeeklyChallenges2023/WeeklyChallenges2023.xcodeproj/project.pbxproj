@@ -23,6 +23,7 @@
 		F1ACEC6429B9B032003C0FCE /* APIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ACEC6329B9B032003C0FCE /* APIViewModel.swift */; };
 		F1CD78E129BA37A400787330 /* TennisGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CD78E029BA37A400787330 /* TennisGameView.swift */; };
 		F1CD78E329BA3CE100787330 /* TennisGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CD78E229BA3CE100787330 /* TennisGameViewModel.swift */; };
+		F1CD78E529BA6B9700787330 /* SortingHatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CD78E429BA6B9700787330 /* SortingHatViewModel.swift */; };
 		F1D0088A29B7E13F00767618 /* RPSLSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0088929B7E13F00767618 /* RPSLSView.swift */; };
 		F1D0088C29B7E17D00767618 /* RPSLSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0088B29B7E17D00767618 /* RPSLSViewModel.swift */; };
 		F1D0089129B84B1200767618 /* Pseudorandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0089029B84B1200767618 /* Pseudorandom.swift */; };
@@ -53,6 +54,7 @@
 		F1ACEC6329B9B032003C0FCE /* APIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIViewModel.swift; sourceTree = "<group>"; };
 		F1CD78E029BA37A400787330 /* TennisGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisGameView.swift; sourceTree = "<group>"; };
 		F1CD78E229BA3CE100787330 /* TennisGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisGameViewModel.swift; sourceTree = "<group>"; };
+		F1CD78E429BA6B9700787330 /* SortingHatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingHatViewModel.swift; sourceTree = "<group>"; };
 		F1D0088929B7E13F00767618 /* RPSLSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSLSView.swift; sourceTree = "<group>"; };
 		F1D0088B29B7E17D00767618 /* RPSLSViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSLSViewModel.swift; sourceTree = "<group>"; };
 		F1D0089029B84B1200767618 /* Pseudorandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pseudorandom.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				F1ACEC5929B9107E003C0FCE /* SortingHatView.swift */,
+				F1CD78E429BA6B9700787330 /* SortingHatViewModel.swift */,
 			);
 			path = SortingHat;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				F1ACEC6229B9145B003C0FCE /* Hete-Iso-PangramaViewModel.swift in Sources */,
 				F1D0088C29B7E17D00767618 /* RPSLSViewModel.swift in Sources */,
 				F1ACEC5D29B911C3003C0FCE /* HolaMundoView.swift in Sources */,
+				F1CD78E529BA6B9700787330 /* SortingHatViewModel.swift in Sources */,
 				3A4BF939296A39B6000C17EA /* L33tAlphabets.swift in Sources */,
 				F1D5EDE829B6EE8C004D49EA /* PrimeFibonachiPairViewModel.swift in Sources */,
 				F1D5EDE329B6BB59004D49EA /* SwitchButton.swift in Sources */,

@@ -8,8 +8,47 @@
 import SwiftUI
 
 struct SortingHatView: View {
+    @StateObject private var viewModel = SortingHatViewModel()
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image("Sorting_Hat")
+                .resizable()
+                .frame(width: 200, height: 200)
+                .padding(.bottom, 64)
+            Text(viewModel.questionString)
+                .font(.largeTitle)
+                .foregroundColor(.gray)
+            HStack(spacing: 32) {
+                Button {
+                    viewModel.validationResponse(viewModel.getAsnwerOneString())
+                } label: {
+                    Text(viewModel.getAsnwerOneString())
+                }
+                .frame(width: 80, height: 80)
+                .background(Color.gray)
+                .foregroundColor(.white)
+                .cornerRadius(10)
+                
+                Button {
+                    viewModel.validationResponse(viewModel.getAsnwerTwoString())
+                } label: {
+                    Text(viewModel.getAsnwerTwoString())
+                }
+                .frame(width: 80, height: 80)
+                .background(Color.gray)
+                .foregroundColor(.white)
+                .cornerRadius(10)
+            }
+            Spacer()
+        }.alert(viewModel.houseSelected, isPresented: $viewModel.showHouse) {
+            Button {
+                self.presentationMode.wrappedValue.dismiss()
+            } label: {
+                Text("🥳")
+            }
+
+        }
     }
 }
 

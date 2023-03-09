@@ -55,7 +55,7 @@ struct ContentView: View {
                     }
                 case "Sorting Hat":
                     NavigationLink(destination: SortingHatView()) {
-                        Text("\(cell.title) Próximamente")
+                        Text("\(cell.title)")
                     }
                 case "Pseudorandom":
                     NavigationLink(destination: Pseudorandom()) {
