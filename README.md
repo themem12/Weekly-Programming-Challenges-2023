@@ -16,12 +16,16 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 9  - 27/02/23 | "Hetero, Iso, Pan Grama"
 - 10 - 06/03/23 | "API"
 
+![Main menu image](https://drive.google.com/file/d/17mwn-KH9BepDwdPqT6e5SKKRotExgUsp/view?usp=share_link)
+
 ### FIZZ BUZZ
 
 Write a program that displays the numbers from 1 to 100 (both included in a column), substituting the following:
   - Multiples of 3 for the word "fizz".
   - Multiples of 5 for the word "buzz".
   - Multiples of 3 and 5 at the same time for the word "fizzbuzz".
+
+![FIZZ BUZZ image](https://drive.google.com/file/d/1ceRCLFNS--3ZpvvcSeXnPD7aJlMYCIdJ/view?usp=share_link)
   
 ### Hacker languaje
 
