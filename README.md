@@ -16,7 +16,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 9  - 27/02/23 | "Hetero, Iso, Pan Grama"
 - 10 - 06/03/23 | "API"
 
-![Main menu image](https://drive.google.com/file/d/17mwn-KH9BepDwdPqT6e5SKKRotExgUsp/view?usp=share_link)
+<img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
 ### FIZZ BUZZ
 
@@ -25,13 +25,18 @@ Write a program that displays the numbers from 1 to 100 (both included in a colu
   - Multiples of 5 for the word "buzz".
   - Multiples of 3 and 5 at the same time for the word "fizzbuzz".
 
-![FIZZ BUZZ image](https://drive.google.com/file/d/1ceRCLFNS--3ZpvvcSeXnPD7aJlMYCIdJ/view?usp=share_link)
+<img src="/ChallengesImages/Challenge%2000.png" width="300" height="620">
   
 ### Hacker languaje
 
 Write a program that receives a text and transforms natural language into "hacker language" (actually known as "leet" or "1337"). This language is characterized by substituting alphanumeric characters.
    - Use this table (https://www.gamehouse.com/blog/leet-speak-cheat-sheet/)
 with the alphabet and numbers in "leet".
+
+<img src="/ChallengesImages/Challenge%2001_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2001_2.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2001_3.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2001_4.png" width="300" height="620">
  
 ### Tennis game
 
@@ -51,6 +56,8 @@ Write a program that shows how a tennis game takes place and who has won it.
  - If you want, you can control errors in data entry.
  - Consult the rules of the game if you have doubts about the point system.
 
+<img src="/ChallengesImages/Challenge%2002.png" width="300" height="620">
+
 ### Password generator
 
 Write a program that is capable of randomly generating passwords.
@@ -62,6 +69,8 @@ You can configure to generate passwords with the following parameters:
 
 (Being able to combine all these parameters between them)
 
+<img src="/ChallengesImages/Challenge%2003.png" width="300" height="620">
+
 ### Prime, Fibonacci and Pair
 
 Write a program that, given a number, checks and returns whether it is prime, fibonacci, and even.
@@ -69,6 +78,13 @@ Write a program that, given a number, checks and returns whether it is prime, fi
 Examples:
  - With the number 2, it will tell us: "2 is prime, fibonacci and is even"
  - With the number 7, it will tell us: "7 is prime, it is not fibonacci and it is odd"
+
+<img src="/ChallengesImages/Challenge%2004_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2004_2.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2004_3.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2004_4.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2004_5.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2004_6.png" width="300" height="620">
 
 ### Hello world
 
@@ -82,6 +98,13 @@ Create a program that calculates who wins the most games of rock, paper, scissor
  - Example. Input: [("🗿","✂️"), ("✂️","🗿"), ("📄","✂️")]. Result: "Player 2."
  - You must look for information on how to play with these 5 possibilities.
 
+
+<img src="/ChallengesImages/Challenge%2005_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2005_2.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2005_3.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2005_4.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2005_5.png" width="300" height="620">
+
 ### Sorting hat
 
 Create a program that simulates the behavior of the sorting hat from the magical universe of Harry Potter.
@@ -91,15 +114,24 @@ Create a program that simulates the behavior of the sorting hat from the magical
  - Take into account the features of each house to ask the questions and create the selection algorithm.
    - For example, in Slytherin ambition and cunning are rewarded.
 
+<img src="/ChallengesImages/Challenge%2006.png" width="300" height="620">
+
 ### Pseudorandom
 
 Creates a pseudorandom number generator between 0 and 100.
  - You cannot use any "random" (or similar) function of the selected programming language.
 
+<img src="/ChallengesImages/Challenge%2007.png" width="300" height="620">
+
 ### Hetero, Iso, Pan Grama
 
 Validate if a string of text is a heterogram, an isogram, or a pangram.
   - You must look for the definition of each of these terms.
+
+<img src="/ChallengesImages/Challenge%2008_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2008_2.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2008_3.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2008_4.png" width="300" height="620">
 
 ### API
 
@@ -107,3 +139,6 @@ Calling an API is one of the most common tasks in programming.
 
  - Implement an HTTP call to an API (the one you want) and show its result through the terminal. For example: Pokemon, Marvel...
  - Here is a list of possible APIs: https://github.com/public-apis/public-apis
+
+<img src="/ChallengesImages/Challenge%2009_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2009_2.png" width="300" height="620">
