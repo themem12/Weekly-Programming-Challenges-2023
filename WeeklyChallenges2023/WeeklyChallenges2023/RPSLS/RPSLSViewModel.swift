@@ -20,7 +20,7 @@ class RPSLSViewModel: ObservableObject {
     var playerOne: Item? {
         didSet {
             if playerOne == nil { return }
-            playerString = "Player 2"
+            playerString = "Jugador 2"
             if !twoPlayersActive {
                 playerTwo = options[Int.random(in: 0..<options.count)]
             }
@@ -35,8 +35,8 @@ class RPSLSViewModel: ObservableObject {
     }
     
     @Published var twoPlayersActive = false
-    @Published var gameString = "Hola"
-    @Published var playerString = "Player 1"
+    @Published var gameString = "_"
+    @Published var playerString = "Jugador 1"
     
     struct Item: Equatable {
         let name: RPSLSOptions
@@ -46,12 +46,12 @@ class RPSLSViewModel: ObservableObject {
 
     func validateWinner() {
         if playerOne == playerTwo {
-            gameString = "It's a tie "
+            gameString = "Es un empate"
         } else {
             if playerOne?.winTo.contains(playerTwo?.name ?? .none) ?? false {
-                gameString = "Player one wins!!! \(playerOne?.name.rawValue ?? "")"
+                gameString = "Jugador uno gana!!! \(playerOne?.name.rawValue ?? "")"
             } else {
-                gameString = "Player two wins!!! \(playerTwo?.name.rawValue ?? "")"
+                gameString = "Jugador dos gana!!! \(playerTwo?.name.rawValue ?? "")"
             }
         }
         
@@ -61,7 +61,7 @@ class RPSLSViewModel: ObservableObject {
     private func resetGame() {
         playerOne = nil
         playerTwo = nil
-        playerString = "Player 1"
+        playerString = "Jugador 1"
     }
 }
 

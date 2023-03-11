@@ -47,7 +47,7 @@ struct ContentView: View {
                     }
                 case "Hola Mundo":
                     NavigationLink(destination: HolaMundoView()) {
-                        Text("\(cell.title) Próximamente")
+                        Text("\(cell.title)")
                     }
                 case "Rock Paper Sissors Lizard Spock":
                     NavigationLink(destination: RPSLSView()) {

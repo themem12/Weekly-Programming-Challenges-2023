@@ -34,27 +34,27 @@ class Hete_Iso_PangramaViewModel: ObservableObject {
             let count = alphabetDic["\(char)"] ?? 0
             alphabetDic["\(char)"] = count + 1
         }
-        phraseIsHeteOrPan(phraseDic: alphabetDic)
-        phraseIsIso(phraseDic: alphabetDic)
+        phraseIsHeteOrIso(phraseDic: alphabetDic)
+        phraseIsPan(phraseDic: alphabetDic)
     }
 
-    func phraseIsHeteOrPan(phraseDic: [String: Int]) {
+    func phraseIsHeteOrIso(phraseDic: [String: Int]) {
         for count in phraseDic.values {
             if count > 1 {
                 isHeter = false
-                isPan = true
+                isIso = true
                 return
             }
         }
         isHeter = true
-        isPan = false
+        isIso = false
     }
     
-    func phraseIsIso(phraseDic: [String: Int]) {
+    func phraseIsPan(phraseDic: [String: Int]) {
         if phraseDic.count == 26 {
-            isIso = true
+            isPan = true
         } else {
-            isIso = false
+            isPan = false
         }
     }
 }

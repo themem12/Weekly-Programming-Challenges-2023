@@ -11,7 +11,7 @@ struct RPSLSView: View {
     @StateObject private var viewModel = RPSLSViewModel()
     var body: some View {
         VStack {
-            Toggle("Activate 2 players", isOn: $viewModel.twoPlayersActive)
+            Toggle("Activar 2 jugadores", isOn: $viewModel.twoPlayersActive)
             Spacer()
             Text(viewModel.playerString)
                 .font(.title)
