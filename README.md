@@ -15,6 +15,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 8  - 20/02/23 | "Pseudorandom"
 - 9  - 27/02/23 | "Hetero, Iso, Pan Grama"
 - 10 - 06/03/23 | "API"
+- 11 - 13/03/23 | "URL Params"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -142,3 +143,11 @@ Calling an API is one of the most common tasks in programming.
 
 <img src="/ChallengesImages/Challenge%2009_1.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2009_2.png" width="300" height="620">
+
+### URL Params
+
+Dada una URL con parámetros, crea una función que obtenga sus valores.
+No se pueden usar operaciones del lenguaje que realicen esta tarea directamente.
+
+Ejemplo: En la url https://retosdeprogramacion.com?year=2023&challenge=0
+los parámetros serían ["2023", "0"]
