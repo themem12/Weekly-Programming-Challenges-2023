@@ -20,6 +20,7 @@ struct ContentView: View {
         ChallengesCells(title: "Pseudorandom"),
         ChallengesCells(title: "Hete-Iso-Pag gram"),
         ChallengesCells(title: "API"),
+        ChallengesCells(title: "URLParams"),
     ]
     var body: some View {
         NavigationView {
@@ -67,6 +68,10 @@ struct ContentView: View {
                     }
                 case "API":
                     NavigationLink(destination: APIView()) {
+                        Text("\(cell.title)")
+                    }
+                case "URLParams":
+                    NavigationLink(destination: URLParamsView()) {
                         Text("\(cell.title)")
                     }
                 default:

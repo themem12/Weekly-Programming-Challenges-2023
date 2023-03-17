@@ -100,11 +100,11 @@ Create a program that calculates who wins the most games of rock, paper, scissor
  - You must look for information on how to play with these 5 possibilities.
 
 
-<img src="/ChallengesImages/Challenge%2005_1.png" width="300" height="620">
-<img src="/ChallengesImages/Challenge%2005_2.png" width="300" height="620">
-<img src="/ChallengesImages/Challenge%2005_3.png" width="300" height="620">
-<img src="/ChallengesImages/Challenge%2005_4.png" width="300" height="620">
-<img src="/ChallengesImages/Challenge%2005_5.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2006_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2006_2.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2006_3.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2006_4.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2006_5.png" width="300" height="620">
 
 ### Sorting hat
 
@@ -115,24 +115,24 @@ Create a program that simulates the behavior of the sorting hat from the magical
  - Take into account the features of each house to ask the questions and create the selection algorithm.
    - For example, in Slytherin ambition and cunning are rewarded.
 
-<img src="/ChallengesImages/Challenge%2006.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2007.png" width="300" height="620">
 
 ### Pseudorandom
 
 Creates a pseudorandom number generator between 0 and 100.
  - You cannot use any "random" (or similar) function of the selected programming language.
 
-<img src="/ChallengesImages/Challenge%2007.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2008.png" width="300" height="620">
 
 ### Hetero, Iso, Pan Grama
 
 Validate if a string of text is a heterogram, an isogram, or a pangram.
   - You must look for the definition of each of these terms.
 
-<img src="/ChallengesImages/Challenge%2008_1.png" width="300" height="620">
-<img src="/ChallengesImages/Challenge%2008_2.png" width="300" height="620">
-<img src="/ChallengesImages/Challenge%2008_3.png" width="300" height="620">
-<img src="/ChallengesImages/Challenge%2008_4.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2009_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2009_2.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2009_3.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2009_4.png" width="300" height="620">
 
 ### API
 
@@ -141,8 +141,8 @@ Calling an API is one of the most common tasks in programming.
  - Implement an HTTP call to an API (the one you want) and show its result through the terminal. For example: Pokemon, Marvel...
  - Here is a list of possible APIs: https://github.com/public-apis/public-apis
 
-<img src="/ChallengesImages/Challenge%2009_1.png" width="300" height="620">
-<img src="/ChallengesImages/Challenge%2009_2.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2010_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2010_2.png" width="300" height="620">
 
 ### URL Params
 
@@ -151,3 +151,6 @@ No se pueden usar operaciones del lenguaje que realicen esta tarea directamente.
 
 Ejemplo: En la url https://retosdeprogramacion.com?year=2023&challenge=0
 los parámetros serían ["2023", "0"]
+
+<img src="/ChallengesImages/Challenge%2011_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2011_2.png" width="300" height="620">
