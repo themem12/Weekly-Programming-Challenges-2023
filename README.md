@@ -16,6 +16,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 9  - 27/02/23 | "Hetero, Iso, Pan Grama"
 - 10 - 06/03/23 | "API"
 - 11 - 13/03/23 | "URL Params"
+- 12 - 20/03/23 | "Viernes 13"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -154,3 +155,8 @@ los parámetros serían ["2023", "0"]
 
 <img src="/ChallengesImages/Challenge%2011_1.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2011_2.png" width="300" height="620">
+
+### Viernes 13
+
+Crea una función que sea capaz de detectar si existe un viernes 13 en el mes y el año indicados.
+La función recibirá el mes y el año y retornará verdadero o falso.
