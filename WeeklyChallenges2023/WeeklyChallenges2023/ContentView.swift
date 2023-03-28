@@ -21,6 +21,7 @@ struct ContentView: View {
         ChallengesCells(title: "Hete-Iso-Pag gram"),
         ChallengesCells(title: "API"),
         ChallengesCells(title: "URLParams"),
+        ChallengesCells(title: "Friday 13"),
     ]
     var body: some View {
         NavigationView {
@@ -73,6 +74,10 @@ struct ContentView: View {
                 case "URLParams":
                     NavigationLink(destination: URLParamsView()) {
                         Text("\(cell.title)")
+                    }
+                case "Friday 13":
+                    NavigationLink(destination: FridayThirteenView()) {
+                        Text(cell.title)
                     }
                 default:
                     NavigationLink(destination: FizzBuzzView()) {

@@ -160,3 +160,7 @@ los parámetros serían ["2023", "0"]
 
 Crea una función que sea capaz de detectar si existe un viernes 13 en el mes y el año indicados.
 La función recibirá el mes y el año y retornará verdadero o falso.
+
+<img src="/ChallengesImages/Challenge%2012_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2012_2.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2012_3.png" width="300" height="620">
