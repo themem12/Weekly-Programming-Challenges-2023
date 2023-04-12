@@ -22,6 +22,7 @@ struct ContentView: View {
         ChallengesCells(title: "API", viewClass: AnyView(APIView())),
         ChallengesCells(title: "URLParams", viewClass: AnyView(URLParamsView())),
         ChallengesCells(title: "Friday 13", viewClass: AnyView(FridayThirteenView())),
+        ChallengesCells(title: "Guess the word", viewClass: AnyView(WordGuessView())),
     ]
     
     var body: some View {
