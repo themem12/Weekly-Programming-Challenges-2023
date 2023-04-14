@@ -23,6 +23,7 @@ struct ContentView: View {
         ChallengesCells(title: "URLParams", viewClass: AnyView(URLParamsView())),
         ChallengesCells(title: "Friday 13", viewClass: AnyView(FridayThirteenView())),
         ChallengesCells(title: "Guess the word", viewClass: AnyView(WordGuessView())),
+        ChallengesCells(title: "Decimal conversion", viewClass: AnyView(DecimalConversionView())),
     ]
     
     var body: some View {

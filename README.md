@@ -18,6 +18,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 11 - 13/03/23 | "URL Params"
 - 12 - 20/03/23 | "Viernes 13"
 - 13 - 27/03/23 | "Adivina la palabra"
+- 14 - 03/04/23 | "Octal y Hexadecimal"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -181,3 +182,12 @@ Crea un pequeño juego que consista en adivinar palabras en un número máximo d
 <img src="/ChallengesImages/Challenge%2013_1.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2013_2.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2013_3.png" width="300" height="620">
+
+
+### Octal y Hexadecimal
+
+Crea una función que reciba un número entero y lo trasforme a Octal y Hexadecimal.
+ - No está permitido usar funciones propias del lenguaje de programación que realicen esas operaciones directamente.
+ 
+<img src="/ChallengesImages/Challenge%2014_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2014_2.png" width="300" height="620">

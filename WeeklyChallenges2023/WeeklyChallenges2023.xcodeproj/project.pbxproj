@@ -16,6 +16,8 @@
 		3A4BF93B296A39DF000C17EA /* L33tStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BF93A296A39DF000C17EA /* L33tStringExtensions.swift */; };
 		3A4BF93D296A3A06000C17EA /* L33tView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BF93C296A3A06000C17EA /* L33tView.swift */; };
 		9B4BC2F629CE8EA9005BE1D8 /* FridayThirteenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BC2F529CE8EA9005BE1D8 /* FridayThirteenViewModel.swift */; };
+		9B9414BF29E927760080AF4F /* DecimalConversionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9414BE29E927760080AF4F /* DecimalConversionViewModel.swift */; };
+		9B9414C129E92AD20080AF4F /* DecimalConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9414C029E92AD20080AF4F /* DecimalConversionView.swift */; };
 		9BF1504229D16E180083976E /* FridayThirteenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1504129D16E180083976E /* FridayThirteenView.swift */; };
 		9BF72A3329E684230046FF82 /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72A3229E684230046FF82 /* WordList.swift */; };
 		9BF72A3529E6847B0046FF82 /* WordGuessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72A3429E6847B0046FF82 /* WordGuessViewModel.swift */; };
@@ -54,6 +56,8 @@
 		3A4BF93A296A39DF000C17EA /* L33tStringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L33tStringExtensions.swift; sourceTree = "<group>"; };
 		3A4BF93C296A3A06000C17EA /* L33tView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L33tView.swift; sourceTree = "<group>"; };
 		9B4BC2F529CE8EA9005BE1D8 /* FridayThirteenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridayThirteenViewModel.swift; sourceTree = "<group>"; };
+		9B9414BE29E927760080AF4F /* DecimalConversionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalConversionViewModel.swift; sourceTree = "<group>"; };
+		9B9414C029E92AD20080AF4F /* DecimalConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalConversionView.swift; sourceTree = "<group>"; };
 		9BF1504129D16E180083976E /* FridayThirteenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridayThirteenView.swift; sourceTree = "<group>"; };
 		9BF72A3229E684230046FF82 /* WordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordList.swift; sourceTree = "<group>"; };
 		9BF72A3429E6847B0046FF82 /* WordGuessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGuessViewModel.swift; sourceTree = "<group>"; };
@@ -110,6 +114,7 @@
 		3A196016295E4B1600CB283B /* WeeklyChallenges2023 */ = {
 			isa = PBXGroup;
 			children = (
+				9B9414BD29E927360080AF4F /* DecimalConversion */,
 				9BF72A3129E683FC0046FF82 /* WordGuess */,
 				9B4BC2F429CE8E62005BE1D8 /* Viernes13 */,
 				F121182B29C40A1A00818C6C /* URLParams */,
@@ -167,6 +172,15 @@
 				9BF1504129D16E180083976E /* FridayThirteenView.swift */,
 			);
 			path = Viernes13;
+			sourceTree = "<group>";
+		};
+		9B9414BD29E927360080AF4F /* DecimalConversion */ = {
+			isa = PBXGroup;
+			children = (
+				9B9414BE29E927760080AF4F /* DecimalConversionViewModel.swift */,
+				9B9414C029E92AD20080AF4F /* DecimalConversionView.swift */,
+			);
+			path = DecimalConversion;
 			sourceTree = "<group>";
 		};
 		9BF72A3129E683FC0046FF82 /* WordGuess */ = {
@@ -343,7 +357,9 @@
 				9BF72A3329E684230046FF82 /* WordList.swift in Sources */,
 				F121182F29C40CC800818C6C /* URLParamsViewModel.swift in Sources */,
 				3A4BF93D296A3A06000C17EA /* L33tView.swift in Sources */,
+				9B9414BF29E927760080AF4F /* DecimalConversionViewModel.swift in Sources */,
 				F121182D29C40A2800818C6C /* URLParamsView.swift in Sources */,
+				9B9414C129E92AD20080AF4F /* DecimalConversionView.swift in Sources */,
 				F1ACEC6229B9145B003C0FCE /* Hete-Iso-PangramaViewModel.swift in Sources */,
 				F1D0088C29B7E17D00767618 /* RPSLSViewModel.swift in Sources */,
 				F1ACEC5D29B911C3003C0FCE /* HolaMundoView.swift in Sources */,
