@@ -25,6 +25,7 @@ struct ContentView: View {
         ChallengesCells(title: "Guess the word", viewClass: AnyView(WordGuessView())),
         ChallengesCells(title: "Decimal conversion", viewClass: AnyView(DecimalConversionView())),
         ChallengesCells(title: "Aurebesh translator", viewClass: AnyView(AurebeshTranslatorView())),
+        ChallengesCells(title: "Ladders", viewClass: AnyView(LadderView())),
     ]
     
     var body: some View {

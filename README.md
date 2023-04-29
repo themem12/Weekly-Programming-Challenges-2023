@@ -19,6 +19,8 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 12 - 20/03/23 | "Viernes 13"
 - 13 - 27/03/23 | "Adivina la palabra"
 - 14 - 03/04/23 | "Octal y Hexadecimal"
+- 15 - 10/04/23 | "Aurebesh"
+- 16 - 17/04/23 | "La escalera"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -191,3 +193,24 @@ Crea una función que reciba un número entero y lo trasforme a Octal y Hexadeci
  
 <img src="/ChallengesImages/Challenge%2014_1.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2014_2.png" width="300" height="620">
+
+
+### Aurebesh
+
+Crea una función que sea capaz de transformar Español al lenguaje básico del universo Star Wars: el "Aurebesh".
+ - Puedes dejar sin transformar los caracteres que no existan en "Aurebesh".
+ 
+<img src="/ChallengesImages/Challenge%2015.png" width="300" height="620">
+
+
+### La escalera
+
+Crea una función que dibuje una escalera según su número de escalones.
+ - Si el número es positivo, será ascendente de izquiera a derecha.
+ - Si el número es negativo, será descendente de izquiera a derecha.
+ - Si el número es cero, se dibujarán dos guiones bajos (__).
+ 
+ <img src="/ChallengesImages/Challenge%2016_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2016_2.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2016_3.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2016_4.png" width="300" height="620">
