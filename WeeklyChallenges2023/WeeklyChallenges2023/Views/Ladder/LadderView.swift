@@ -31,7 +31,7 @@ struct LadderView: View {
                 .bold()
             }
             TextField(text: $viewModel.numberOfSteps) {
-                Text("Give me the number of steps")
+                Text("Give the number of steps")
             }.textFieldStyle(RoundedBorderTextFieldStyle())
                 .keyboardType(.decimalPad)
             
