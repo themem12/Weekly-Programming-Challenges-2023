@@ -15,6 +15,7 @@
 		3A4BF939296A39B6000C17EA /* L33tAlphabets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BF938296A39B6000C17EA /* L33tAlphabets.swift */; };
 		3A4BF93B296A39DF000C17EA /* L33tStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BF93A296A39DF000C17EA /* L33tStringExtensions.swift */; };
 		3A4BF93D296A3A06000C17EA /* L33tView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BF93C296A3A06000C17EA /* L33tView.swift */; };
+		9B04350E2A02F140007D1303 /* GitCommitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B04350D2A02F140007D1303 /* GitCommitsViewModel.swift */; };
 		9B4630CA29E9BFF7002D7D30 /* AurebeshTranslatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4630C929E9BFF7002D7D30 /* AurebeshTranslatorView.swift */; };
 		9B4630CC29E9D768002D7D30 /* AurebeshTranslatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4630CB29E9D768002D7D30 /* AurebeshTranslatorViewModel.swift */; };
 		9B4BC2F629CE8EA9005BE1D8 /* FridayThirteenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BC2F529CE8EA9005BE1D8 /* FridayThirteenViewModel.swift */; };
@@ -23,6 +24,10 @@
 		9BC1364829FCF7A30095AA66 /* LadderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1364729FCF7A30095AA66 /* LadderView.swift */; };
 		9BC1364A29FCF7AF0095AA66 /* LadderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1364929FCF7AF0095AA66 /* LadderViewModel.swift */; };
 		9BC1364B29FD02350095AA66 /* Aurebesh Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B4630C529E9BDB3002D7D30 /* Aurebesh Bold.otf */; };
+		9BC3CCA02A1C44430051AA92 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3CC9F2A1C44430051AA92 /* ServiceLayer.swift */; };
+		9BC3CCA22A1C4D110051AA92 /* GitCommitsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3CCA12A1C4D110051AA92 /* GitCommitsListView.swift */; };
+		9BC3CCA52A1C6C870051AA92 /* WebScrapingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3CCA42A1C6C870051AA92 /* WebScrapingViewModel.swift */; };
+		9BC3CCA72A1C6D3A0051AA92 /* WebScrapingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3CCA62A1C6D3A0051AA92 /* WebScrapingView.swift */; };
 		9BF1504229D16E180083976E /* FridayThirteenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1504129D16E180083976E /* FridayThirteenView.swift */; };
 		9BF72A3329E684230046FF82 /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72A3229E684230046FF82 /* WordList.swift */; };
 		9BF72A3529E6847B0046FF82 /* WordGuessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72A3429E6847B0046FF82 /* WordGuessViewModel.swift */; };
@@ -60,6 +65,7 @@
 		3A4BF938296A39B6000C17EA /* L33tAlphabets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L33tAlphabets.swift; sourceTree = "<group>"; };
 		3A4BF93A296A39DF000C17EA /* L33tStringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L33tStringExtensions.swift; sourceTree = "<group>"; };
 		3A4BF93C296A3A06000C17EA /* L33tView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L33tView.swift; sourceTree = "<group>"; };
+		9B04350D2A02F140007D1303 /* GitCommitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitsViewModel.swift; sourceTree = "<group>"; };
 		9B4630C529E9BDB3002D7D30 /* Aurebesh Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aurebesh Bold.otf"; sourceTree = "<group>"; };
 		9B4630C729E9BF8D002D7D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9B4630C929E9BFF7002D7D30 /* AurebeshTranslatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AurebeshTranslatorView.swift; sourceTree = "<group>"; };
@@ -69,6 +75,10 @@
 		9B9414C029E92AD20080AF4F /* DecimalConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalConversionView.swift; sourceTree = "<group>"; };
 		9BC1364729FCF7A30095AA66 /* LadderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadderView.swift; sourceTree = "<group>"; };
 		9BC1364929FCF7AF0095AA66 /* LadderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadderViewModel.swift; sourceTree = "<group>"; };
+		9BC3CC9F2A1C44430051AA92 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		9BC3CCA12A1C4D110051AA92 /* GitCommitsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitsListView.swift; sourceTree = "<group>"; };
+		9BC3CCA42A1C6C870051AA92 /* WebScrapingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebScrapingViewModel.swift; sourceTree = "<group>"; };
+		9BC3CCA62A1C6D3A0051AA92 /* WebScrapingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebScrapingView.swift; sourceTree = "<group>"; };
 		9BF1504129D16E180083976E /* FridayThirteenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridayThirteenView.swift; sourceTree = "<group>"; };
 		9BF72A3229E684230046FF82 /* WordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordList.swift; sourceTree = "<group>"; };
 		9BF72A3429E6847B0046FF82 /* WordGuessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGuessViewModel.swift; sourceTree = "<group>"; };
@@ -125,6 +135,7 @@
 		3A196016295E4B1600CB283B /* WeeklyChallenges2023 */ = {
 			isa = PBXGroup;
 			children = (
+				9BC3CC9E2A1C44340051AA92 /* Helpers */,
 				9BC1364529FCF77D0095AA66 /* Views */,
 				9B4630C729E9BF8D002D7D30 /* Info.plist */,
 				9B4630C429E9BD9D002D7D30 /* Fonts */,
@@ -162,6 +173,15 @@
 				3A4BF93C296A3A06000C17EA /* L33tView.swift */,
 			);
 			path = L33t;
+			sourceTree = "<group>";
+		};
+		9B04350C2A02F12B007D1303 /* GitCommits */ = {
+			isa = PBXGroup;
+			children = (
+				9B04350D2A02F140007D1303 /* GitCommitsViewModel.swift */,
+				9BC3CCA12A1C4D110051AA92 /* GitCommitsListView.swift */,
+			);
+			path = GitCommits;
 			sourceTree = "<group>";
 		};
 		9B4630C429E9BD9D002D7D30 /* Fonts */ = {
@@ -202,6 +222,8 @@
 		9BC1364529FCF77D0095AA66 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9BC3CCA32A1C6C640051AA92 /* Web Scraping */,
+				9B04350C2A02F12B007D1303 /* GitCommits */,
 				9BC1364629FCF78E0095AA66 /* Ladder */,
 				9B4630C829E9BFCB002D7D30 /* AurebeshTranslator */,
 				9B9414BD29E927360080AF4F /* DecimalConversion */,
@@ -230,6 +252,23 @@
 				9BC1364929FCF7AF0095AA66 /* LadderViewModel.swift */,
 			);
 			path = Ladder;
+			sourceTree = "<group>";
+		};
+		9BC3CC9E2A1C44340051AA92 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9BC3CC9F2A1C44430051AA92 /* ServiceLayer.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9BC3CCA32A1C6C640051AA92 /* Web Scraping */ = {
+			isa = PBXGroup;
+			children = (
+				9BC3CCA42A1C6C870051AA92 /* WebScrapingViewModel.swift */,
+				9BC3CCA62A1C6D3A0051AA92 /* WebScrapingView.swift */,
+			);
+			path = "Web Scraping";
 			sourceTree = "<group>";
 		};
 		9BF72A3129E683FC0046FF82 /* WordGuess */ = {
@@ -409,12 +448,15 @@
 				F121182F29C40CC800818C6C /* URLParamsViewModel.swift in Sources */,
 				3A4BF93D296A3A06000C17EA /* L33tView.swift in Sources */,
 				9B9414BF29E927760080AF4F /* DecimalConversionViewModel.swift in Sources */,
+				9BC3CCA52A1C6C870051AA92 /* WebScrapingViewModel.swift in Sources */,
 				F121182D29C40A2800818C6C /* URLParamsView.swift in Sources */,
 				9B9414C129E92AD20080AF4F /* DecimalConversionView.swift in Sources */,
 				F1ACEC6229B9145B003C0FCE /* Hete-Iso-PangramaViewModel.swift in Sources */,
 				F1D0088C29B7E17D00767618 /* RPSLSViewModel.swift in Sources */,
 				F1ACEC5D29B911C3003C0FCE /* HolaMundoView.swift in Sources */,
 				F1CD78E529BA6B9700787330 /* SortingHatViewModel.swift in Sources */,
+				9B04350E2A02F140007D1303 /* GitCommitsViewModel.swift in Sources */,
+				9BC3CCA02A1C44430051AA92 /* ServiceLayer.swift in Sources */,
 				9BC1364A29FCF7AF0095AA66 /* LadderViewModel.swift in Sources */,
 				3A4BF939296A39B6000C17EA /* L33tAlphabets.swift in Sources */,
 				F1D5EDE829B6EE8C004D49EA /* PrimeFibonachiPairViewModel.swift in Sources */,
@@ -426,6 +468,7 @@
 				9B4630CC29E9D768002D7D30 /* AurebeshTranslatorViewModel.swift in Sources */,
 				F1D5EDDD29B6489A004D49EA /* PassWordGeneratorView.swift in Sources */,
 				3A19601A295E4B1700CB283B /* ContentView.swift in Sources */,
+				9BC3CCA22A1C4D110051AA92 /* GitCommitsListView.swift in Sources */,
 				9BC1364829FCF7A30095AA66 /* LadderView.swift in Sources */,
 				F1CD78E129BA37A400787330 /* TennisGameView.swift in Sources */,
 				F1D0089129B84B1200767618 /* Pseudorandom.swift in Sources */,
@@ -434,6 +477,7 @@
 				F1D5EDE629B6EE23004D49EA /* PrimeFibonachiPairView.swift in Sources */,
 				3A4BF93B296A39DF000C17EA /* L33tStringExtensions.swift in Sources */,
 				F1D0088A29B7E13F00767618 /* RPSLSView.swift in Sources */,
+				9BC3CCA72A1C6D3A0051AA92 /* WebScrapingView.swift in Sources */,
 				F1ACEC5A29B9107E003C0FCE /* SortingHatView.swift in Sources */,
 				F1ACEC6029B911EC003C0FCE /* APIView.swift in Sources */,
 				F1D5EDDF29B648A8004D49EA /* PasswordGeneratorViewModel.swift in Sources */,
