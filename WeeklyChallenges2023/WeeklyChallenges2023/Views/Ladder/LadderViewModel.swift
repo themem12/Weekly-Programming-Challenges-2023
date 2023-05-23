@@ -25,6 +25,7 @@ class LadderViewModel: ObservableObject {
     @Published var ladderText: String = ""
     
     private func createLadder(_ steps: Int) {
+        ladderText = ""
         if steps == 0 {
             ladderText = "__"
         }
