@@ -38,6 +38,7 @@ struct LadderView: View {
             Text(viewModel.ladderText)
         }
         .padding()
+        .navigationTitle("Ladders")
     }
 }
 
