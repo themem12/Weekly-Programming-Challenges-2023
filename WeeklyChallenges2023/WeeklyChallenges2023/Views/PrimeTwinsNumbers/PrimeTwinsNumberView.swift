@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct PrimeTwinsNumberView: View {
+    @StateObject var viewModel = PrimeTwinsNumberViewModel()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            TextField("Size of triforce: ", value: $viewModel.rangeNumber, format: .number)
+                .textFieldStyle(.roundedBorder)
+                .keyboardType(.numberPad)
+            Text(viewModel.primeTwinsNumbers)
+        }
     }
 }
 
