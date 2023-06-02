@@ -28,6 +28,7 @@ struct ContentView: View {
         ChallengesCells(title: "Ladders", viewClass: AnyView(LadderView())),
         ChallengesCells(title: "Git commits", viewClass: AnyView(GitCommitsListView())),
         ChallengesCells(title: "Web Scraping", viewClass: AnyView(WebScrapingView())),
+        ChallengesCells(title: "Text Analysis", viewClass: AnyView(TextAnalysisView())),
     ]
     
     var body: some View {
