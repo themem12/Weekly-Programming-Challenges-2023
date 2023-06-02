@@ -20,7 +20,6 @@ struct TriforceView: View {
     }
     
     private func getTriforceText() -> String {
-        let baseLenght = (triforceSize * 2) - 1
         var triForceString = ""
         for row in 0..<triforceSize * 2 {
             if row < triforceSize {
