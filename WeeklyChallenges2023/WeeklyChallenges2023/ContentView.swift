@@ -31,6 +31,7 @@ struct ContentView: View {
         ChallengesCells(title: "Text Analysis", viewClass: AnyView(TextAnalysisView())),
         ChallengesCells(title: "Triforce", viewClass: AnyView(TriforceView())),
         ChallengesCells(title: "Prime Twins Numbers", viewClass: AnyView(PrimeTwinsNumberView())),
+        ChallengesCells(title: "Spiral", viewClass: AnyView(SpiralView())),
     ]
     
     var body: some View {
