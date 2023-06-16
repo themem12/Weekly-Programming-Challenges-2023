@@ -21,6 +21,14 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 14 - 03/04/23 | "Octal y Hexadecimal"
 - 15 - 10/04/23 | "Aurebesh"
 - 16 - 17/04/23 | "La escalera"
+- 17 - 24/04/23 | "GIT & GITHUB "
+- 18 - 01/05/23 | "WEB SCRAPING "
+- 19 - 11/05/23 | "Text Analysis"
+- 20 - 15/05/23 | "Triforce"
+- 21 - 22/05/23 | "Prime Twin numbers"
+- 22 - 29/05/23 | "Spiral"
+- 23 - 12/06/23 | "Data base"
+- 24 - 19/06/23 | "Cesar Cypher"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -210,7 +218,87 @@ Crea una función que dibuje una escalera según su número de escalones.
  - Si el número es negativo, será descendente de izquiera a derecha.
  - Si el número es cero, se dibujarán dos guiones bajos (__).
  
- <img src="/ChallengesImages/Challenge%2016_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2016_1.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2016_2.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2016_3.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2016_4.png" width="300" height="620">
+
+
+### GIT & GITHUB 
+
+Crea un programa que lea los últimos 10 commits de este repositorio y muestre:
+ - Hash
+ - Autor
+ - Mensaje
+ - Fecha y hora
+ 
+<img src="/ChallengesImages/Challenge%2017.png" width="300" height="620">
+ 
+### WEB SCRAPING 
+
+Vamos a hacer "web scraping" sobre su sitio web: https://holamundo.day
+ 
+  Crea un programa que se conecte a la web del evento e imprima únicamente la agenda de eventos
+  del día 8. Mostrando hora e información de cada uno.
+  
+<img src="/ChallengesImages/Challenge%2018.png" width="300" height="620">
+
+### Text Analysis
+
+Crea un programa que analice texto y obtenga:
+  - Número total de palabras.
+  - Longitud media de las palabras.
+  - Número de oraciones del texto (cada vez que aparecen un punto).
+  - Encuentre la palabra más larga.
+  - Todo esto utilizando un único bucle.
+  
+<img src="/ChallengesImages/Challenge%2019.png" width="300" height="620">
+
+### Triforce
+ Crea un programa que dibuje una Trifuerza de "Zelda" formada por asteriscos.
+ - Debes indicarle el número de filas de los triángulos con un entero positivo (n).
+ - Cada triángulo calculará su fila mayor utilizando la fórmula 2n-1.
+ 
+<img src="/ChallengesImages/Challenge%2020.png" width="300" height="620">
+
+### Prime Twin numbers
+
+ Crea un programa que encuentre y muestre todos los pares de números primos
+ gemelos en un rango concreto.
+ El programa recibirá el rango máximo como número entero positivo.
+ 
+ - Un par de números primos se considera gemelo si la diferencia entre
+   ellos es exactamente 2. Por ejemplo (3, 5), (11, 13)
+
+ - Ejemplo: Rango 14
+   (3, 5), (5, 7), (11, 13)
+   
+<img src="/ChallengesImages/Challenge%2021.png" width="300" height="620">
+ 
+### Spiral
+
+ Crea una función que dibuje una espiral como la del ejemplo.
+ - Únicamente se indica de forma dinámica el tamaño del lado.
+ - Símbolos permitidos: ═ ║ ╗ ╔ ╝ ╚
+ 
+<img src="/ChallengesImages/Challenge%2022.png" width="300" height="620">
+
+### Data base WIP
+
+Realiza una conexión desde el lenguaje que hayas seleccionado a la siguiente base de datos MySQL:
+- Host: mysql-5707.dinaserver.com
+- Port: 3306
+- User: mouredev_read
+- Password: mouredev_pass
+- Database: moure_test
+Una vez realices la conexión, lanza la siguiente consulta e imprime el resultado:
+- SELECT * FROM `challenges`
+ 
+### Cesar Cypher
+
+Crea un programa que realize el cifrado César de un texto y lo imprima.
+También debe ser capaz de descifrarlo cuando así se lo indiquemos.
+
+<img src="/ChallengesImages/Challenge%2024_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2024_2.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2024_3.png" width="300" height="620">
