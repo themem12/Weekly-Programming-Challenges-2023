@@ -26,6 +26,8 @@
 		9B5F6C9C2A257F410019FD83 /* TriforceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5F6C9B2A257F410019FD83 /* TriforceView.swift */; };
 		9B9414BF29E927760080AF4F /* DecimalConversionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9414BE29E927760080AF4F /* DecimalConversionViewModel.swift */; };
 		9B9414C129E92AD20080AF4F /* DecimalConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9414C029E92AD20080AF4F /* DecimalConversionView.swift */; };
+		9B9D92722A3C44D700CA2A31 /* CesarCypherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D92712A3C44D700CA2A31 /* CesarCypherView.swift */; };
+		9B9D92742A3C459900CA2A31 /* CesarCypherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D92732A3C459900CA2A31 /* CesarCypherViewModel.swift */; };
 		9BA899B52A1DDF1900972307 /* TextAnalysisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA899B42A1DDF1900972307 /* TextAnalysisViewModel.swift */; };
 		9BA899B82A1DE2BB00972307 /* TextAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA899B72A1DE2BB00972307 /* TextAnalysisView.swift */; };
 		9BC1364829FCF7A30095AA66 /* LadderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1364729FCF7A30095AA66 /* LadderView.swift */; };
@@ -85,6 +87,8 @@
 		9B5F6C9B2A257F410019FD83 /* TriforceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriforceView.swift; sourceTree = "<group>"; };
 		9B9414BE29E927760080AF4F /* DecimalConversionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalConversionViewModel.swift; sourceTree = "<group>"; };
 		9B9414C029E92AD20080AF4F /* DecimalConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalConversionView.swift; sourceTree = "<group>"; };
+		9B9D92712A3C44D700CA2A31 /* CesarCypherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CesarCypherView.swift; sourceTree = "<group>"; };
+		9B9D92732A3C459900CA2A31 /* CesarCypherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CesarCypherViewModel.swift; sourceTree = "<group>"; };
 		9BA899B42A1DDF1900972307 /* TextAnalysisViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnalysisViewModel.swift; sourceTree = "<group>"; };
 		9BA899B72A1DE2BB00972307 /* TextAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnalysisView.swift; sourceTree = "<group>"; };
 		9BC1364729FCF7A30095AA66 /* LadderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadderView.swift; sourceTree = "<group>"; };
@@ -259,6 +263,15 @@
 			path = DecimalConversion;
 			sourceTree = "<group>";
 		};
+		9B9D92702A3C44BE00CA2A31 /* Cesar Cypher */ = {
+			isa = PBXGroup;
+			children = (
+				9B9D92712A3C44D700CA2A31 /* CesarCypherView.swift */,
+				9B9D92732A3C459900CA2A31 /* CesarCypherViewModel.swift */,
+			);
+			path = "Cesar Cypher";
+			sourceTree = "<group>";
+		};
 		9BA899B62A1DE2A500972307 /* TextAnalysis */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +284,7 @@
 		9BC1364529FCF77D0095AA66 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9B9D92702A3C44BE00CA2A31 /* Cesar Cypher */,
 				9B0C68BB2A29938500BD4608 /* Spiral */,
 				9B0C68B42A2986E900BD4608 /* PrimeTwinsNumbers */,
 				9B5F6C9A2A257F2A0019FD83 /* Triforce */,
@@ -497,6 +511,7 @@
 			files = (
 				9B4BC2F629CE8EA9005BE1D8 /* FridayThirteenViewModel.swift in Sources */,
 				9B4630CA29E9BFF7002D7D30 /* AurebeshTranslatorView.swift in Sources */,
+				9B9D92742A3C459900CA2A31 /* CesarCypherViewModel.swift in Sources */,
 				9BF72A3329E684230046FF82 /* WordList.swift in Sources */,
 				F121182F29C40CC800818C6C /* URLParamsViewModel.swift in Sources */,
 				3A4BF93D296A3A06000C17EA /* L33tView.swift in Sources */,
@@ -514,6 +529,7 @@
 				9B04350E2A02F140007D1303 /* GitCommitsViewModel.swift in Sources */,
 				9B0C68BD2A29939200BD4608 /* SpiralView.swift in Sources */,
 				9BC3CCA02A1C44430051AA92 /* ServiceLayer.swift in Sources */,
+				9B9D92722A3C44D700CA2A31 /* CesarCypherView.swift in Sources */,
 				9BC1364A29FCF7AF0095AA66 /* LadderViewModel.swift in Sources */,
 				3A4BF939296A39B6000C17EA /* L33tAlphabets.swift in Sources */,
 				F1D5EDE829B6EE8C004D49EA /* PrimeFibonachiPairViewModel.swift in Sources */,
