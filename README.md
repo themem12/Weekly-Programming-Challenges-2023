@@ -30,6 +30,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 23 - 12/06/23 | "Data base"
 - 24 - 19/06/23 | "Cesar Cypher"
 - 25 - 07/10/24 | "Konami Code"
+- 26 - 07/10/24 | "Testing"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -304,10 +305,19 @@ También debe ser capaz de descifrarlo cuando así se lo indiquemos.
 <img src="/ChallengesImages/Challenge%2024_2.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2024_3.png" width="300" height="620">
 
-### Cesar Cypher
+### Konami Code
 
 Crea un programa que detecte cuando el famoso "Código Konami" se ha introducido correctamente desde el teclado.
 Si sucede esto, debe notificarse mostrando un mensaje en la terminal.
 
 <img src="/ChallengesImages/Challenge%2025_1.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2025_2.png" width="300" height="620">
+
+### Testing
+
+Crea tres test sobre el reto 12: "Viernes 13".
+ - Puedes copiar una solución ya creada por otro usuario en el lenguaje que estés utilizando.
+ - Debes emplear un mecanismo de ejecución de test que posea el lenguaje de programación que hayas seleccionado.
+ - Los tres test deben de funcionar y comprobar diferentes situaciones (a tu elección).
+
+<img src="/ChallengesImages/Challenge%2026.png" width="300" height="300">

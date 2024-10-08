@@ -28,6 +28,17 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9BBAD4C02CB4F2CC007180ED"
+               BuildableName = "WeeklyChallenges2023Tests.xctest"
+               BlueprintName = "WeeklyChallenges2023Tests"
+               ReferencedContainer = "container:WeeklyChallenges2023.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

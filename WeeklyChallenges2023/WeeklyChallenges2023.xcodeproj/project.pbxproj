@@ -31,6 +31,8 @@
 		9B9D92742A3C459900CA2A31 /* CesarCypherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D92732A3C459900CA2A31 /* CesarCypherViewModel.swift */; };
 		9BA899B52A1DDF1900972307 /* TextAnalysisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA899B42A1DDF1900972307 /* TextAnalysisViewModel.swift */; };
 		9BA899B82A1DE2BB00972307 /* TextAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA899B72A1DE2BB00972307 /* TextAnalysisView.swift */; };
+		9BBAD4C42CB4F2CC007180ED /* WeeklyChallenges2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBAD4C32CB4F2CC007180ED /* WeeklyChallenges2023Tests.swift */; };
+		9BBAD4CB2CB4F2FB007180ED /* KonamiCodeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBAD4CA2CB4F2FB007180ED /* KonamiCodeViewModelTests.swift */; };
 		9BC1364829FCF7A30095AA66 /* LadderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1364729FCF7A30095AA66 /* LadderView.swift */; };
 		9BC1364A29FCF7AF0095AA66 /* LadderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1364929FCF7AF0095AA66 /* LadderViewModel.swift */; };
 		9BC1364B29FD02350095AA66 /* Aurebesh Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B4630C529E9BDB3002D7D30 /* Aurebesh Bold.otf */; };
@@ -65,6 +67,16 @@
 		F1D5EDE829B6EE8C004D49EA /* PrimeFibonachiPairViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D5EDE729B6EE8C004D49EA /* PrimeFibonachiPairViewModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9BBAD4C52CB4F2CC007180ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A19600C295E4B1600CB283B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A196013295E4B1600CB283B;
+			remoteInfo = WeeklyChallenges2023;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		3A196014295E4B1600CB283B /* WeeklyChallenges2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeeklyChallenges2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A196017295E4B1600CB283B /* WeeklyChallenges2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyChallenges2023App.swift; sourceTree = "<group>"; };
@@ -94,6 +106,9 @@
 		9B9D92732A3C459900CA2A31 /* CesarCypherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CesarCypherViewModel.swift; sourceTree = "<group>"; };
 		9BA899B42A1DDF1900972307 /* TextAnalysisViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnalysisViewModel.swift; sourceTree = "<group>"; };
 		9BA899B72A1DE2BB00972307 /* TextAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnalysisView.swift; sourceTree = "<group>"; };
+		9BBAD4C12CB4F2CC007180ED /* WeeklyChallenges2023Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeeklyChallenges2023Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BBAD4C32CB4F2CC007180ED /* WeeklyChallenges2023Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyChallenges2023Tests.swift; sourceTree = "<group>"; };
+		9BBAD4CA2CB4F2FB007180ED /* KonamiCodeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonamiCodeViewModelTests.swift; sourceTree = "<group>"; };
 		9BC1364729FCF7A30095AA66 /* LadderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadderView.swift; sourceTree = "<group>"; };
 		9BC1364929FCF7AF0095AA66 /* LadderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadderViewModel.swift; sourceTree = "<group>"; };
 		9BC3CC9F2A1C44430051AA92 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
@@ -135,6 +150,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9BBAD4BE2CB4F2CC007180ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -142,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				3A196016295E4B1600CB283B /* WeeklyChallenges2023 */,
+				9BBAD4C22CB4F2CC007180ED /* WeeklyChallenges2023Tests */,
 				3A196015295E4B1600CB283B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -150,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				3A196014295E4B1600CB283B /* WeeklyChallenges2023.app */,
+				9BBAD4C12CB4F2CC007180ED /* WeeklyChallenges2023Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -283,6 +307,15 @@
 				9BA899B72A1DE2BB00972307 /* TextAnalysisView.swift */,
 			);
 			path = TextAnalysis;
+			sourceTree = "<group>";
+		};
+		9BBAD4C22CB4F2CC007180ED /* WeeklyChallenges2023Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9BBAD4C32CB4F2CC007180ED /* WeeklyChallenges2023Tests.swift */,
+				9BBAD4CA2CB4F2FB007180ED /* KonamiCodeViewModelTests.swift */,
+			);
+			path = WeeklyChallenges2023Tests;
 			sourceTree = "<group>";
 		};
 		9BC1364529FCF77D0095AA66 /* Views */ = {
@@ -471,6 +504,24 @@
 			productReference = 3A196014295E4B1600CB283B /* WeeklyChallenges2023.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9BBAD4C02CB4F2CC007180ED /* WeeklyChallenges2023Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BBAD4C92CB4F2CC007180ED /* Build configuration list for PBXNativeTarget "WeeklyChallenges2023Tests" */;
+			buildPhases = (
+				9BBAD4BD2CB4F2CC007180ED /* Sources */,
+				9BBAD4BE2CB4F2CC007180ED /* Frameworks */,
+				9BBAD4BF2CB4F2CC007180ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BBAD4C62CB4F2CC007180ED /* PBXTargetDependency */,
+			);
+			name = WeeklyChallenges2023Tests;
+			productName = WeeklyChallenges2023Tests;
+			productReference = 9BBAD4C12CB4F2CC007180ED /* WeeklyChallenges2023Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -478,11 +529,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					3A196013295E4B1600CB283B = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					9BBAD4C02CB4F2CC007180ED = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3A196013295E4B1600CB283B;
 					};
 				};
 			};
@@ -500,6 +555,7 @@
 			projectRoot = "";
 			targets = (
 				3A196013295E4B1600CB283B /* WeeklyChallenges2023 */,
+				9BBAD4C02CB4F2CC007180ED /* WeeklyChallenges2023Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -513,6 +569,13 @@
 				3A19601F295E4B1900CB283B /* Preview Assets.xcassets in Resources */,
 				3A19601C295E4B1900CB283B /* Assets.xcassets in Resources */,
 				F1D5EDE129B6B866004D49EA /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BBAD4BF2CB4F2CC007180ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,7 +641,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9BBAD4BD2CB4F2CC007180ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BBAD4CB2CB4F2FB007180ED /* KonamiCodeViewModelTests.swift in Sources */,
+				9BBAD4C42CB4F2CC007180ED /* WeeklyChallenges2023Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BBAD4C62CB4F2CC007180ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A196013295E4B1600CB283B /* WeeklyChallenges2023 */;
+			targetProxy = 9BBAD4C52CB4F2CC007180ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3A196021295E4B1900CB283B /* Debug */ = {
@@ -764,6 +844,47 @@
 			};
 			name = Release;
 		};
+		9BBAD4C72CB4F2CC007180ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 499H3YDN7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = saaveguillermo.WeeklyChallenges2023Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeeklyChallenges2023.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeeklyChallenges2023";
+			};
+			name = Debug;
+		};
+		9BBAD4C82CB4F2CC007180ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 499H3YDN7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = saaveguillermo.WeeklyChallenges2023Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeeklyChallenges2023.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeeklyChallenges2023";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -781,6 +902,15 @@
 			buildConfigurations = (
 				3A196024295E4B1900CB283B /* Debug */,
 				3A196025295E4B1900CB283B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BBAD4C92CB4F2CC007180ED /* Build configuration list for PBXNativeTarget "WeeklyChallenges2023Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BBAD4C72CB4F2CC007180ED /* Debug */,
+				9BBAD4C82CB4F2CC007180ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
