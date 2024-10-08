@@ -29,6 +29,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 22 - 29/05/23 | "Spiral"
 - 23 - 12/06/23 | "Data base"
 - 24 - 19/06/23 | "Cesar Cypher"
+- 25 - 07/10/24 | "Konami Code"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -302,3 +303,11 @@ También debe ser capaz de descifrarlo cuando así se lo indiquemos.
 <img src="/ChallengesImages/Challenge%2024_1.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2024_2.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2024_3.png" width="300" height="620">
+
+### Cesar Cypher
+
+Crea un programa que detecte cuando el famoso "Código Konami" se ha introducido correctamente desde el teclado.
+Si sucede esto, debe notificarse mostrando un mensaje en la terminal.
+
+<img src="/ChallengesImages/Challenge%2025_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2025_2.png" width="300" height="620">
