@@ -26,6 +26,7 @@
 		9B5F6C9C2A257F410019FD83 /* TriforceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5F6C9B2A257F410019FD83 /* TriforceView.swift */; };
 		9B9414BF29E927760080AF4F /* DecimalConversionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9414BE29E927760080AF4F /* DecimalConversionViewModel.swift */; };
 		9B9414C129E92AD20080AF4F /* DecimalConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9414C029E92AD20080AF4F /* DecimalConversionView.swift */; };
+		9B9D57CE2CB31881009ABA52 /* KonamiCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D57CD2CB31881009ABA52 /* KonamiCodeViewModel.swift */; };
 		9B9D92722A3C44D700CA2A31 /* CesarCypherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D92712A3C44D700CA2A31 /* CesarCypherView.swift */; };
 		9B9D92742A3C459900CA2A31 /* CesarCypherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D92732A3C459900CA2A31 /* CesarCypherViewModel.swift */; };
 		9BA899B52A1DDF1900972307 /* TextAnalysisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA899B42A1DDF1900972307 /* TextAnalysisViewModel.swift */; };
@@ -41,6 +42,7 @@
 		9BF72A3329E684230046FF82 /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72A3229E684230046FF82 /* WordList.swift */; };
 		9BF72A3529E6847B0046FF82 /* WordGuessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72A3429E6847B0046FF82 /* WordGuessViewModel.swift */; };
 		9BF72A3729E6897D0046FF82 /* WordGuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72A3629E6897D0046FF82 /* WordGuessView.swift */; };
+		9BFB3B622CB262D5009966F1 /* KonamiCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFB3B612CB262D5009966F1 /* KonamiCodeView.swift */; };
 		F121182D29C40A2800818C6C /* URLParamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121182C29C40A2800818C6C /* URLParamsView.swift */; };
 		F121182F29C40CC800818C6C /* URLParamsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121182E29C40CC800818C6C /* URLParamsViewModel.swift */; };
 		F1ACEC5729B91032003C0FCE /* Hete-Iso-PangramaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ACEC5629B91032003C0FCE /* Hete-Iso-PangramaView.swift */; };
@@ -87,6 +89,7 @@
 		9B5F6C9B2A257F410019FD83 /* TriforceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriforceView.swift; sourceTree = "<group>"; };
 		9B9414BE29E927760080AF4F /* DecimalConversionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalConversionViewModel.swift; sourceTree = "<group>"; };
 		9B9414C029E92AD20080AF4F /* DecimalConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalConversionView.swift; sourceTree = "<group>"; };
+		9B9D57CD2CB31881009ABA52 /* KonamiCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonamiCodeViewModel.swift; sourceTree = "<group>"; };
 		9B9D92712A3C44D700CA2A31 /* CesarCypherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CesarCypherView.swift; sourceTree = "<group>"; };
 		9B9D92732A3C459900CA2A31 /* CesarCypherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CesarCypherViewModel.swift; sourceTree = "<group>"; };
 		9BA899B42A1DDF1900972307 /* TextAnalysisViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnalysisViewModel.swift; sourceTree = "<group>"; };
@@ -101,6 +104,7 @@
 		9BF72A3229E684230046FF82 /* WordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordList.swift; sourceTree = "<group>"; };
 		9BF72A3429E6847B0046FF82 /* WordGuessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGuessViewModel.swift; sourceTree = "<group>"; };
 		9BF72A3629E6897D0046FF82 /* WordGuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGuessView.swift; sourceTree = "<group>"; };
+		9BFB3B612CB262D5009966F1 /* KonamiCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonamiCodeView.swift; sourceTree = "<group>"; };
 		F121182C29C40A2800818C6C /* URLParamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParamsView.swift; sourceTree = "<group>"; };
 		F121182E29C40CC800818C6C /* URLParamsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParamsViewModel.swift; sourceTree = "<group>"; };
 		F1ACEC5629B91032003C0FCE /* Hete-Iso-PangramaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hete-Iso-PangramaView.swift"; sourceTree = "<group>"; };
@@ -284,6 +288,7 @@
 		9BC1364529FCF77D0095AA66 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9BFB3B602CB262BD009966F1 /* KonamiCode */,
 				9B9D92702A3C44BE00CA2A31 /* Cesar Cypher */,
 				9B0C68BB2A29938500BD4608 /* Spiral */,
 				9B0C68B42A2986E900BD4608 /* PrimeTwinsNumbers */,
@@ -346,6 +351,15 @@
 				9BF72A3629E6897D0046FF82 /* WordGuessView.swift */,
 			);
 			path = WordGuess;
+			sourceTree = "<group>";
+		};
+		9BFB3B602CB262BD009966F1 /* KonamiCode */ = {
+			isa = PBXGroup;
+			children = (
+				9BFB3B612CB262D5009966F1 /* KonamiCodeView.swift */,
+				9B9D57CD2CB31881009ABA52 /* KonamiCodeViewModel.swift */,
+			);
+			path = KonamiCode;
 			sourceTree = "<group>";
 		};
 		F121182B29C40A1A00818C6C /* URLParams */ = {
@@ -511,6 +525,7 @@
 			files = (
 				9B4BC2F629CE8EA9005BE1D8 /* FridayThirteenViewModel.swift in Sources */,
 				9B4630CA29E9BFF7002D7D30 /* AurebeshTranslatorView.swift in Sources */,
+				9BFB3B622CB262D5009966F1 /* KonamiCodeView.swift in Sources */,
 				9B9D92742A3C459900CA2A31 /* CesarCypherViewModel.swift in Sources */,
 				9BF72A3329E684230046FF82 /* WordList.swift in Sources */,
 				F121182F29C40CC800818C6C /* URLParamsViewModel.swift in Sources */,
@@ -526,6 +541,7 @@
 				F1D0088C29B7E17D00767618 /* RPSLSViewModel.swift in Sources */,
 				F1ACEC5D29B911C3003C0FCE /* HolaMundoView.swift in Sources */,
 				F1CD78E529BA6B9700787330 /* SortingHatViewModel.swift in Sources */,
+				9B9D57CE2CB31881009ABA52 /* KonamiCodeViewModel.swift in Sources */,
 				9B04350E2A02F140007D1303 /* GitCommitsViewModel.swift in Sources */,
 				9B0C68BD2A29939200BD4608 /* SpiralView.swift in Sources */,
 				9BC3CCA02A1C44430051AA92 /* ServiceLayer.swift in Sources */,
