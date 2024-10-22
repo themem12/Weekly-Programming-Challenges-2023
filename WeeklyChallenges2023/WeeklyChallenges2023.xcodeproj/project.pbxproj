@@ -25,6 +25,7 @@
 		9B4BC2F629CE8EA9005BE1D8 /* FridayThirteenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BC2F529CE8EA9005BE1D8 /* FridayThirteenViewModel.swift */; };
 		9B5F6C9C2A257F410019FD83 /* TriforceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5F6C9B2A257F410019FD83 /* TriforceView.swift */; };
 		9B8E095E2CC72680008DF02D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E095D2CC72673008DF02D /* View+Extensions.swift */; };
+		9B8E09622CC728F0008DF02D /* BasicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E09612CC728F0008DF02D /* BasicButton.swift */; };
 		9B9414BF29E927760080AF4F /* DecimalConversionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9414BE29E927760080AF4F /* DecimalConversionViewModel.swift */; };
 		9B9414C129E92AD20080AF4F /* DecimalConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9414C029E92AD20080AF4F /* DecimalConversionView.swift */; };
 		9B9D57CE2CB31881009ABA52 /* KonamiCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D57CD2CB31881009ABA52 /* KonamiCodeViewModel.swift */; };
@@ -103,6 +104,7 @@
 		9B4BC2F529CE8EA9005BE1D8 /* FridayThirteenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridayThirteenViewModel.swift; sourceTree = "<group>"; };
 		9B5F6C9B2A257F410019FD83 /* TriforceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriforceView.swift; sourceTree = "<group>"; };
 		9B8E095D2CC72673008DF02D /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		9B8E09612CC728F0008DF02D /* BasicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButton.swift; sourceTree = "<group>"; };
 		9B9414BE29E927760080AF4F /* DecimalConversionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalConversionViewModel.swift; sourceTree = "<group>"; };
 		9B9414C029E92AD20080AF4F /* DecimalConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalConversionView.swift; sourceTree = "<group>"; };
 		9B9D57CD2CB31881009ABA52 /* KonamiCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonamiCodeViewModel.swift; sourceTree = "<group>"; };
@@ -288,6 +290,22 @@
 			path = Triforce;
 			sourceTree = "<group>";
 		};
+		9B8E095F2CC728B5008DF02D /* BasicUI */ = {
+			isa = PBXGroup;
+			children = (
+				9B8E09612CC728F0008DF02D /* BasicButton.swift */,
+			);
+			path = BasicUI;
+			sourceTree = "<group>";
+		};
+		9B8E09602CC728C1008DF02D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9B8E095D2CC72673008DF02D /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		9B9414BD29E927360080AF4F /* DecimalConversion */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,7 +396,8 @@
 		9BC3CC9E2A1C44340051AA92 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				9B8E095D2CC72673008DF02D /* View+Extensions.swift */,
+				9B8E095F2CC728B5008DF02D /* BasicUI */,
+				9B8E09602CC728C1008DF02D /* Extensions */,
 				9BC3CC9F2A1C44430051AA92 /* ServiceLayer.swift */,
 			);
 			path = Helpers;
@@ -645,6 +664,7 @@
 				F1D0089129B84B1200767618 /* Pseudorandom.swift in Sources */,
 				9BF72A3729E6897D0046FF82 /* WordGuessView.swift in Sources */,
 				9BF1504229D16E180083976E /* FridayThirteenView.swift in Sources */,
+				9B8E09622CC728F0008DF02D /* BasicButton.swift in Sources */,
 				F1D5EDE629B6EE23004D49EA /* PrimeFibonachiPairView.swift in Sources */,
 				9B0C68B82A29871000BD4608 /* PrimeTwinsNumberViewModel.swift in Sources */,
 				3A4BF93B296A39DF000C17EA /* L33tStringExtensions.swift in Sources */,
