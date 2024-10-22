@@ -33,7 +33,8 @@ struct ContentView: View {
         ChallengesCells(title: "Prime Twins Numbers", viewClass: AnyView(PrimeTwinsNumberView())),
         ChallengesCells(title: "Spiral", viewClass: AnyView(SpiralView())),
         ChallengesCells(title: "Cesar Cypher", viewClass: AnyView(CesarCypherView())),
-        ChallengesCells(title: "Konami Code", viewClass: AnyView(KonamiCodeView()))
+        ChallengesCells(title: "Konami Code", viewClass: AnyView(KonamiCodeView())),
+        ChallengesCells(title: "Countdown", viewClass: AnyView(CountdownView())),
     ]
     
     var body: some View {
