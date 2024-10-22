@@ -16,13 +16,9 @@ struct CountdownView: View {
             TextField("Give me the seconds between steps", text: $viewModel.secondsString)
                 .textFieldStyle(.roundedBorder)
             
-            Button("Start") {
+            BasicButton(action: {
                 viewModel.startCountdown()
-            }
-            .foregroundColor(.white)
-            .padding(10)
-            .background(Color.red)
-            .cornerRadius(10)
+            }, buttonTittle: "Start countdown")
             
             Image(viewModel.imageName.rawValue)
                 .resizable()

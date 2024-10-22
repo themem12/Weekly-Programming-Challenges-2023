@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    private let cells = [
+    private let uiExamples = [
+        ChallengesCells(title: "Buttons", viewClass: AnyView(ButtonsExampleView()))
+    ]
+    private let challenges = [
         ChallengesCells(title: "FizzBuzz", viewClass: AnyView(FizzBuzzView())),
         ChallengesCells(title: "L33t", viewClass: AnyView(L33tView())),
         ChallengesCells(title: "Tennis game", viewClass: AnyView(TennisGameView())),
@@ -39,9 +42,22 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            List(cells) { cell in
-                NavigationLink(destination: cell.viewClass) {
-                    Text(cell.title)
+            List {
+                Section("UI Examples") {
+                    ForEach(uiExamples) { cell in
+                        NavigationLink(destination: cell.viewClass) {
+                            Text(cell.title)
+                        }
+                    }
+                }
+                Section("Challenges") {
+                    ForEach(challenges) { cell in
+                        Section("Challenges") {
+                            NavigationLink(destination: cell.viewClass) {
+                                Text(cell.title)
+                            }
+                        }
+                    }
                 }
             }
             .navigationBarTitle("Retos semanales 2023")
