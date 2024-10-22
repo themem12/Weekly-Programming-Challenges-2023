@@ -332,6 +332,6 @@ Crea una función que reciba dos parámetros para crear una cuenta atrás.
  - El programa finaliza al llegar a cero.
  - Debes imprimir cada número de la cuenta atrás.
 
-<img src="/ChallengesImages/Challenge%2027_1.png" width="300" height="300">
-<img src="/ChallengesImages/Challenge%2027_2.png" width="300" height="300">
-<img src="/ChallengesImages/Challenge%2027_3.png" width="300" height="300">
+<img src="/ChallengesImages/Challenge%2027_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2027_2.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2027_3.png" width="300" height="620">
