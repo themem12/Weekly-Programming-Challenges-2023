@@ -8,16 +8,19 @@
 import SwiftUI
 
 struct BasicButton: View {
-    let action: () -> Void
+    
     let buttonTittle: String
     var backgroundColor: Color = .gray
+    var fontSize: CGFloat = 32
+    let action: () -> Void
+    
     var body: some View {
         VStack {
             Button {
                 action()
             } label: {
                 Text(buttonTittle)
-                    .font(.system(size: 32))
+                    .font(.system(size: fontSize))
                     .foregroundStyle(.white)
                     .bold()
             }
@@ -30,7 +33,7 @@ struct BasicButton: View {
 }
 
 #Preview {
-    BasicButton(action: {
+    BasicButton(buttonTittle: "Test", action: {
         print("Test tapped")
-    }, buttonTittle: "Test")
+    })
 }

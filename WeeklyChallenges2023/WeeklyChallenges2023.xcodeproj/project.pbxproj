@@ -45,6 +45,11 @@
 		9BC3CCA22A1C4D110051AA92 /* GitCommitsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3CCA12A1C4D110051AA92 /* GitCommitsListView.swift */; };
 		9BC3CCA52A1C6C870051AA92 /* WebScrapingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3CCA42A1C6C870051AA92 /* WebScrapingViewModel.swift */; };
 		9BC3CCA72A1C6D3A0051AA92 /* WebScrapingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3CCA62A1C6D3A0051AA92 /* WebScrapingView.swift */; };
+		9BE5B4162CD725B3007300ED /* InfiltratedCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5B4152CD725B3007300ED /* InfiltratedCharacterView.swift */; };
+		9BE5B4182CD72645007300ED /* BasicTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5B4172CD72645007300ED /* BasicTextField.swift */; };
+		9BE5B41A2CD72A5E007300ED /* InfiltratedCharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5B4192CD72A52007300ED /* InfiltratedCharacterViewModel.swift */; };
+		9BE5B41C2CD72D1D007300ED /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5B41B2CD72D16007300ED /* String+Extension.swift */; };
+		9BE5B41E2CD72F98007300ED /* TextFieldsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5B41D2CD72F98007300ED /* TextFieldsExampleView.swift */; };
 		9BF1504229D16E180083976E /* FridayThirteenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1504129D16E180083976E /* FridayThirteenView.swift */; };
 		9BF72A3329E684230046FF82 /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72A3229E684230046FF82 /* WordList.swift */; };
 		9BF72A3529E6847B0046FF82 /* WordGuessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72A3429E6847B0046FF82 /* WordGuessViewModel.swift */; };
@@ -125,6 +130,11 @@
 		9BC3CCA12A1C4D110051AA92 /* GitCommitsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitsListView.swift; sourceTree = "<group>"; };
 		9BC3CCA42A1C6C870051AA92 /* WebScrapingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebScrapingViewModel.swift; sourceTree = "<group>"; };
 		9BC3CCA62A1C6D3A0051AA92 /* WebScrapingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebScrapingView.swift; sourceTree = "<group>"; };
+		9BE5B4152CD725B3007300ED /* InfiltratedCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiltratedCharacterView.swift; sourceTree = "<group>"; };
+		9BE5B4172CD72645007300ED /* BasicTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTextField.swift; sourceTree = "<group>"; };
+		9BE5B4192CD72A52007300ED /* InfiltratedCharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiltratedCharacterViewModel.swift; sourceTree = "<group>"; };
+		9BE5B41B2CD72D16007300ED /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		9BE5B41D2CD72F98007300ED /* TextFieldsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsExampleView.swift; sourceTree = "<group>"; };
 		9BF1504129D16E180083976E /* FridayThirteenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridayThirteenView.swift; sourceTree = "<group>"; };
 		9BF72A3229E684230046FF82 /* WordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordList.swift; sourceTree = "<group>"; };
 		9BF72A3429E6847B0046FF82 /* WordGuessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGuessViewModel.swift; sourceTree = "<group>"; };
@@ -296,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				9B7BD3D62CC7320D00F4D0DA /* ButtonsExampleView.swift */,
+				9BE5B41D2CD72F98007300ED /* TextFieldsExampleView.swift */,
 			);
 			path = UIExamples;
 			sourceTree = "<group>";
@@ -304,6 +315,7 @@
 			isa = PBXGroup;
 			children = (
 				9B8E09612CC728F0008DF02D /* BasicButton.swift */,
+				9BE5B4172CD72645007300ED /* BasicTextField.swift */,
 			);
 			path = BasicUI;
 			sourceTree = "<group>";
@@ -311,6 +323,7 @@
 		9B8E09602CC728C1008DF02D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				9BE5B41B2CD72D16007300ED /* String+Extension.swift */,
 				9B8E095D2CC72673008DF02D /* View+Extensions.swift */,
 			);
 			path = Extensions;
@@ -364,6 +377,7 @@
 		9BC1364529FCF77D0095AA66 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9BE5B4142CD7258F007300ED /* InfiltratedCharacter */,
 				9B7BD3D52CC731F200F4D0DA /* UIExamples */,
 				9BBAD4CC2CB4F8CD007180ED /* Countdown */,
 				9BFB3B602CB262BD009966F1 /* KonamiCode */,
@@ -421,6 +435,15 @@
 				9BC3CCA62A1C6D3A0051AA92 /* WebScrapingView.swift */,
 			);
 			path = "Web Scraping";
+			sourceTree = "<group>";
+		};
+		9BE5B4142CD7258F007300ED /* InfiltratedCharacter */ = {
+			isa = PBXGroup;
+			children = (
+				9BE5B4192CD72A52007300ED /* InfiltratedCharacterViewModel.swift */,
+				9BE5B4152CD725B3007300ED /* InfiltratedCharacterView.swift */,
+			);
+			path = InfiltratedCharacter;
 			sourceTree = "<group>";
 		};
 		9BF72A3129E683FC0046FF82 /* WordGuess */ = {
@@ -633,12 +656,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE5B4182CD72645007300ED /* BasicTextField.swift in Sources */,
 				9B4BC2F629CE8EA9005BE1D8 /* FridayThirteenViewModel.swift in Sources */,
 				9B4630CA29E9BFF7002D7D30 /* AurebeshTranslatorView.swift in Sources */,
 				9BFB3B622CB262D5009966F1 /* KonamiCodeView.swift in Sources */,
+				9BE5B4162CD725B3007300ED /* InfiltratedCharacterView.swift in Sources */,
+				9BE5B41A2CD72A5E007300ED /* InfiltratedCharacterViewModel.swift in Sources */,
 				9B9D92742A3C459900CA2A31 /* CesarCypherViewModel.swift in Sources */,
 				9BF72A3329E684230046FF82 /* WordList.swift in Sources */,
 				F121182F29C40CC800818C6C /* URLParamsViewModel.swift in Sources */,
+				9BE5B41E2CD72F98007300ED /* TextFieldsExampleView.swift in Sources */,
 				3A4BF93D296A3A06000C17EA /* L33tView.swift in Sources */,
 				9B0C68BA2A29937500BD4608 /* SpiralViewModel.swift in Sources */,
 				9B9414BF29E927760080AF4F /* DecimalConversionViewModel.swift in Sources */,
@@ -663,6 +690,7 @@
 				F1D5EDE829B6EE8C004D49EA /* PrimeFibonachiPairViewModel.swift in Sources */,
 				F1D5EDE329B6BB59004D49EA /* SwitchButton.swift in Sources */,
 				F1ACEC6429B9B032003C0FCE /* APIViewModel.swift in Sources */,
+				9BE5B41C2CD72D1D007300ED /* String+Extension.swift in Sources */,
 				3A196028295E50AB00CB283B /* FizzBuzzView.swift in Sources */,
 				F1CD78E329BA3CE100787330 /* TennisGameViewModel.swift in Sources */,
 				F1ACEC5729B91032003C0FCE /* Hete-Iso-PangramaView.swift in Sources */,
