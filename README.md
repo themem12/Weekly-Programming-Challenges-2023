@@ -32,6 +32,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 25 - 07/10/24 | "Konami Code"
 - 26 - 07/10/24 | "Testing"
 - 27 - 21/10/24 | "Countdown"
+- 29 - 02/11/24 | "Infiltrated Characters"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -335,3 +336,15 @@ Crea una función que reciba dos parámetros para crear una cuenta atrás.
 <img src="/ChallengesImages/Challenge%2027_1.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2027_2.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2027_3.png" width="300" height="620">
+
+### Infiltrated Characters
+
+Crea una función que reciba dos cadenas de texto casi iguales, a excepción de uno o varios caracteres. 
+ La función debe encontrarlos y retornarlos en formato lista/array.
+ - Ambas cadenas de texto deben ser iguales en longitud.
+ - Las cadenas de texto son iguales elemento a elemento.
+ - No se pueden utilizar operaciones propias del lenguaje que lo resuelvan directamente.
+
+<img src="/ChallengesImages/Challenge%2029_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2029_2.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2029_3.png" width="300" height="620">

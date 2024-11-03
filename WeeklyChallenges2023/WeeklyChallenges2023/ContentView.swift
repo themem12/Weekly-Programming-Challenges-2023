@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     private let uiExamples = [
-        ChallengesCells(title: "Buttons", viewClass: AnyView(ButtonsExampleView()))
+        ChallengesCells(title: "Buttons", viewClass: AnyView(ButtonsExampleView())),
+        ChallengesCells(title: "TextFields", viewClass: AnyView(TextFieldsExampleView()))
     ]
     private let challenges = [
         ChallengesCells(title: "FizzBuzz", viewClass: AnyView(FizzBuzzView())),
@@ -38,6 +39,7 @@ struct ContentView: View {
         ChallengesCells(title: "Cesar Cypher", viewClass: AnyView(CesarCypherView())),
         ChallengesCells(title: "Konami Code", viewClass: AnyView(KonamiCodeView())),
         ChallengesCells(title: "Countdown", viewClass: AnyView(CountdownView())),
+        ChallengesCells(title: "Infiltrated Characters", viewClass: AnyView(InfiltratedCharacterView())),
     ]
     
     var body: some View {

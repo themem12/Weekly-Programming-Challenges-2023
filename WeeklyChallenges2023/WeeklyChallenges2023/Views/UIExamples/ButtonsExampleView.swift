@@ -10,10 +10,12 @@ import SwiftUI
 struct ButtonsExampleView: View {
     var body: some View {
         VStack {
-            BasicButton(action: {
+            BasicButton(
+                buttonTittle: "BasicButton",
+                backgroundColor: .red
+            ) {
                 print("Basic Button tapped")
-            }, buttonTittle: "BasicButton"
-            , backgroundColor: .red)
+            }
         }
     }
 }
