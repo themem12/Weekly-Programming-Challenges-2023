@@ -32,6 +32,8 @@
 		9B9D57CE2CB31881009ABA52 /* KonamiCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D57CD2CB31881009ABA52 /* KonamiCodeViewModel.swift */; };
 		9B9D92722A3C44D700CA2A31 /* CesarCypherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D92712A3C44D700CA2A31 /* CesarCypherView.swift */; };
 		9B9D92742A3C459900CA2A31 /* CesarCypherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D92732A3C459900CA2A31 /* CesarCypherViewModel.swift */; };
+		9BA0F60F2CDB0072005485D5 /* MathExpressionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0F60D2CDB0072005485D5 /* MathExpressionViewModel.swift */; };
+		9BA0F6102CDB0072005485D5 /* MathExpressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0F60C2CDB0072005485D5 /* MathExpressionView.swift */; };
 		9BA899B52A1DDF1900972307 /* TextAnalysisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA899B42A1DDF1900972307 /* TextAnalysisViewModel.swift */; };
 		9BA899B82A1DE2BB00972307 /* TextAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA899B72A1DE2BB00972307 /* TextAnalysisView.swift */; };
 		9BBAD4C42CB4F2CC007180ED /* WeeklyChallenges2023Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBAD4C32CB4F2CC007180ED /* WeeklyChallenges2023Tests.swift */; };
@@ -50,6 +52,8 @@
 		9BE5B41A2CD72A5E007300ED /* InfiltratedCharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5B4192CD72A52007300ED /* InfiltratedCharacterViewModel.swift */; };
 		9BE5B41C2CD72D1D007300ED /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5B41B2CD72D16007300ED /* String+Extension.swift */; };
 		9BE5B41E2CD72F98007300ED /* TextFieldsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5B41D2CD72F98007300ED /* TextFieldsExampleView.swift */; };
+		9BE5B4222CD7360A007300ED /* T9KeyboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5B4212CD73603007300ED /* T9KeyboardViewModel.swift */; };
+		9BE5B4242CD738F7007300ED /* T9KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5B4232CD738F7007300ED /* T9KeyboardView.swift */; };
 		9BF1504229D16E180083976E /* FridayThirteenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF1504129D16E180083976E /* FridayThirteenView.swift */; };
 		9BF72A3329E684230046FF82 /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72A3229E684230046FF82 /* WordList.swift */; };
 		9BF72A3529E6847B0046FF82 /* WordGuessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72A3429E6847B0046FF82 /* WordGuessViewModel.swift */; };
@@ -117,6 +121,8 @@
 		9B9D57CD2CB31881009ABA52 /* KonamiCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonamiCodeViewModel.swift; sourceTree = "<group>"; };
 		9B9D92712A3C44D700CA2A31 /* CesarCypherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CesarCypherView.swift; sourceTree = "<group>"; };
 		9B9D92732A3C459900CA2A31 /* CesarCypherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CesarCypherViewModel.swift; sourceTree = "<group>"; };
+		9BA0F60C2CDB0072005485D5 /* MathExpressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathExpressionView.swift; sourceTree = "<group>"; };
+		9BA0F60D2CDB0072005485D5 /* MathExpressionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathExpressionViewModel.swift; sourceTree = "<group>"; };
 		9BA899B42A1DDF1900972307 /* TextAnalysisViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnalysisViewModel.swift; sourceTree = "<group>"; };
 		9BA899B72A1DE2BB00972307 /* TextAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnalysisView.swift; sourceTree = "<group>"; };
 		9BBAD4C12CB4F2CC007180ED /* WeeklyChallenges2023Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeeklyChallenges2023Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +141,8 @@
 		9BE5B4192CD72A52007300ED /* InfiltratedCharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiltratedCharacterViewModel.swift; sourceTree = "<group>"; };
 		9BE5B41B2CD72D16007300ED /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		9BE5B41D2CD72F98007300ED /* TextFieldsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsExampleView.swift; sourceTree = "<group>"; };
+		9BE5B4212CD73603007300ED /* T9KeyboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T9KeyboardViewModel.swift; sourceTree = "<group>"; };
+		9BE5B4232CD738F7007300ED /* T9KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T9KeyboardView.swift; sourceTree = "<group>"; };
 		9BF1504129D16E180083976E /* FridayThirteenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridayThirteenView.swift; sourceTree = "<group>"; };
 		9BF72A3229E684230046FF82 /* WordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordList.swift; sourceTree = "<group>"; };
 		9BF72A3429E6847B0046FF82 /* WordGuessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGuessViewModel.swift; sourceTree = "<group>"; };
@@ -347,6 +355,15 @@
 			path = "Cesar Cypher";
 			sourceTree = "<group>";
 		};
+		9BA0F60E2CDB0072005485D5 /* MathExpression */ = {
+			isa = PBXGroup;
+			children = (
+				9BA0F60C2CDB0072005485D5 /* MathExpressionView.swift */,
+				9BA0F60D2CDB0072005485D5 /* MathExpressionViewModel.swift */,
+			);
+			path = MathExpression;
+			sourceTree = "<group>";
+		};
 		9BA899B62A1DE2A500972307 /* TextAnalysis */ = {
 			isa = PBXGroup;
 			children = (
@@ -377,6 +394,7 @@
 		9BC1364529FCF77D0095AA66 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9BE5B4202CD735FA007300ED /* T9Keyboard */,
 				9BE5B4142CD7258F007300ED /* InfiltratedCharacter */,
 				9B7BD3D52CC731F200F4D0DA /* UIExamples */,
 				9BBAD4CC2CB4F8CD007180ED /* Countdown */,
@@ -405,6 +423,7 @@
 				F1D5EDDB29B6482F004D49EA /* PasswordGenerator */,
 				3A4BF937296A3994000C17EA /* L33t */,
 				3A196026295E4B2600CB283B /* FizzBuzz */,
+				9BA0F60E2CDB0072005485D5 /* MathExpression */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -444,6 +463,15 @@
 				9BE5B4152CD725B3007300ED /* InfiltratedCharacterView.swift */,
 			);
 			path = InfiltratedCharacter;
+			sourceTree = "<group>";
+		};
+		9BE5B4202CD735FA007300ED /* T9Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9BE5B4212CD73603007300ED /* T9KeyboardViewModel.swift */,
+				9BE5B4232CD738F7007300ED /* T9KeyboardView.swift */,
+			);
+			path = T9Keyboard;
 			sourceTree = "<group>";
 		};
 		9BF72A3129E683FC0046FF82 /* WordGuess */ = {
@@ -664,6 +692,7 @@
 				9BE5B41A2CD72A5E007300ED /* InfiltratedCharacterViewModel.swift in Sources */,
 				9B9D92742A3C459900CA2A31 /* CesarCypherViewModel.swift in Sources */,
 				9BF72A3329E684230046FF82 /* WordList.swift in Sources */,
+				9BE5B4242CD738F7007300ED /* T9KeyboardView.swift in Sources */,
 				F121182F29C40CC800818C6C /* URLParamsViewModel.swift in Sources */,
 				9BE5B41E2CD72F98007300ED /* TextFieldsExampleView.swift in Sources */,
 				3A4BF93D296A3A06000C17EA /* L33tView.swift in Sources */,
@@ -679,6 +708,7 @@
 				F1ACEC5D29B911C3003C0FCE /* HolaMundoView.swift in Sources */,
 				F1CD78E529BA6B9700787330 /* SortingHatViewModel.swift in Sources */,
 				9BBAD4D02CB4FD42007180ED /* CountdownView.swift in Sources */,
+				9BE5B4222CD7360A007300ED /* T9KeyboardViewModel.swift in Sources */,
 				9B9D57CE2CB31881009ABA52 /* KonamiCodeViewModel.swift in Sources */,
 				9B04350E2A02F140007D1303 /* GitCommitsViewModel.swift in Sources */,
 				9B0C68BD2A29939200BD4608 /* SpiralView.swift in Sources */,
@@ -697,6 +727,8 @@
 				9B8E095E2CC72680008DF02D /* View+Extensions.swift in Sources */,
 				9B4630CC29E9D768002D7D30 /* AurebeshTranslatorViewModel.swift in Sources */,
 				F1D5EDDD29B6489A004D49EA /* PassWordGeneratorView.swift in Sources */,
+				9BA0F60F2CDB0072005485D5 /* MathExpressionViewModel.swift in Sources */,
+				9BA0F6102CDB0072005485D5 /* MathExpressionView.swift in Sources */,
 				3A19601A295E4B1700CB283B /* ContentView.swift in Sources */,
 				9BC3CCA22A1C4D110051AA92 /* GitCommitsListView.swift in Sources */,
 				9BC1364829FCF7A30095AA66 /* LadderView.swift in Sources */,
