@@ -40,6 +40,7 @@ struct ContentView: View {
         ChallengesCells(title: "Konami Code", viewClass: AnyView(KonamiCodeView())),
         ChallengesCells(title: "Countdown", viewClass: AnyView(CountdownView())),
         ChallengesCells(title: "Infiltrated Characters", viewClass: AnyView(InfiltratedCharacterView())),
+        ChallengesCells(title: "T9 Keyboard", viewClass: AnyView(T9KeyboardView())),
     ]
     
     var body: some View {
@@ -54,10 +55,8 @@ struct ContentView: View {
                 }
                 Section("Challenges") {
                     ForEach(challenges) { cell in
-                        Section("Challenges") {
-                            NavigationLink(destination: cell.viewClass) {
-                                Text(cell.title)
-                            }
+                        NavigationLink(destination: cell.viewClass) {
+                            Text(cell.title)
                         }
                     }
                 }

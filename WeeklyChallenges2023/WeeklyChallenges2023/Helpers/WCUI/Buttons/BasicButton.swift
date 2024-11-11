@@ -15,10 +15,10 @@ struct BasicButton: View {
     let action: () -> Void
     
     var body: some View {
-        VStack {
-            Button {
-                action()
-            } label: {
+        Button {
+            action()
+        } label: {
+            VStack {
                 Text(buttonTittle)
                     .font(.system(size: fontSize))
                     .foregroundStyle(.white)

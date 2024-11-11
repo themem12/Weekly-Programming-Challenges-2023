@@ -33,6 +33,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 26 - 07/10/24 | "Testing"
 - 27 - 21/10/24 | "Countdown"
 - 29 - 02/11/24 | "Infiltrated Characters"
+- 30 - 10/11/24 | "T9 Keyboard"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -348,3 +349,12 @@ Crea una función que reciba dos cadenas de texto casi iguales, a excepción de 
 <img src="/ChallengesImages/Challenge%2029_1.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2029_2.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2029_3.png" width="300" height="620">
+
+### T9 Keyboard
+
+Crea una función que transforme las pulsaciones del T9 a su representación con letras.
+- Debes buscar cuál era su correspondencia original.
+- Cada bloque de pulsaciones va separado por un guión.
+- Si un bloque tiene más de un número, debe ser siempre el mismo.
+
+<img src="/ChallengesImages/Challenge%2030.png" width="300" height="620">
