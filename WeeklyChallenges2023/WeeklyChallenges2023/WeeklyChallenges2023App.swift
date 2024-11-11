@@ -11,8 +11,7 @@ import SwiftUI
 struct WeeklyChallenges2023App: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-            T9KeyboardView()
+            ContentView()
         }
     }
 }

@@ -59,6 +59,7 @@
 		9BF72A3529E6847B0046FF82 /* WordGuessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72A3429E6847B0046FF82 /* WordGuessViewModel.swift */; };
 		9BF72A3729E6897D0046FF82 /* WordGuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72A3629E6897D0046FF82 /* WordGuessView.swift */; };
 		9BFB3B622CB262D5009966F1 /* KonamiCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFB3B612CB262D5009966F1 /* KonamiCodeView.swift */; };
+		9BFE79912CE199B400B397E6 /* TwoLabelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE79902CE199B400B397E6 /* TwoLabelButton.swift */; };
 		F121182D29C40A2800818C6C /* URLParamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121182C29C40A2800818C6C /* URLParamsView.swift */; };
 		F121182F29C40CC800818C6C /* URLParamsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121182E29C40CC800818C6C /* URLParamsViewModel.swift */; };
 		F1ACEC5729B91032003C0FCE /* Hete-Iso-PangramaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ACEC5629B91032003C0FCE /* Hete-Iso-PangramaView.swift */; };
@@ -148,6 +149,7 @@
 		9BF72A3429E6847B0046FF82 /* WordGuessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGuessViewModel.swift; sourceTree = "<group>"; };
 		9BF72A3629E6897D0046FF82 /* WordGuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGuessView.swift; sourceTree = "<group>"; };
 		9BFB3B612CB262D5009966F1 /* KonamiCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonamiCodeView.swift; sourceTree = "<group>"; };
+		9BFE79902CE199B400B397E6 /* TwoLabelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLabelButton.swift; sourceTree = "<group>"; };
 		F121182C29C40A2800818C6C /* URLParamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParamsView.swift; sourceTree = "<group>"; };
 		F121182E29C40CC800818C6C /* URLParamsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParamsViewModel.swift; sourceTree = "<group>"; };
 		F1ACEC5629B91032003C0FCE /* Hete-Iso-PangramaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hete-Iso-PangramaView.swift"; sourceTree = "<group>"; };
@@ -319,13 +321,13 @@
 			path = UIExamples;
 			sourceTree = "<group>";
 		};
-		9B8E095F2CC728B5008DF02D /* BasicUI */ = {
+		9B8E095F2CC728B5008DF02D /* WCUI */ = {
 			isa = PBXGroup;
 			children = (
-				9B8E09612CC728F0008DF02D /* BasicButton.swift */,
+				9BFE798F2CE1999400B397E6 /* Buttons */,
 				9BE5B4172CD72645007300ED /* BasicTextField.swift */,
 			);
-			path = BasicUI;
+			path = WCUI;
 			sourceTree = "<group>";
 		};
 		9B8E09602CC728C1008DF02D /* Extensions */ = {
@@ -440,7 +442,7 @@
 		9BC3CC9E2A1C44340051AA92 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				9B8E095F2CC728B5008DF02D /* BasicUI */,
+				9B8E095F2CC728B5008DF02D /* WCUI */,
 				9B8E09602CC728C1008DF02D /* Extensions */,
 				9BC3CC9F2A1C44430051AA92 /* ServiceLayer.swift */,
 			);
@@ -491,6 +493,15 @@
 				9B9D57CD2CB31881009ABA52 /* KonamiCodeViewModel.swift */,
 			);
 			path = KonamiCode;
+			sourceTree = "<group>";
+		};
+		9BFE798F2CE1999400B397E6 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				9B8E09612CC728F0008DF02D /* BasicButton.swift */,
+				9BFE79902CE199B400B397E6 /* TwoLabelButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 		F121182B29C40A1A00818C6C /* URLParams */ = {
@@ -705,6 +716,7 @@
 				9B5F6C9C2A257F410019FD83 /* TriforceView.swift in Sources */,
 				F1ACEC6229B9145B003C0FCE /* Hete-Iso-PangramaViewModel.swift in Sources */,
 				F1D0088C29B7E17D00767618 /* RPSLSViewModel.swift in Sources */,
+				9BFE79912CE199B400B397E6 /* TwoLabelButton.swift in Sources */,
 				F1ACEC5D29B911C3003C0FCE /* HolaMundoView.swift in Sources */,
 				F1CD78E529BA6B9700787330 /* SortingHatViewModel.swift in Sources */,
 				9BBAD4D02CB4FD42007180ED /* CountdownView.swift in Sources */,

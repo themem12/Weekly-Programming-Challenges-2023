@@ -16,6 +16,13 @@ struct ButtonsExampleView: View {
             ) {
                 print("Basic Button tapped")
             }
+            TwoLabelButton(
+                buttonTittle: "Title",
+                buttonSubTittle: "Subtitle",
+                backgroundColor: .blue
+            ) {
+                print("Two Label Button tapped")
+            }
         }
     }
 }
