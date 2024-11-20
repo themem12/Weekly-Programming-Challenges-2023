@@ -46,16 +46,23 @@ struct FizzBuzzView: View {
                     HStack {
                         ForEach(row) { item in
                             let title = item.isFizzBuzz == "" ? item.number : item.isFizzBuzz
-                            Text(title)
-                                .frame(width: 73, height: 40)
-                                .background(Color.gray)
-                                .cornerRadius(10)
-                                .foregroundColor(.white)
+                            FizzBuzzLabel(text: title)
                         }
                     }
                 }
             }
         }.padding()
+    }
+}
+
+struct FizzBuzzLabel: View {
+    let text: String
+    var body: some View {
+        Text(text)
+            .frame(width: 73, height: 40)
+            .background(Color.gray)
+            .cornerRadius(10)
+            .foregroundColor(.white)
     }
 }
 
