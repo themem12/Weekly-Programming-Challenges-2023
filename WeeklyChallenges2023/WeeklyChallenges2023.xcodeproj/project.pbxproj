@@ -15,6 +15,7 @@
 		3A4BF939296A39B6000C17EA /* L33tAlphabets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BF938296A39B6000C17EA /* L33tAlphabets.swift */; };
 		3A4BF93B296A39DF000C17EA /* L33tStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BF93A296A39DF000C17EA /* L33tStringExtensions.swift */; };
 		3A4BF93D296A3A06000C17EA /* L33tView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BF93C296A3A06000C17EA /* L33tView.swift */; };
+		7BB035FA2CEE911B0009A40E /* AbacusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB035F92CEE911B0009A40E /* AbacusViewModel.swift */; };
 		9B04350E2A02F140007D1303 /* GitCommitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B04350D2A02F140007D1303 /* GitCommitsViewModel.swift */; };
 		9B0C68B62A29870700BD4608 /* PrimeTwinsNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C68B52A29870700BD4608 /* PrimeTwinsNumberView.swift */; };
 		9B0C68B82A29871000BD4608 /* PrimeTwinsNumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C68B72A29871000BD4608 /* PrimeTwinsNumberViewModel.swift */; };
@@ -103,6 +104,7 @@
 		3A4BF938296A39B6000C17EA /* L33tAlphabets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L33tAlphabets.swift; sourceTree = "<group>"; };
 		3A4BF93A296A39DF000C17EA /* L33tStringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L33tStringExtensions.swift; sourceTree = "<group>"; };
 		3A4BF93C296A3A06000C17EA /* L33tView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L33tView.swift; sourceTree = "<group>"; };
+		7BB035F92CEE911B0009A40E /* AbacusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbacusViewModel.swift; sourceTree = "<group>"; };
 		9B04350D2A02F140007D1303 /* GitCommitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitsViewModel.swift; sourceTree = "<group>"; };
 		9B0C68B52A29870700BD4608 /* PrimeTwinsNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeTwinsNumberView.swift; sourceTree = "<group>"; };
 		9B0C68B72A29871000BD4608 /* PrimeTwinsNumberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeTwinsNumberViewModel.swift; sourceTree = "<group>"; };
@@ -251,6 +253,14 @@
 			path = L33t;
 			sourceTree = "<group>";
 		};
+		7BB035F82CEE91070009A40E /* Abacus */ = {
+			isa = PBXGroup;
+			children = (
+				7BB035F92CEE911B0009A40E /* AbacusViewModel.swift */,
+			);
+			path = Abacus;
+			sourceTree = "<group>";
+		};
 		9B04350C2A02F12B007D1303 /* GitCommits */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,6 +406,7 @@
 		9BC1364529FCF77D0095AA66 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7BB035F82CEE91070009A40E /* Abacus */,
 				9BE5B4202CD735FA007300ED /* T9Keyboard */,
 				9BE5B4142CD7258F007300ED /* InfiltratedCharacter */,
 				9B7BD3D52CC731F200F4D0DA /* UIExamples */,
@@ -762,6 +773,7 @@
 				3A196018295E4B1600CB283B /* WeeklyChallenges2023App.swift in Sources */,
 				9BA899B52A1DDF1900972307 /* TextAnalysisViewModel.swift in Sources */,
 				9BBAD4CE2CB4FA5A007180ED /* CountdownViewModel.swift in Sources */,
+				7BB035FA2CEE911B0009A40E /* AbacusViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
