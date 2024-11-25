@@ -12,9 +12,16 @@ struct AbacusView: View {
     @StateObject var viewModel = AbacusViewModel()
     
     var body: some View {
-        VStack {
+        VStack(spacing: .zero) {
+            Rectangle()
+                .fill(Color.brown)
+                .frame(height: 20)
+                .padding(.horizontal)
             ForEach(viewModel.abacus, id: \.self) { abacusCount in
-                HStack {
+                HStack(spacing: .zero) {
+                    Rectangle()
+                        .fill(Color.brown)
+                        .frame(width: 20, height: 40)
                     ForEach(0...9, id: \.self) { index in
                         let center = 9 - abacusCount.count
                         AbacusButton(
@@ -26,12 +33,19 @@ struct AbacusView: View {
                             )
                         }
                     }
+                    Rectangle()
+                        .fill(Color.brown)
+                        .frame(width: 20, height: 40)
                 }
             }
+            Rectangle()
+                .fill(Color.brown)
+                .frame(height: 20)
+                .padding(.horizontal)
             Text(viewModel.number)
                 .font(.title)
                 .bold()
-                .foregroundStyle(.white)
+                .foregroundStyle(.gray)
         }
     }
 }
@@ -50,21 +64,31 @@ fileprivate struct AbacusButton: View {
             Button {
                 action()
             } label: {
-                Rectangle()
-                    .fill(Color.green)
-                    .frame(width: 30, height: 30)
+                AbacusCountView(color: .green)
             }
         case .right:
             Button {
                 action()
             } label: {
-                Rectangle()
-                    .fill(Color.red)
-                    .frame(width: 30, height: 30)
+                AbacusCountView(color: .red)
             }
         case .center:
             Rectangle()
-                .fill(Color.white)
+                .fill(Color.gray)
+                .frame(width: 30, height: 8)
+        }
+    }
+}
+
+fileprivate struct AbacusCountView: View {
+    let color: Color
+    var body: some View {
+        ZStack {
+            Rectangle()
+                .fill(Color.gray)
+                .frame(width: 30, height: 8)
+            Circle()
+                .fill(color)
                 .frame(width: 30, height: 30)
         }
     }

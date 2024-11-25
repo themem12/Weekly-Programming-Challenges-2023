@@ -34,6 +34,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 27 - 21/10/24 | "Countdown"
 - 29 - 02/11/24 | "Infiltrated Characters"
 - 30 - 10/11/24 | "T9 Keyboard"
+- 31 - 25/11/24 | "Abacus"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -358,3 +359,15 @@ Crea una función que transforme las pulsaciones del T9 a su representación con
 - Si un bloque tiene más de un número, debe ser siempre el mismo.
 
 <img src="/ChallengesImages/Challenge%2030.png" width="300" height="620">
+
+### Abacus
+
+Crea una función que sea capaz de leer el número representado por el ábaco.
+- El ábaco se representa por un array con 7 
+- Cada elemento tendrá 9 "O" (aunque habitualmente tiene 10 para realizar operaciones) para las cuentas y una secuencia de "---" para el alambre.
+- El primer elemento del array representa los millones, y el último las unidades.
+- El número en cada elemento se representa por las cuentas que están a la izquierda del alambre.
+
+<img src="/ChallengesImages/Challenge%2031_1.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2031_2.png" width="300" height="620">
