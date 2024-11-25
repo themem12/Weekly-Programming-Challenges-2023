@@ -17,18 +17,23 @@ public enum AbacusUnits {
     case million
 }
 
-final class AbacusViewModel {
-    @Published var number = ""
+public struct AbacusCount: Hashable {
+    let unit: AbacusUnits
+    var count: Int
+}
+
+final class AbacusViewModel: ObservableObject {
+    @Published var number = "0"
     
-    private var abacus: [Int] = {
+    @Published var abacus: [AbacusCount] = {
         return [
-            0, // 1,000,000
-            0, // 100,000
-            0, // 10,000
-            0, // 1,000
-            0, // 100
-            0, // 10
-            0, // 1
+            .init(unit: .million, count: 9), // 1,000,000
+            .init(unit: .thousandHundreds, count: 9), // 100,000
+            .init(unit: .thousandTens, count: 9), // 10,000
+            .init(unit: .thousandUnits, count: 9), // 1,000
+            .init(unit: .hundreds, count: 9), // 100
+            .init(unit: .tens, count: 9), // 10
+            .init(unit: .units, count: 9), // 1
         ]
     }()
 
@@ -51,23 +56,22 @@ final class AbacusViewModel {
             index = 0
         }
         if add {
-            if abacus[index] < 9 {
-                abacus[index] += 1
+            if abacus[index].count < 9 {
+                abacus[index].count += 1
             }
         } else {
-            if abacus[index] > 0 {
-                abacus[index] -= 1
+            if abacus[index].count > 0 {
+                abacus[index].count -= 1
             }
         }
         makeNumber()
     }
 
     private func makeNumber() {
-        number = ""
-        for unit in abacus {
-            if unit > 0 {
-                number.append("\(unit)")
-            }
+        var text = ""
+        for count in abacus {
+            text.append("\(9 - count.count)")
         }
+        number = "\(Int(text) ?? 0)"
     }
 }

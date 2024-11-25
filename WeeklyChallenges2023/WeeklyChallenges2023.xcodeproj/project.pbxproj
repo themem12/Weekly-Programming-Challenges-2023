@@ -41,6 +41,7 @@
 		9BBAD4CB2CB4F2FB007180ED /* KonamiCodeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBAD4CA2CB4F2FB007180ED /* KonamiCodeViewModelTests.swift */; };
 		9BBAD4CE2CB4FA5A007180ED /* CountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBAD4CD2CB4FA5A007180ED /* CountdownViewModel.swift */; };
 		9BBAD4D02CB4FD42007180ED /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBAD4CF2CB4FD42007180ED /* CountdownView.swift */; };
+		9BBB69EE2CF03326003FFFEC /* AbacusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBB69ED2CF03326003FFFEC /* AbacusView.swift */; };
 		9BC1364829FCF7A30095AA66 /* LadderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1364729FCF7A30095AA66 /* LadderView.swift */; };
 		9BC1364A29FCF7AF0095AA66 /* LadderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1364929FCF7AF0095AA66 /* LadderViewModel.swift */; };
 		9BC1364B29FD02350095AA66 /* Aurebesh Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B4630C529E9BDB3002D7D30 /* Aurebesh Bold.otf */; };
@@ -133,6 +134,7 @@
 		9BBAD4CA2CB4F2FB007180ED /* KonamiCodeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonamiCodeViewModelTests.swift; sourceTree = "<group>"; };
 		9BBAD4CD2CB4FA5A007180ED /* CountdownViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewModel.swift; sourceTree = "<group>"; };
 		9BBAD4CF2CB4FD42007180ED /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
+		9BBB69ED2CF03326003FFFEC /* AbacusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbacusView.swift; sourceTree = "<group>"; };
 		9BC1364729FCF7A30095AA66 /* LadderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadderView.swift; sourceTree = "<group>"; };
 		9BC1364929FCF7AF0095AA66 /* LadderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadderViewModel.swift; sourceTree = "<group>"; };
 		9BC3CC9F2A1C44430051AA92 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				7BB035F92CEE911B0009A40E /* AbacusViewModel.swift */,
+				9BBB69ED2CF03326003FFFEC /* AbacusView.swift */,
 			);
 			path = Abacus;
 			sourceTree = "<group>";
@@ -741,6 +744,7 @@
 				9BC1364A29FCF7AF0095AA66 /* LadderViewModel.swift in Sources */,
 				3A4BF939296A39B6000C17EA /* L33tAlphabets.swift in Sources */,
 				F1D5EDE829B6EE8C004D49EA /* PrimeFibonachiPairViewModel.swift in Sources */,
+				9BBB69EE2CF03326003FFFEC /* AbacusView.swift in Sources */,
 				F1D5EDE329B6BB59004D49EA /* SwitchButton.swift in Sources */,
 				F1ACEC6429B9B032003C0FCE /* APIViewModel.swift in Sources */,
 				9BE5B41C2CD72D1D007300ED /* String+Extension.swift in Sources */,
