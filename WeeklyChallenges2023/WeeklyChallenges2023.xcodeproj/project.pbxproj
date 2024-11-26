@@ -15,6 +15,9 @@
 		3A4BF939296A39B6000C17EA /* L33tAlphabets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BF938296A39B6000C17EA /* L33tAlphabets.swift */; };
 		3A4BF93B296A39DF000C17EA /* L33tStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BF93A296A39DF000C17EA /* L33tStringExtensions.swift */; };
 		3A4BF93D296A3A06000C17EA /* L33tView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4BF93C296A3A06000C17EA /* L33tView.swift */; };
+		7B0CCE872CF5347B00547FF0 /* ExcelColumnViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0CCE862CF5347B00547FF0 /* ExcelColumnViewModel.swift */; };
+		7B0CCE892CF5387200547FF0 /* ExcelColumnViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0CCE882CF5387200547FF0 /* ExcelColumnViewModelTests.swift */; };
+		7B0CCE8B2CF543A200547FF0 /* ExcelColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0CCE8A2CF543A200547FF0 /* ExcelColumnView.swift */; };
 		7BB035FA2CEE911B0009A40E /* AbacusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB035F92CEE911B0009A40E /* AbacusViewModel.swift */; };
 		9B04350E2A02F140007D1303 /* GitCommitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B04350D2A02F140007D1303 /* GitCommitsViewModel.swift */; };
 		9B0C68B62A29870700BD4608 /* PrimeTwinsNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C68B52A29870700BD4608 /* PrimeTwinsNumberView.swift */; };
@@ -105,6 +108,9 @@
 		3A4BF938296A39B6000C17EA /* L33tAlphabets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L33tAlphabets.swift; sourceTree = "<group>"; };
 		3A4BF93A296A39DF000C17EA /* L33tStringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L33tStringExtensions.swift; sourceTree = "<group>"; };
 		3A4BF93C296A3A06000C17EA /* L33tView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L33tView.swift; sourceTree = "<group>"; };
+		7B0CCE862CF5347B00547FF0 /* ExcelColumnViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelColumnViewModel.swift; sourceTree = "<group>"; };
+		7B0CCE882CF5387200547FF0 /* ExcelColumnViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelColumnViewModelTests.swift; sourceTree = "<group>"; };
+		7B0CCE8A2CF543A200547FF0 /* ExcelColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelColumnView.swift; sourceTree = "<group>"; };
 		7BB035F92CEE911B0009A40E /* AbacusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbacusViewModel.swift; sourceTree = "<group>"; };
 		9B04350D2A02F140007D1303 /* GitCommitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitsViewModel.swift; sourceTree = "<group>"; };
 		9B0C68B52A29870700BD4608 /* PrimeTwinsNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeTwinsNumberView.swift; sourceTree = "<group>"; };
@@ -255,6 +261,15 @@
 			path = L33t;
 			sourceTree = "<group>";
 		};
+		7B0CCE852CF5345A00547FF0 /* ExcelColumn */ = {
+			isa = PBXGroup;
+			children = (
+				7B0CCE862CF5347B00547FF0 /* ExcelColumnViewModel.swift */,
+				7B0CCE8A2CF543A200547FF0 /* ExcelColumnView.swift */,
+			);
+			path = ExcelColumn;
+			sourceTree = "<group>";
+		};
 		7BB035F82CEE91070009A40E /* Abacus */ = {
 			isa = PBXGroup;
 			children = (
@@ -393,6 +408,7 @@
 			children = (
 				9BBAD4C32CB4F2CC007180ED /* WeeklyChallenges2023Tests.swift */,
 				9BBAD4CA2CB4F2FB007180ED /* KonamiCodeViewModelTests.swift */,
+				7B0CCE882CF5387200547FF0 /* ExcelColumnViewModelTests.swift */,
 			);
 			path = WeeklyChallenges2023Tests;
 			sourceTree = "<group>";
@@ -409,6 +425,7 @@
 		9BC1364529FCF77D0095AA66 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7B0CCE852CF5345A00547FF0 /* ExcelColumn */,
 				7BB035F82CEE91070009A40E /* Abacus */,
 				9BE5B4202CD735FA007300ED /* T9Keyboard */,
 				9BE5B4142CD7258F007300ED /* InfiltratedCharacter */,
@@ -753,6 +770,7 @@
 				F1ACEC5729B91032003C0FCE /* Hete-Iso-PangramaView.swift in Sources */,
 				9B8E095E2CC72680008DF02D /* View+Extensions.swift in Sources */,
 				9B4630CC29E9D768002D7D30 /* AurebeshTranslatorViewModel.swift in Sources */,
+				7B0CCE872CF5347B00547FF0 /* ExcelColumnViewModel.swift in Sources */,
 				F1D5EDDD29B6489A004D49EA /* PassWordGeneratorView.swift in Sources */,
 				9BA0F60F2CDB0072005485D5 /* MathExpressionViewModel.swift in Sources */,
 				9BA0F6102CDB0072005485D5 /* MathExpressionView.swift in Sources */,
@@ -763,6 +781,7 @@
 				F1D0089129B84B1200767618 /* Pseudorandom.swift in Sources */,
 				9BF72A3729E6897D0046FF82 /* WordGuessView.swift in Sources */,
 				9BF1504229D16E180083976E /* FridayThirteenView.swift in Sources */,
+				7B0CCE8B2CF543A200547FF0 /* ExcelColumnView.swift in Sources */,
 				9B8E09622CC728F0008DF02D /* BasicButton.swift in Sources */,
 				F1D5EDE629B6EE23004D49EA /* PrimeFibonachiPairView.swift in Sources */,
 				9B0C68B82A29871000BD4608 /* PrimeTwinsNumberViewModel.swift in Sources */,
@@ -785,6 +804,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B0CCE892CF5387200547FF0 /* ExcelColumnViewModelTests.swift in Sources */,
 				9BBAD4CB2CB4F2FB007180ED /* KonamiCodeViewModelTests.swift in Sources */,
 				9BBAD4C42CB4F2CC007180ED /* WeeklyChallenges2023Tests.swift in Sources */,
 			);
@@ -934,6 +954,7 @@
 				INFOPLIST_FILE = WeeklyChallenges2023/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -968,6 +989,7 @@
 				INFOPLIST_FILE = WeeklyChallenges2023/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",

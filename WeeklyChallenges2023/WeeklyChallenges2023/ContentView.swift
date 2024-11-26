@@ -42,6 +42,7 @@ struct ContentView: View {
         ChallengesCells(title: "Infiltrated Characters", viewClass: AnyView(InfiltratedCharacterView())),
         ChallengesCells(title: "T9 Keyboard", viewClass: AnyView(T9KeyboardView())),
         ChallengesCells(title: "Abacus", viewClass: AnyView(AbacusView())),
+        ChallengesCells(title: "Excel column number", viewClass: AnyView(ExcelColumnView())),
     ]
     
     var body: some View {
