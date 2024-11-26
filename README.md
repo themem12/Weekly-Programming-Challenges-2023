@@ -371,3 +371,16 @@ Crea una función que sea capaz de leer el número representado por el ábaco.
 <img src="/ChallengesImages/Challenge%2031_1.png" width="300" height="620">
 
 <img src="/ChallengesImages/Challenge%2031_2.png" width="300" height="620">
+
+### Excel column number
+
+Crea una función que calcule el número de la columna de una hoja de Excel teniendo en cuenta su nombre.
+- Las columnas se designan por letras de la "A" a la "Z" de forma infinita.
+
+<img src="/ChallengesImages/Challenge%2032_1.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2032_2.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2032_3.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2032_4.png" width="300" height="620">
