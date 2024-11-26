@@ -14,7 +14,7 @@ final class ExcelColumnViewModelTests: XCTestCase {
 
     func test_withUppercasedValues_shouldReturnCorrectNumber() {
         sut.getColumnNumber(column: "A")
-        XCTAssertEqual(sut.columnNumber, 2)
+        XCTAssertEqual(sut.columnNumber, 1)
         XCTAssertNil(sut.errorString)
         
         sut.getColumnNumber(column: "Z")
