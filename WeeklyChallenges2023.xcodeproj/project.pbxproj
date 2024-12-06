@@ -19,6 +19,7 @@
 		7B0CCE892CF5387200547FF0 /* ExcelColumnViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0CCE882CF5387200547FF0 /* ExcelColumnViewModelTests.swift */; };
 		7B0CCE8B2CF543A200547FF0 /* ExcelColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0CCE8A2CF543A200547FF0 /* ExcelColumnView.swift */; };
 		7BB035FA2CEE911B0009A40E /* AbacusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB035F92CEE911B0009A40E /* AbacusViewModel.swift */; };
+		7BDF06AF2D000825002A720F /* TetrisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDF06AE2D000825002A720F /* TetrisView.swift */; };
 		9B04350E2A02F140007D1303 /* GitCommitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B04350D2A02F140007D1303 /* GitCommitsViewModel.swift */; };
 		9B0C68B62A29870700BD4608 /* PrimeTwinsNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C68B52A29870700BD4608 /* PrimeTwinsNumberView.swift */; };
 		9B0C68B82A29871000BD4608 /* PrimeTwinsNumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C68B72A29871000BD4608 /* PrimeTwinsNumberViewModel.swift */; };
@@ -112,6 +113,7 @@
 		7B0CCE882CF5387200547FF0 /* ExcelColumnViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelColumnViewModelTests.swift; sourceTree = "<group>"; };
 		7B0CCE8A2CF543A200547FF0 /* ExcelColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelColumnView.swift; sourceTree = "<group>"; };
 		7BB035F92CEE911B0009A40E /* AbacusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbacusViewModel.swift; sourceTree = "<group>"; };
+		7BDF06AE2D000825002A720F /* TetrisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisView.swift; sourceTree = "<group>"; };
 		9B04350D2A02F140007D1303 /* GitCommitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitsViewModel.swift; sourceTree = "<group>"; };
 		9B0C68B52A29870700BD4608 /* PrimeTwinsNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeTwinsNumberView.swift; sourceTree = "<group>"; };
 		9B0C68B72A29871000BD4608 /* PrimeTwinsNumberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeTwinsNumberViewModel.swift; sourceTree = "<group>"; };
@@ -279,6 +281,14 @@
 			path = Abacus;
 			sourceTree = "<group>";
 		};
+		7BDF06AD2D000812002A720F /* Tetris */ = {
+			isa = PBXGroup;
+			children = (
+				7BDF06AE2D000825002A720F /* TetrisView.swift */,
+			);
+			path = Tetris;
+			sourceTree = "<group>";
+		};
 		9B04350C2A02F12B007D1303 /* GitCommits */ = {
 			isa = PBXGroup;
 			children = (
@@ -425,6 +435,7 @@
 		9BC1364529FCF77D0095AA66 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7BDF06AD2D000812002A720F /* Tetris */,
 				7B0CCE852CF5345A00547FF0 /* ExcelColumn */,
 				7BB035F82CEE91070009A40E /* Abacus */,
 				9BE5B4202CD735FA007300ED /* T9Keyboard */,
@@ -783,6 +794,7 @@
 				9BF1504229D16E180083976E /* FridayThirteenView.swift in Sources */,
 				7B0CCE8B2CF543A200547FF0 /* ExcelColumnView.swift in Sources */,
 				9B8E09622CC728F0008DF02D /* BasicButton.swift in Sources */,
+				7BDF06AF2D000825002A720F /* TetrisView.swift in Sources */,
 				F1D5EDE629B6EE23004D49EA /* PrimeFibonachiPairView.swift in Sources */,
 				9B0C68B82A29871000BD4608 /* PrimeTwinsNumberViewModel.swift in Sources */,
 				3A4BF93B296A39DF000C17EA /* L33tStringExtensions.swift in Sources */,
