@@ -40,6 +40,9 @@
 		9B9D92722A3C44D700CA2A31 /* CesarCypherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D92712A3C44D700CA2A31 /* CesarCypherView.swift */; };
 		9B9D92742A3C459900CA2A31 /* CesarCypherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D92732A3C459900CA2A31 /* CesarCypherViewModel.swift */; };
 		9BA00F252D02A87F00ADA9FE /* TetrisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA00F242D02A87900ADA9FE /* TetrisViewModel.swift */; };
+		9BA067D42D0650F20073A5B6 /* TXTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA067D32D0650EC0073A5B6 /* TXTViewModel.swift */; };
+		9BA067D62D0654240073A5B6 /* TXTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA067D52D0654240073A5B6 /* TXTView.swift */; };
+		9BA067D92D0658550073A5B6 /* TXTViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA067D82D0658550073A5B6 /* TXTViewModelTests.swift */; };
 		9BA0F60F2CDB0072005485D5 /* MathExpressionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0F60D2CDB0072005485D5 /* MathExpressionViewModel.swift */; };
 		9BA0F6102CDB0072005485D5 /* MathExpressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0F60C2CDB0072005485D5 /* MathExpressionView.swift */; };
 		9BA899B52A1DDF1900972307 /* TextAnalysisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA899B42A1DDF1900972307 /* TextAnalysisViewModel.swift */; };
@@ -139,6 +142,9 @@
 		9B9D92712A3C44D700CA2A31 /* CesarCypherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CesarCypherView.swift; sourceTree = "<group>"; };
 		9B9D92732A3C459900CA2A31 /* CesarCypherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CesarCypherViewModel.swift; sourceTree = "<group>"; };
 		9BA00F242D02A87900ADA9FE /* TetrisViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisViewModel.swift; sourceTree = "<group>"; };
+		9BA067D32D0650EC0073A5B6 /* TXTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TXTViewModel.swift; sourceTree = "<group>"; };
+		9BA067D52D0654240073A5B6 /* TXTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TXTView.swift; sourceTree = "<group>"; };
+		9BA067D82D0658550073A5B6 /* TXTViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TXTViewModelTests.swift; sourceTree = "<group>"; };
 		9BA0F60C2CDB0072005485D5 /* MathExpressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathExpressionView.swift; sourceTree = "<group>"; };
 		9BA0F60D2CDB0072005485D5 /* MathExpressionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathExpressionViewModel.swift; sourceTree = "<group>"; };
 		9BA899B42A1DDF1900972307 /* TextAnalysisViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnalysisViewModel.swift; sourceTree = "<group>"; };
@@ -410,6 +416,15 @@
 			path = "Cesar Cypher";
 			sourceTree = "<group>";
 		};
+		9BA067D22D0650AB0073A5B6 /* 34-TXT */ = {
+			isa = PBXGroup;
+			children = (
+				9BA067D32D0650EC0073A5B6 /* TXTViewModel.swift */,
+				9BA067D52D0654240073A5B6 /* TXTView.swift */,
+			);
+			path = "34-TXT";
+			sourceTree = "<group>";
+		};
 		9BA0F60E2CDB0072005485D5 /* MathExpression */ = {
 			isa = PBXGroup;
 			children = (
@@ -436,6 +451,7 @@
 				9BBAD4CA2CB4F2FB007180ED /* KonamiCodeViewModelTests.swift */,
 				7B0CCE882CF5387200547FF0 /* ExcelColumnViewModelTests.swift */,
 				9B56F0782D054EEE0065440C /* TetrisViewModelTests.swift */,
+				9BA067D82D0658550073A5B6 /* TXTViewModelTests.swift */,
 			);
 			path = WeeklyChallenges2023Tests;
 			sourceTree = "<group>";
@@ -452,6 +468,7 @@
 		9BC1364529FCF77D0095AA66 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9BA067D22D0650AB0073A5B6 /* 34-TXT */,
 				7BDF06AD2D000812002A720F /* Tetris */,
 				7B0CCE852CF5345A00547FF0 /* ExcelColumn */,
 				7BB035F82CEE91070009A40E /* Abacus */,
@@ -791,6 +808,7 @@
 				3A4BF939296A39B6000C17EA /* L33tAlphabets.swift in Sources */,
 				F1D5EDE829B6EE8C004D49EA /* PrimeFibonachiPairViewModel.swift in Sources */,
 				9BBB69EE2CF03326003FFFEC /* AbacusView.swift in Sources */,
+				9BA067D42D0650F20073A5B6 /* TXTViewModel.swift in Sources */,
 				F1D5EDE329B6BB59004D49EA /* SwitchButton.swift in Sources */,
 				F1ACEC6429B9B032003C0FCE /* APIViewModel.swift in Sources */,
 				9BE5B41C2CD72D1D007300ED /* String+Extension.swift in Sources */,
@@ -799,6 +817,7 @@
 				F1ACEC5729B91032003C0FCE /* Hete-Iso-PangramaView.swift in Sources */,
 				9B8E095E2CC72680008DF02D /* View+Extensions.swift in Sources */,
 				9B4630CC29E9D768002D7D30 /* AurebeshTranslatorViewModel.swift in Sources */,
+				9BA067D62D0654240073A5B6 /* TXTView.swift in Sources */,
 				7B0CCE872CF5347B00547FF0 /* ExcelColumnViewModel.swift in Sources */,
 				F1D5EDDD29B6489A004D49EA /* PassWordGeneratorView.swift in Sources */,
 				9BA0F60F2CDB0072005485D5 /* MathExpressionViewModel.swift in Sources */,
@@ -839,6 +858,7 @@
 				9B64FCA62D055327004DF5CE /* TetrisMovesMock.swift in Sources */,
 				9BBAD4C42CB4F2CC007180ED /* WeeklyChallenges2023Tests.swift in Sources */,
 				9B56F0792D054EEF0065440C /* TetrisViewModelTests.swift in Sources */,
+				9BA067D92D0658550073A5B6 /* TXTViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
