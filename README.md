@@ -37,6 +37,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 31 - 25/11/24 | "Abacus"
 - 32 - 25/11/24 | "Excel column number"
 - 33 - 07/12/24 | "Tetris"
+- 34 - 08/12/24 | "TXT"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -411,3 +412,16 @@ Crea un programa capaz de gestionar una pieza de Tetris.
  - Debes tener en cuenta los límites de la pantalla de juego.
  
  <img src="/ChallengesImages/Challenge%2033.png" width="300" height="620">
+
+### Tetris
+
+Crea un programa capaz de interactuar con un fichero TXT.
+
+- Si no existe, debe crear un fichero llamado "text.txt".
+- Desde el programa debes ser capaz de introducir texto por consola y guardarlo en una nueva línea cada vez que se pulse el botón "Enter".
+- Si el fichero existe, el programa tiene que dar la opción de seguir escribiendo a continuación o borrar su contenido y comenzar desde el principio.
+- Si se selecciona continuar escribiendo, se tiene que mostrar por consola el texto que ya posee el fichero. 
+
+<img src="/ChallengesImages/Challenge%2034_1.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2034_2.png" width="300" height="620">
