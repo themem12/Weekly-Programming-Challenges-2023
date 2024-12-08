@@ -37,6 +37,7 @@
 		9B9D57CE2CB31881009ABA52 /* KonamiCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D57CD2CB31881009ABA52 /* KonamiCodeViewModel.swift */; };
 		9B9D92722A3C44D700CA2A31 /* CesarCypherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D92712A3C44D700CA2A31 /* CesarCypherView.swift */; };
 		9B9D92742A3C459900CA2A31 /* CesarCypherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D92732A3C459900CA2A31 /* CesarCypherViewModel.swift */; };
+		9BA00F252D02A87F00ADA9FE /* TetrisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA00F242D02A87900ADA9FE /* TetrisViewModel.swift */; };
 		9BA0F60F2CDB0072005485D5 /* MathExpressionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0F60D2CDB0072005485D5 /* MathExpressionViewModel.swift */; };
 		9BA0F6102CDB0072005485D5 /* MathExpressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0F60C2CDB0072005485D5 /* MathExpressionView.swift */; };
 		9BA899B52A1DDF1900972307 /* TextAnalysisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA899B42A1DDF1900972307 /* TextAnalysisViewModel.swift */; };
@@ -133,6 +134,7 @@
 		9B9D57CD2CB31881009ABA52 /* KonamiCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonamiCodeViewModel.swift; sourceTree = "<group>"; };
 		9B9D92712A3C44D700CA2A31 /* CesarCypherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CesarCypherView.swift; sourceTree = "<group>"; };
 		9B9D92732A3C459900CA2A31 /* CesarCypherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CesarCypherViewModel.swift; sourceTree = "<group>"; };
+		9BA00F242D02A87900ADA9FE /* TetrisViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisViewModel.swift; sourceTree = "<group>"; };
 		9BA0F60C2CDB0072005485D5 /* MathExpressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathExpressionView.swift; sourceTree = "<group>"; };
 		9BA0F60D2CDB0072005485D5 /* MathExpressionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathExpressionViewModel.swift; sourceTree = "<group>"; };
 		9BA899B42A1DDF1900972307 /* TextAnalysisViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnalysisViewModel.swift; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 		7BDF06AD2D000812002A720F /* Tetris */ = {
 			isa = PBXGroup;
 			children = (
+				9BA00F242D02A87900ADA9FE /* TetrisViewModel.swift */,
 				7BDF06AE2D000825002A720F /* TetrisView.swift */,
 			);
 			path = Tetris;
@@ -755,6 +758,7 @@
 				F121182D29C40A2800818C6C /* URLParamsView.swift in Sources */,
 				9B9414C129E92AD20080AF4F /* DecimalConversionView.swift in Sources */,
 				9BA899B82A1DE2BB00972307 /* TextAnalysisView.swift in Sources */,
+				9BA00F252D02A87F00ADA9FE /* TetrisViewModel.swift in Sources */,
 				9B5F6C9C2A257F410019FD83 /* TriforceView.swift in Sources */,
 				F1ACEC6229B9145B003C0FCE /* Hete-Iso-PangramaViewModel.swift in Sources */,
 				F1D0088C29B7E17D00767618 /* RPSLSViewModel.swift in Sources */,

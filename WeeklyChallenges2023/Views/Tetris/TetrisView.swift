@@ -8,32 +8,41 @@
 import SwiftUI
 
 struct TetrisView: View {
+
+    @StateObject var viewModel = TetrisViewModel()
+    
     var body: some View {
         VStack {
-            ForEach(0..<10, id: \.self) { _ in
+            ForEach(viewModel.board, id: \.self) { row in
                 HStack {
-                    ForEach(0..<10, id: \.self) { _ in
+                    ForEach(row, id: \.self) { cell in
                         Rectangle()
                             .frame(width: 30, height: 30)
-                            .foregroundColor(.red)
+                            .foregroundColor(cell.isSelected ? .red : .blue)
                     }
                 }
             }
             HStack {
+                Spacer()
                 TetrisButton(move: .left) {
-                    
+                    viewModel.moveLeft()
                 }
                 VStack {
                     TetrisButton(move: .up) {
-                        
+                        viewModel.moveUP()
                     }
                     TetrisButton(move: .down) {
-                        
+                        viewModel.moveDown()
                     }
                 }
                 TetrisButton(move: .right) {
-                    
+                    viewModel.moveRight()
                 }
+                Spacer()
+                TetrisButton(move: .rotate) {
+                    viewModel.rotate()
+                }
+                Spacer()
             }
         }
     }
@@ -45,10 +54,11 @@ struct TetrisView: View {
 
 struct TetrisButton: View {
     enum TetrisMove: String {
-        case up = "up"
-        case down = "down"
-        case left = "left"
-        case right = "right"
+        case up = "chevron.up"
+        case down = "chevron.down"
+        case left = "chevron.left"
+        case right = "chevron.right"
+        case rotate = "rotate.right"
     }
     
     let move: TetrisMove
@@ -59,11 +69,13 @@ struct TetrisButton: View {
             action()
             print(move.rawValue)
         } label: {
-            Image(systemName: "chevron.\(move.rawValue)")
+            Image(systemName: "\(move.rawValue)")
                 .font(.largeTitle)
                 .bold()
+                .foregroundStyle(Color.white)
         }
-        .frame(width: 40, height: 40)
+        .frame(width: 50, height: 50)
         .background(Color.red)
+        .cornerRadius(10)
     }
 }
