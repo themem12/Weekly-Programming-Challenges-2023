@@ -7,9 +7,19 @@
 
 import Foundation
 
-struct TetrisCellModel: Hashable {
+public struct TetrisCellModel: Hashable {
     var id = UUID()
     var isSelected: Bool = false
+
+    public init(isSelected: Bool = false) {
+        self.isSelected = isSelected
+    }
+}
+
+extension TetrisCellModel: Equatable {
+    public static func == (lhs: TetrisCellModel, rhs: TetrisCellModel) -> Bool {
+        lhs.isSelected == rhs.isSelected
+    }
 }
 
 final class TetrisViewModel: ObservableObject {
