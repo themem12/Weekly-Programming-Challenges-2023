@@ -35,6 +35,8 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 29 - 02/11/24 | "Infiltrated Characters"
 - 30 - 10/11/24 | "T9 Keyboard"
 - 31 - 25/11/24 | "Abacus"
+- 32 - 25/11/24 | "Excel column number"
+- 33 - 07/12/24 | "Tetris"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -384,3 +386,28 @@ Crea una función que calcule el número de la columna de una hoja de Excel teni
 <img src="/ChallengesImages/Challenge%2032_3.png" width="300" height="620">
 
 <img src="/ChallengesImages/Challenge%2032_4.png" width="300" height="620">
+
+### Tetris
+
+Crea un programa capaz de gestionar una pieza de Tetris.
+ - La pantalla de juego tiene 10 filas y 10 columnas representadas por símbolos 🔲
+ - La pieza de tetris a manejar será la siguiente (si quieres, puedes elegir otra):
+   🔳
+   🔳🔳🔳
+ - La pieza aparecerá por primera vez en la parte superior izquierda de la pantalla de juego.
+   🔳🔲🔲🔲🔲🔲🔲🔲🔲🔲
+   🔳🔳🔳🔲🔲🔲🔲🔲🔲🔲
+   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲
+   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲
+   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲
+   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲
+   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲
+   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲
+   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲
+   🔲🔲🔲🔲🔲🔲🔲🔲🔲🔲
+ - Debes desarrollar una función capaz de desplazar y rotar la pieza en el tablero,
+   recibiendo una acción cada vez que se llame, mostrando cómo se visualiza en la pantalla  de juego.
+ - Las acciones que se pueden aplicar a la pieza son: derecha, izquierda, abajo, rotar.
+ - Debes tener en cuenta los límites de la pantalla de juego.
+ 
+ <img src="/ChallengesImages/Challenge%2033.png" width="300" height="620">
