@@ -38,6 +38,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 32 - 25/11/24 | "Excel column number"
 - 33 - 07/12/24 | "Tetris"
 - 34 - 08/12/24 | "TXT"
+- 35 - 09/12/24 | "First steps"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -425,3 +426,20 @@ Crea un programa capaz de interactuar con un fichero TXT.
 <img src="/ChallengesImages/Challenge%2034_1.png" width="300" height="620">
 
 <img src="/ChallengesImages/Challenge%2034_2.png" width="300" height="620">
+
+### First steps
+
+En un fichero, haz los siguientes ejemplos:
+- Haz un "Hola, mundo!"
+- Crea variables de tipo String, numéricas (enteras y decimales) y Booleanas (o cualquier tipo de dato primitivo).
+- Crea una constante.
+- Usa un if, else if y else.
+- Crea estructuras como un array, lista, tupla, set y diccionario.
+- Usa un for, foreach y un while.
+- Crea diferentes funciones (con/sin parámetros y con/sin retorno).
+- Crea una clase.
+- Muestra el control de excepciones.
+
+<img src="/ChallengesImages/Challenge%2035_1.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2035_2.png" width="300" height="620">
