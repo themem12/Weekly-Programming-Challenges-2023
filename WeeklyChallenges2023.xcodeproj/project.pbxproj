@@ -21,6 +21,8 @@
 		7B7614132D08CB2200C1F610 /* ColorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7614122D08CB2200C1F610 /* ColorsViewModel.swift */; };
 		7B7614152D08D1E800C1F610 /* ColorsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7614142D08D1E800C1F610 /* ColorsViewModelTests.swift */; };
 		7B7614172D08DA8100C1F610 /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7614162D08DA8100C1F610 /* ColorsView.swift */; };
+		7B76141A2D08E2C000C1F610 /* AddsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7614192D08E2C000C1F610 /* AddsViewModel.swift */; };
+		7B76141C2D0C942D00C1F610 /* AddsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B76141B2D0C942D00C1F610 /* AddsViewModelTests.swift */; };
 		7BB035FA2CEE911B0009A40E /* AbacusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB035F92CEE911B0009A40E /* AbacusViewModel.swift */; };
 		7BDF06AF2D000825002A720F /* TetrisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDF06AE2D000825002A720F /* TetrisView.swift */; };
 		7BF830562D07ADFB00310514 /* FirstStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF830552D07ADFB00310514 /* FirstStepsView.swift */; };
@@ -128,6 +130,8 @@
 		7B7614122D08CB2200C1F610 /* ColorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewModel.swift; sourceTree = "<group>"; };
 		7B7614142D08D1E800C1F610 /* ColorsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewModelTests.swift; sourceTree = "<group>"; };
 		7B7614162D08DA8100C1F610 /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
+		7B7614192D08E2C000C1F610 /* AddsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddsViewModel.swift; sourceTree = "<group>"; };
+		7B76141B2D0C942D00C1F610 /* AddsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddsViewModelTests.swift; sourceTree = "<group>"; };
 		7BB035F92CEE911B0009A40E /* AbacusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbacusViewModel.swift; sourceTree = "<group>"; };
 		7BDF06AE2D000825002A720F /* TetrisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisView.swift; sourceTree = "<group>"; };
 		7BF830552D07ADFB00310514 /* FirstStepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStepsView.swift; sourceTree = "<group>"; };
@@ -305,6 +309,14 @@
 				7B7614162D08DA8100C1F610 /* ColorsView.swift */,
 			);
 			path = "37-Colors";
+			sourceTree = "<group>";
+		};
+		7B7614182D08E2A700C1F610 /* 38-Adds */ = {
+			isa = PBXGroup;
+			children = (
+				7B7614192D08E2C000C1F610 /* AddsViewModel.swift */,
+			);
+			path = "38-Adds";
 			sourceTree = "<group>";
 		};
 		7BB035F82CEE91070009A40E /* 31-Abacus */ = {
@@ -485,6 +497,7 @@
 				9BA067D82D0658550073A5B6 /* TXTViewModelTests.swift */,
 				9BDCFAD22D07E6AC00442F6B /* PermutationsViewModelTests.swift */,
 				7B7614142D08D1E800C1F610 /* ColorsViewModelTests.swift */,
+				7B76141B2D0C942D00C1F610 /* AddsViewModelTests.swift */,
 			);
 			path = WeeklyChallenges2023Tests;
 			sourceTree = "<group>";
@@ -536,6 +549,7 @@
 				7BF830542D07ADD300310514 /* 35-FirstSteps */,
 				9BDCFACF2D07E2F900442F6B /* 36-Permutations */,
 				7B7614112D08CAF500C1F610 /* 37-Colors */,
+				7B7614182D08E2A700C1F610 /* 38-Adds */,
 				9BA0F60E2CDB0072005485D5 /* MathExpression */,
 				9B7BD3D52CC731F200F4D0DA /* UIExamples */,
 			);
@@ -837,6 +851,7 @@
 				9B9414C129E92AD20080AF4F /* DecimalConversionView.swift in Sources */,
 				9BA899B82A1DE2BB00972307 /* TextAnalysisView.swift in Sources */,
 				9BA00F252D02A87F00ADA9FE /* TetrisViewModel.swift in Sources */,
+				7B76141A2D08E2C000C1F610 /* AddsViewModel.swift in Sources */,
 				9B5F6C9C2A257F410019FD83 /* TriforceView.swift in Sources */,
 				F1ACEC6229B9145B003C0FCE /* Hete-Iso-PangramaViewModel.swift in Sources */,
 				F1D0088C29B7E17D00767618 /* RPSLSViewModel.swift in Sources */,
@@ -908,6 +923,7 @@
 				9B64FCA62D055327004DF5CE /* TetrisMovesMock.swift in Sources */,
 				9BBAD4C42CB4F2CC007180ED /* WeeklyChallenges2023Tests.swift in Sources */,
 				7B7614152D08D1E800C1F610 /* ColorsViewModelTests.swift in Sources */,
+				7B76141C2D0C942D00C1F610 /* AddsViewModelTests.swift in Sources */,
 				9B56F0792D054EEF0065440C /* TetrisViewModelTests.swift in Sources */,
 				9BDCFAD32D07E6AC00442F6B /* PermutationsViewModelTests.swift in Sources */,
 				9BA067D92D0658550073A5B6 /* TXTViewModelTests.swift in Sources */,
