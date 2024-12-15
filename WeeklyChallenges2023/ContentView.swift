@@ -53,6 +53,7 @@ struct ContentView: View {
         ChallengesCells(title: "37 - Color converter", viewClass: AnyView(ColorsView())),
         ChallengesCells(title: "38 - Adds", viewClass: AnyView(AddsView())),
         ChallengesCells(title: "39 - Pythagorean Triples", viewClass: AnyView(PythagoreanTriplesView())),
+        ChallengesCells(title: "40 - Multiplication Tables", viewClass: AnyView(MultiplicationTablesView())),
     ]
     
     var body: some View {

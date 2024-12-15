@@ -70,6 +70,9 @@
 		9BC8DC222D0F5751008CFB87 /* PythagoreanTriplesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC8DC212D0F5748008CFB87 /* PythagoreanTriplesViewModel.swift */; };
 		9BC8DC242D0F579F008CFB87 /* PythagoreanTriplesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC8DC232D0F579F008CFB87 /* PythagoreanTriplesViewModelTests.swift */; };
 		9BC8DC262D0F7774008CFB87 /* PythagoreanTriplesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC8DC252D0F7774008CFB87 /* PythagoreanTriplesView.swift */; };
+		9BC8DC292D0F7D52008CFB87 /* MultiplicationTablesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC8DC282D0F7D49008CFB87 /* MultiplicationTablesViewModel.swift */; };
+		9BC8DC2B2D0F7E44008CFB87 /* MultiplicationTablesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC8DC2A2D0F7E44008CFB87 /* MultiplicationTablesViewModelTests.swift */; };
+		9BC8DC2D2D0F8049008CFB87 /* MultiplicationTablesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC8DC2C2D0F8049008CFB87 /* MultiplicationTablesView.swift */; };
 		9BDCFAD12D07E31C00442F6B /* PermutationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDCFAD02D07E31500442F6B /* PermutationsViewModel.swift */; };
 		9BDCFAD32D07E6AC00442F6B /* PermutationsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDCFAD22D07E6AC00442F6B /* PermutationsViewModelTests.swift */; };
 		9BE5B4162CD725B3007300ED /* InfiltratedCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5B4152CD725B3007300ED /* InfiltratedCharacterView.swift */; };
@@ -185,6 +188,9 @@
 		9BC8DC212D0F5748008CFB87 /* PythagoreanTriplesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythagoreanTriplesViewModel.swift; sourceTree = "<group>"; };
 		9BC8DC232D0F579F008CFB87 /* PythagoreanTriplesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythagoreanTriplesViewModelTests.swift; sourceTree = "<group>"; };
 		9BC8DC252D0F7774008CFB87 /* PythagoreanTriplesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythagoreanTriplesView.swift; sourceTree = "<group>"; };
+		9BC8DC282D0F7D49008CFB87 /* MultiplicationTablesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationTablesViewModel.swift; sourceTree = "<group>"; };
+		9BC8DC2A2D0F7E44008CFB87 /* MultiplicationTablesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationTablesViewModelTests.swift; sourceTree = "<group>"; };
+		9BC8DC2C2D0F8049008CFB87 /* MultiplicationTablesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationTablesView.swift; sourceTree = "<group>"; };
 		9BDCFAD02D07E31500442F6B /* PermutationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationsViewModel.swift; sourceTree = "<group>"; };
 		9BDCFAD22D07E6AC00442F6B /* PermutationsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationsViewModelTests.swift; sourceTree = "<group>"; };
 		9BE5B4152CD725B3007300ED /* InfiltratedCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiltratedCharacterView.swift; sourceTree = "<group>"; };
@@ -508,6 +514,7 @@
 				7B7614142D08D1E800C1F610 /* ColorsViewModelTests.swift */,
 				7B76141B2D0C942D00C1F610 /* AddsViewModelTests.swift */,
 				9BC8DC232D0F579F008CFB87 /* PythagoreanTriplesViewModelTests.swift */,
+				9BC8DC2A2D0F7E44008CFB87 /* MultiplicationTablesViewModelTests.swift */,
 			);
 			path = WeeklyChallenges2023Tests;
 			sourceTree = "<group>";
@@ -561,6 +568,7 @@
 				7B7614112D08CAF500C1F610 /* 37-Colors */,
 				7B7614182D08E2A700C1F610 /* 38-Adds */,
 				9BC8DC202D0F5731008CFB87 /* 39-PythagoreanTriplesView */,
+				9BC8DC272D0F7D37008CFB87 /* 40-MultiplicationTables */,
 				9BA0F60E2CDB0072005485D5 /* MathExpression */,
 				9B7BD3D52CC731F200F4D0DA /* UIExamples */,
 			);
@@ -602,6 +610,15 @@
 				9BC8DC252D0F7774008CFB87 /* PythagoreanTriplesView.swift */,
 			);
 			path = "39-PythagoreanTriplesView";
+			sourceTree = "<group>";
+		};
+		9BC8DC272D0F7D37008CFB87 /* 40-MultiplicationTables */ = {
+			isa = PBXGroup;
+			children = (
+				9BC8DC282D0F7D49008CFB87 /* MultiplicationTablesViewModel.swift */,
+				9BC8DC2C2D0F8049008CFB87 /* MultiplicationTablesView.swift */,
+			);
+			path = "40-MultiplicationTables";
 			sourceTree = "<group>";
 		};
 		9BDCFACF2D07E2F900442F6B /* 36-Permutations */ = {
@@ -873,6 +890,7 @@
 				9BA00F252D02A87F00ADA9FE /* TetrisViewModel.swift in Sources */,
 				7B76141A2D08E2C000C1F610 /* AddsViewModel.swift in Sources */,
 				9B5F6C9C2A257F410019FD83 /* TriforceView.swift in Sources */,
+				9BC8DC292D0F7D52008CFB87 /* MultiplicationTablesViewModel.swift in Sources */,
 				9BC8DC222D0F5751008CFB87 /* PythagoreanTriplesViewModel.swift in Sources */,
 				F1ACEC6229B9145B003C0FCE /* Hete-Iso-PangramaViewModel.swift in Sources */,
 				F1D0088C29B7E17D00767618 /* RPSLSViewModel.swift in Sources */,
@@ -924,6 +942,7 @@
 				3A4BF93B296A39DF000C17EA /* L33tStringExtensions.swift in Sources */,
 				F1D0088A29B7E13F00767618 /* RPSLSView.swift in Sources */,
 				9BC3CCA72A1C6D3A0051AA92 /* WebScrapingView.swift in Sources */,
+				9BC8DC2D2D0F8049008CFB87 /* MultiplicationTablesView.swift in Sources */,
 				F1ACEC5A29B9107E003C0FCE /* SortingHatView.swift in Sources */,
 				F1ACEC6029B911EC003C0FCE /* APIView.swift in Sources */,
 				F1D5EDDF29B648A8004D49EA /* PasswordGeneratorViewModel.swift in Sources */,
@@ -950,6 +969,7 @@
 				9B56F0792D054EEF0065440C /* TetrisViewModelTests.swift in Sources */,
 				9BDCFAD32D07E6AC00442F6B /* PermutationsViewModelTests.swift in Sources */,
 				9BA067D92D0658550073A5B6 /* TXTViewModelTests.swift in Sources */,
+				9BC8DC2B2D0F7E44008CFB87 /* MultiplicationTablesViewModelTests.swift in Sources */,
 				9BC8DC242D0F579F008CFB87 /* PythagoreanTriplesViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
