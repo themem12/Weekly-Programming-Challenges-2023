@@ -29,17 +29,17 @@ final class ColorsViewModelTests: XCTestCase {
         sut.greenText = "255"
         sut.blueText = "255"
         sut.convertFromRGBToHex()
-        XCTAssertEqual(sut.hexValue, "FFFFFF")
+        XCTAssertEqual(sut.hexValue, "#FFFFFF")
         sut.redText = "0"
         sut.greenText = "0"
         sut.blueText = "0"
         sut.convertFromRGBToHex()
-        XCTAssertEqual(sut.hexValue, "000000")
+        XCTAssertEqual(sut.hexValue, "#000000")
         sut.redText = "128"
         sut.greenText = "0"
         sut.blueText = "128"
         sut.convertFromRGBToHex()
-        XCTAssertEqual(sut.hexValue, "800080")
+        XCTAssertEqual(sut.hexValue, "#800080")
     }
 
     func test_convertFromHexToRGB_withIncorrectValues_shouldReturnErrors() {
