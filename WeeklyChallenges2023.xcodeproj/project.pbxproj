@@ -67,6 +67,9 @@
 		9BC3CCA22A1C4D110051AA92 /* GitCommitsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3CCA12A1C4D110051AA92 /* GitCommitsListView.swift */; };
 		9BC3CCA52A1C6C870051AA92 /* WebScrapingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3CCA42A1C6C870051AA92 /* WebScrapingViewModel.swift */; };
 		9BC3CCA72A1C6D3A0051AA92 /* WebScrapingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3CCA62A1C6D3A0051AA92 /* WebScrapingView.swift */; };
+		9BC8DC222D0F5751008CFB87 /* PythagoreanTriplesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC8DC212D0F5748008CFB87 /* PythagoreanTriplesViewModel.swift */; };
+		9BC8DC242D0F579F008CFB87 /* PythagoreanTriplesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC8DC232D0F579F008CFB87 /* PythagoreanTriplesViewModelTests.swift */; };
+		9BC8DC262D0F7774008CFB87 /* PythagoreanTriplesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC8DC252D0F7774008CFB87 /* PythagoreanTriplesView.swift */; };
 		9BDCFAD12D07E31C00442F6B /* PermutationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDCFAD02D07E31500442F6B /* PermutationsViewModel.swift */; };
 		9BDCFAD32D07E6AC00442F6B /* PermutationsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDCFAD22D07E6AC00442F6B /* PermutationsViewModelTests.swift */; };
 		9BE5B4162CD725B3007300ED /* InfiltratedCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5B4152CD725B3007300ED /* InfiltratedCharacterView.swift */; };
@@ -179,6 +182,9 @@
 		9BC3CCA12A1C4D110051AA92 /* GitCommitsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitsListView.swift; sourceTree = "<group>"; };
 		9BC3CCA42A1C6C870051AA92 /* WebScrapingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebScrapingViewModel.swift; sourceTree = "<group>"; };
 		9BC3CCA62A1C6D3A0051AA92 /* WebScrapingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebScrapingView.swift; sourceTree = "<group>"; };
+		9BC8DC212D0F5748008CFB87 /* PythagoreanTriplesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythagoreanTriplesViewModel.swift; sourceTree = "<group>"; };
+		9BC8DC232D0F579F008CFB87 /* PythagoreanTriplesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythagoreanTriplesViewModelTests.swift; sourceTree = "<group>"; };
+		9BC8DC252D0F7774008CFB87 /* PythagoreanTriplesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythagoreanTriplesView.swift; sourceTree = "<group>"; };
 		9BDCFAD02D07E31500442F6B /* PermutationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationsViewModel.swift; sourceTree = "<group>"; };
 		9BDCFAD22D07E6AC00442F6B /* PermutationsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationsViewModelTests.swift; sourceTree = "<group>"; };
 		9BE5B4152CD725B3007300ED /* InfiltratedCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiltratedCharacterView.swift; sourceTree = "<group>"; };
@@ -501,6 +507,7 @@
 				9BDCFAD22D07E6AC00442F6B /* PermutationsViewModelTests.swift */,
 				7B7614142D08D1E800C1F610 /* ColorsViewModelTests.swift */,
 				7B76141B2D0C942D00C1F610 /* AddsViewModelTests.swift */,
+				9BC8DC232D0F579F008CFB87 /* PythagoreanTriplesViewModelTests.swift */,
 			);
 			path = WeeklyChallenges2023Tests;
 			sourceTree = "<group>";
@@ -553,6 +560,7 @@
 				9BDCFACF2D07E2F900442F6B /* 36-Permutations */,
 				7B7614112D08CAF500C1F610 /* 37-Colors */,
 				7B7614182D08E2A700C1F610 /* 38-Adds */,
+				9BC8DC202D0F5731008CFB87 /* 39-PythagoreanTriplesView */,
 				9BA0F60E2CDB0072005485D5 /* MathExpression */,
 				9B7BD3D52CC731F200F4D0DA /* UIExamples */,
 			);
@@ -585,6 +593,15 @@
 				9BC3CCA62A1C6D3A0051AA92 /* WebScrapingView.swift */,
 			);
 			path = "18-Web Scraping";
+			sourceTree = "<group>";
+		};
+		9BC8DC202D0F5731008CFB87 /* 39-PythagoreanTriplesView */ = {
+			isa = PBXGroup;
+			children = (
+				9BC8DC212D0F5748008CFB87 /* PythagoreanTriplesViewModel.swift */,
+				9BC8DC252D0F7774008CFB87 /* PythagoreanTriplesView.swift */,
+			);
+			path = "39-PythagoreanTriplesView";
 			sourceTree = "<group>";
 		};
 		9BDCFACF2D07E2F900442F6B /* 36-Permutations */ = {
@@ -856,6 +873,7 @@
 				9BA00F252D02A87F00ADA9FE /* TetrisViewModel.swift in Sources */,
 				7B76141A2D08E2C000C1F610 /* AddsViewModel.swift in Sources */,
 				9B5F6C9C2A257F410019FD83 /* TriforceView.swift in Sources */,
+				9BC8DC222D0F5751008CFB87 /* PythagoreanTriplesViewModel.swift in Sources */,
 				F1ACEC6229B9145B003C0FCE /* Hete-Iso-PangramaViewModel.swift in Sources */,
 				F1D0088C29B7E17D00767618 /* RPSLSViewModel.swift in Sources */,
 				9BFE79912CE199B400B397E6 /* TwoLabelButton.swift in Sources */,
@@ -915,6 +933,7 @@
 				9BA899B52A1DDF1900972307 /* TextAnalysisViewModel.swift in Sources */,
 				9BBAD4CE2CB4FA5A007180ED /* CountdownViewModel.swift in Sources */,
 				7BB035FA2CEE911B0009A40E /* AbacusViewModel.swift in Sources */,
+				9BC8DC262D0F7774008CFB87 /* PythagoreanTriplesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -931,6 +950,7 @@
 				9B56F0792D054EEF0065440C /* TetrisViewModelTests.swift in Sources */,
 				9BDCFAD32D07E6AC00442F6B /* PermutationsViewModelTests.swift in Sources */,
 				9BA067D92D0658550073A5B6 /* TXTViewModelTests.swift in Sources */,
+				9BC8DC242D0F579F008CFB87 /* PythagoreanTriplesViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

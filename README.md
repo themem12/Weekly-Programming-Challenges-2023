@@ -42,6 +42,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 36 - 14/12/24 | "Permutations"
 - 37 - 10/12/24 | "Color converter"
 - 38 - 14/12/24 | "Adds"
+- 39 - 15/12/24 | "Pythagorean triples"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -484,3 +485,19 @@ Crea una función que encuentre todas las combinaciones de los números de una l
 <img src="/ChallengesImages/Challenge%2038_1.png" width="300" height="620">
 
 <img src="/ChallengesImages/Challenge%2038_2.png" width="300" height="620">
+
+
+### Pythagorean triples
+
+Crea una función que encuentre todos los triples pitagóricos (ternas) menores o iguales a un número dado.
+ - Debes buscar información sobre qué es un triple pitagórico.
+ - La función únicamente recibe el número máximo que puede aparecer en el triple.
+ - Ejemplo: Los triples menores o iguales a 10 están formados por (3, 4, 5) y (6, 8, 10).
+
+<img src="/ChallengesImages/Challenge%2039_1.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2039_2.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2039_3.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2039_4.png" width="300" height="620">
