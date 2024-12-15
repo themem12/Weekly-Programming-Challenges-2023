@@ -41,6 +41,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 35 - 09/12/24 | "First steps"
 - 36 - 14/12/24 | "Permutations"
 - 37 - 10/12/24 | "Color converter"
+- 38 - 14/12/24 | "Adds"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -470,3 +471,16 @@ Crea las funciones capaces de transformar colores HEX a RGB y viceversa.
 <img src="/ChallengesImages/Challenge%2037_3.png" width="300" height="620">
 
 <img src="/ChallengesImages/Challenge%2037_4.png" width="300" height="620">
+
+### Adds
+
+Crea una función que encuentre todas las combinaciones de los números de una lista que suman el valor objetivo.
+ - La función recibirá una lista de números enteros positivos y un valor objetivo.
+ - Para obtener las combinaciones sólo se puede usar una vez cada elemento de la lista (pero pueden existir elementos repetidos en ella).
+ - Ejemplo: Lista = [1, 5, 3, 2],  Objetivo = 6
+   Soluciones: [1, 5] y [1, 3, 2] (ambas combinaciones suman 6)
+   (Si no existen combinaciones, retornar una lista vacía)
+
+<img src="/ChallengesImages/Challenge%2038_1.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2038_2.png" width="300" height="620">
