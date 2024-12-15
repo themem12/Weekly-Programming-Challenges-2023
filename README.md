@@ -40,6 +40,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 34 - 08/12/24 | "TXT"
 - 35 - 09/12/24 | "First steps"
 - 36 - 14/12/24 | "Permutations"
+- 37 - 10/12/24 | "Color converter"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -457,3 +458,15 @@ Crea un programa que sea capaz de generar e imprimir todas las permutaciones dis
 <img src="/ChallengesImages/Challenge%2036_2.png" width="300" height="620">
 
 <img src="/ChallengesImages/Challenge%2036_3.png" width="300" height="620">
+
+### Color converter
+
+Crea las funciones capaces de transformar colores HEX a RGB y viceversa.
+
+<img src="/ChallengesImages/Challenge%2037_1.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2037_2.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2037_3.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2037_4.png" width="300" height="620">
