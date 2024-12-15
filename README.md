@@ -43,6 +43,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 37 - 10/12/24 | "Color converter"
 - 38 - 14/12/24 | "Adds"
 - 39 - 15/12/24 | "Pythagorean triples"
+- 40 - 15/12/24 | "Multiplication tables"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -501,3 +502,16 @@ Crea una función que encuentre todos los triples pitagóricos (ternas) menores 
 <img src="/ChallengesImages/Challenge%2039_3.png" width="300" height="620">
 
 <img src="/ChallengesImages/Challenge%2039_4.png" width="300" height="620">
+
+
+### Multiplication tables
+
+Crea un programa que sea capaz de solicitarte un número y se encargue de imprimir su tabla de multiplicar entre el 1 y el 10.
+ - Debe visualizarse qué operación se realiza y su resultado.
+   Ej: 1 x 1 = 1
+       1 x 2 = 2
+       1 x 3 = 3
+
+<img src="/ChallengesImages/Challenge%2040_1.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2040_2.png" width="300" height="620">
