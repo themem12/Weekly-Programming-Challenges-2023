@@ -32,6 +32,7 @@
 		9B56F0792D054EEF0065440C /* TetrisViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56F0782D054EEE0065440C /* TetrisViewModelTests.swift */; };
 		9B5F6C9C2A257F410019FD83 /* TriforceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5F6C9B2A257F410019FD83 /* TriforceView.swift */; };
 		9B64FCA62D055327004DF5CE /* TetrisMovesMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B64FCA52D05531B004DF5CE /* TetrisMovesMock.swift */; };
+		9B6FBA452D0E5DAB00551387 /* PermutationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6FBA442D0E5DAB00551387 /* PermutationsView.swift */; };
 		9B7BD3D72CC7320D00F4D0DA /* ButtonsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7BD3D62CC7320D00F4D0DA /* ButtonsExampleView.swift */; };
 		9B8E095E2CC72680008DF02D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E095D2CC72673008DF02D /* View+Extensions.swift */; };
 		9B8E09622CC728F0008DF02D /* BasicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E09612CC728F0008DF02D /* BasicButton.swift */; };
@@ -60,6 +61,8 @@
 		9BC3CCA22A1C4D110051AA92 /* GitCommitsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3CCA12A1C4D110051AA92 /* GitCommitsListView.swift */; };
 		9BC3CCA52A1C6C870051AA92 /* WebScrapingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3CCA42A1C6C870051AA92 /* WebScrapingViewModel.swift */; };
 		9BC3CCA72A1C6D3A0051AA92 /* WebScrapingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3CCA62A1C6D3A0051AA92 /* WebScrapingView.swift */; };
+		9BDCFAD12D07E31C00442F6B /* PermutationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDCFAD02D07E31500442F6B /* PermutationsViewModel.swift */; };
+		9BDCFAD32D07E6AC00442F6B /* PermutationsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDCFAD22D07E6AC00442F6B /* PermutationsViewModelTests.swift */; };
 		9BE5B4162CD725B3007300ED /* InfiltratedCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5B4152CD725B3007300ED /* InfiltratedCharacterView.swift */; };
 		9BE5B4182CD72645007300ED /* BasicTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5B4172CD72645007300ED /* BasicTextField.swift */; };
 		9BE5B41A2CD72A5E007300ED /* InfiltratedCharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5B4192CD72A52007300ED /* InfiltratedCharacterViewModel.swift */; };
@@ -135,6 +138,7 @@
 		9B56F0782D054EEE0065440C /* TetrisViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisViewModelTests.swift; sourceTree = "<group>"; };
 		9B5F6C9B2A257F410019FD83 /* TriforceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriforceView.swift; sourceTree = "<group>"; };
 		9B64FCA52D05531B004DF5CE /* TetrisMovesMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisMovesMock.swift; sourceTree = "<group>"; };
+		9B6FBA442D0E5DAB00551387 /* PermutationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationsView.swift; sourceTree = "<group>"; };
 		9B7BD3D62CC7320D00F4D0DA /* ButtonsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsExampleView.swift; sourceTree = "<group>"; };
 		9B8E095D2CC72673008DF02D /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		9B8E09612CC728F0008DF02D /* BasicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButton.swift; sourceTree = "<group>"; };
@@ -163,6 +167,8 @@
 		9BC3CCA12A1C4D110051AA92 /* GitCommitsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitsListView.swift; sourceTree = "<group>"; };
 		9BC3CCA42A1C6C870051AA92 /* WebScrapingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebScrapingViewModel.swift; sourceTree = "<group>"; };
 		9BC3CCA62A1C6D3A0051AA92 /* WebScrapingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebScrapingView.swift; sourceTree = "<group>"; };
+		9BDCFAD02D07E31500442F6B /* PermutationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationsViewModel.swift; sourceTree = "<group>"; };
+		9BDCFAD22D07E6AC00442F6B /* PermutationsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationsViewModelTests.swift; sourceTree = "<group>"; };
 		9BE5B4152CD725B3007300ED /* InfiltratedCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiltratedCharacterView.swift; sourceTree = "<group>"; };
 		9BE5B4172CD72645007300ED /* BasicTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTextField.swift; sourceTree = "<group>"; };
 		9BE5B4192CD72A52007300ED /* InfiltratedCharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiltratedCharacterViewModel.swift; sourceTree = "<group>"; };
@@ -462,6 +468,7 @@
 				7B0CCE882CF5387200547FF0 /* ExcelColumnViewModelTests.swift */,
 				9B56F0782D054EEE0065440C /* TetrisViewModelTests.swift */,
 				9BA067D82D0658550073A5B6 /* TXTViewModelTests.swift */,
+				9BDCFAD22D07E6AC00442F6B /* PermutationsViewModelTests.swift */,
 			);
 			path = WeeklyChallenges2023Tests;
 			sourceTree = "<group>";
@@ -511,6 +518,7 @@
 				7BDF06AD2D000812002A720F /* 33-Tetris */,
 				9BA067D22D0650AB0073A5B6 /* 34-TXT */,
 				7BF830542D07ADD300310514 /* 35-FirstSteps */,
+				9BDCFACF2D07E2F900442F6B /* 36-Permutations */,
 				9BA0F60E2CDB0072005485D5 /* MathExpression */,
 				9B7BD3D52CC731F200F4D0DA /* UIExamples */,
 			);
@@ -543,6 +551,15 @@
 				9BC3CCA62A1C6D3A0051AA92 /* WebScrapingView.swift */,
 			);
 			path = "18-Web Scraping";
+			sourceTree = "<group>";
+		};
+		9BDCFACF2D07E2F900442F6B /* 36-Permutations */ = {
+			isa = PBXGroup;
+			children = (
+				9BDCFAD02D07E31500442F6B /* PermutationsViewModel.swift */,
+				9B6FBA442D0E5DAB00551387 /* PermutationsView.swift */,
+			);
+			path = "36-Permutations";
 			sourceTree = "<group>";
 		};
 		9BE5B4142CD7258F007300ED /* 29-InfiltratedCharacter */ = {
@@ -782,10 +799,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BDCFAD12D07E31C00442F6B /* PermutationsViewModel.swift in Sources */,
 				9BE5B4182CD72645007300ED /* BasicTextField.swift in Sources */,
 				9B4BC2F629CE8EA9005BE1D8 /* FridayThirteenViewModel.swift in Sources */,
 				9B4630CA29E9BFF7002D7D30 /* AurebeshTranslatorView.swift in Sources */,
 				9BFB3B622CB262D5009966F1 /* KonamiCodeView.swift in Sources */,
+				9B6FBA452D0E5DAB00551387 /* PermutationsView.swift in Sources */,
 				9BE5B4162CD725B3007300ED /* InfiltratedCharacterView.swift in Sources */,
 				9BE5B41A2CD72A5E007300ED /* InfiltratedCharacterViewModel.swift in Sources */,
 				9B9D92742A3C459900CA2A31 /* CesarCypherViewModel.swift in Sources */,
@@ -870,6 +889,7 @@
 				9B64FCA62D055327004DF5CE /* TetrisMovesMock.swift in Sources */,
 				9BBAD4C42CB4F2CC007180ED /* WeeklyChallenges2023Tests.swift in Sources */,
 				9B56F0792D054EEF0065440C /* TetrisViewModelTests.swift in Sources */,
+				9BDCFAD32D07E6AC00442F6B /* PermutationsViewModelTests.swift in Sources */,
 				9BA067D92D0658550073A5B6 /* TXTViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

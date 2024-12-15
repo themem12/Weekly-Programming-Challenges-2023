@@ -39,6 +39,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 33 - 07/12/24 | "Tetris"
 - 34 - 08/12/24 | "TXT"
 - 35 - 09/12/24 | "First steps"
+- 36 - 14/12/24 | "Permutations"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -443,3 +444,16 @@ En un fichero, haz los siguientes ejemplos:
 <img src="/ChallengesImages/Challenge%2035_1.png" width="300" height="620">
 
 <img src="/ChallengesImages/Challenge%2035_2.png" width="300" height="620">
+
+### Permutations
+
+Crea un programa que sea capaz de generar e imprimir todas las permutaciones disponibles formadas por las letras de una palabra.
+- Las palabras generadas no tienen por qué existir.
+- Deben usarse todas las letras en cada permutación.
+- Ejemplo: sol, slo, ols, osl, los, lso 
+
+<img src="/ChallengesImages/Challenge%2036_1.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2036_2.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2036_3.png" width="300" height="620">

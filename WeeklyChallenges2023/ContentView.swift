@@ -48,7 +48,8 @@ struct ContentView: View {
         ChallengesCells(title: "32 - Excel column number", viewClass: AnyView(ExcelColumnView())),
         ChallengesCells(title: "33 - Tetris", viewClass: AnyView(TetrisView())),
         ChallengesCells(title: "34 - TXT", viewClass: AnyView(TXTView())),
-        ChallengesCells(title: "35 - First Steps", viewClass: AnyView(FirstStepsView()))
+        ChallengesCells(title: "35 - First Steps", viewClass: AnyView(FirstStepsView())),
+        ChallengesCells(title: "36 - Permutations", viewClass: AnyView(PermutationsView())),
     ]
     
     var body: some View {
