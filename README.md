@@ -44,6 +44,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 38 - 14/12/24 | "Adds"
 - 39 - 15/12/24 | "Pythagorean triples"
 - 40 - 15/12/24 | "Multiplication tables"
+- 45 - 18/12/24 | "Advent calendar"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -515,3 +516,27 @@ Crea un programa que sea capaz de solicitarte un número y se encargue de imprim
 <img src="/ChallengesImages/Challenge%2040_1.png" width="300" height="620">
 
 <img src="/ChallengesImages/Challenge%2040_2.png" width="300" height="620">
+
+
+### Advent calendar
+
+Crea un programa que simule el mecanismo de participación:
+- Mediante la terminal, el programa te preguntará si quieres añadir y borrar participantes, mostrarlos, lanzar el sorteo o salir.
+- Si seleccionas añadir un participante, podrás escribir su nombre y pulsar enter.
+- Si seleccionas añadir un participante, y este ya existe, avisarás de ello. (Y no lo duplicarás)
+- Si seleccionas mostrar los participantes, se listarán todos.
+- Si seleccionas eliminar un participante, podrás escribir su nombre y pulsar enter. (Avisando de si lo has eliminado o el nombre no existe)
+- Si seleccionas realizar el sorteo, elegirás una persona al azar  y se eliminará del listado.
+- Si seleccionas salir, el programa finalizará.
+
+<img src="/ChallengesImages/Challenge%2045_1.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2045_2.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2045_3.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2045_4.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2045_5.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2045_6.png" width="300" height="620">
