@@ -36,7 +36,7 @@ struct AddsView: View {
 
             ScrollView {
                 ForEach($viewModel.combinations, id: \.self) { combination in
-                    Text("t")
+                    Text("\(combination)")
                 }
             }
         }.padding()
