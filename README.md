@@ -44,6 +44,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 38 - 14/12/24 | "Adds"
 - 39 - 15/12/24 | "Pythagorean triples"
 - 40 - 15/12/24 | "Multiplication tables"
+- 43 - 18/12/24 | "Weather simulator"
 - 45 - 18/12/24 | "Advent calendar"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
@@ -516,6 +517,23 @@ Crea un programa que sea capaz de solicitarte un número y se encargue de imprim
 <img src="/ChallengesImages/Challenge%2040_1.png" width="300" height="620">
 
 <img src="/ChallengesImages/Challenge%2040_2.png" width="300" height="620">
+
+
+### Weather simulator
+
+Crea una función que simule las condiciones climáticas (temperatura y probabilidad de lluvia) de un lugar ficticio al pasar un número concreto de días según estas reglas:
+ - La temperatura inicial y el % de probabilidad de lluvia lo define el usuario.
+ - Cada día que pasa:
+   - 10% de posibilidades de que la temperatura aumente o disminuya 2 grados.
+   - Si la temperatura supera los 25 grados, la probabilidad de lluvia al día  siguiente aumenta en un 20%.
+   - Si la temperatura baja de 5 grados, la probabilidad de lluvia al día  siguiente disminuye en un 20%.
+   - Si llueve (100%), la temperatura del día siguiente disminuye en 1 grado.
+ - La función recibe el número de días de la predicción y muestra la temperatura y si llueve durante todos esos días.
+ - También mostrará la temperatura máxima y mínima de ese periodo y cuántos días va a llover.
+ 
+<img src="/ChallengesImages/Challenge%2043_1.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2043_2.png" width="300" height="620">
 
 
 ### Advent calendar
