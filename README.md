@@ -45,6 +45,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 39 - 15/12/24 | "Pythagorean triples"
 - 40 - 15/12/24 | "Multiplication tables"
 - 43 - 18/12/24 | "Weather simulator"
+- 44 - 18/12/24 | "Math quiz"
 - 45 - 18/12/24 | "Advent calendar"
 - 47 - 18/12/24 | "Hundred points word"
 
@@ -536,6 +537,22 @@ Crea una función que simule las condiciones climáticas (temperatura y probabil
 
 <img src="/ChallengesImages/Challenge%2043_2.png" width="300" height="620">
 
+### Math quiz
+Crea un juego interactivo por terminal en el que tendrás que adivinar el resultado de diferentes operaciones matemáticas aleatorias (suma, resta, multiplicación  o división de dos números enteros).
+ - Tendrás 3 segundos para responder correctamente.
+ - El juego finaliza si no se logra responder en ese tiempo.
+ - Al finalizar el juego debes mostrar cuántos cálculos has acertado.
+ - Cada 5 aciertos debes aumentar en uno el posible número de cifras de la operación (cada vez en un operando):
+   - Preguntas 1 a 5: X (entre 0 y 9) operación Y (entre 0 y 9)
+   - Preguntas 6 a 10: XX (entre 0 y 99) operación Y (entre 0 y 9)
+   - Preguntas 11 a 15: XX operación YY
+   - Preguntas 16 a 20: XXX (entre 0 y 999) operación YY
+   
+<img src="/ChallengesImages/Challenge%2044_1.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2044_2.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2044_3.png" width="300" height="620">
 
 ### Advent calendar
 

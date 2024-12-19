@@ -48,6 +48,8 @@
 		9B6FBA452D0E5DAB00551387 /* PermutationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6FBA442D0E5DAB00551387 /* PermutationsView.swift */; };
 		9B6FBA472D0E657F00551387 /* AddsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6FBA462D0E657F00551387 /* AddsView.swift */; };
 		9B75196A2D13BFC100E20C08 /* WeatherSimulatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7519692D13BFC100E20C08 /* WeatherSimulatorView.swift */; };
+		9B75196D2D13D25600E20C08 /* MathQuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B75196C2D13D24F00E20C08 /* MathQuizViewModel.swift */; };
+		9B75196F2D13D45700E20C08 /* MathQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B75196E2D13D45700E20C08 /* MathQuizView.swift */; };
 		9B7BD3D72CC7320D00F4D0DA /* ButtonsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7BD3D62CC7320D00F4D0DA /* ButtonsExampleView.swift */; };
 		9B8E095E2CC72680008DF02D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E095D2CC72673008DF02D /* View+Extensions.swift */; };
 		9B8E09622CC728F0008DF02D /* BasicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E09612CC728F0008DF02D /* BasicButton.swift */; };
@@ -175,6 +177,8 @@
 		9B6FBA442D0E5DAB00551387 /* PermutationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationsView.swift; sourceTree = "<group>"; };
 		9B6FBA462D0E657F00551387 /* AddsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddsView.swift; sourceTree = "<group>"; };
 		9B7519692D13BFC100E20C08 /* WeatherSimulatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSimulatorView.swift; sourceTree = "<group>"; };
+		9B75196C2D13D24F00E20C08 /* MathQuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathQuizViewModel.swift; sourceTree = "<group>"; };
+		9B75196E2D13D45700E20C08 /* MathQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathQuizView.swift; sourceTree = "<group>"; };
 		9B7BD3D62CC7320D00F4D0DA /* ButtonsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsExampleView.swift; sourceTree = "<group>"; };
 		9B8E095D2CC72673008DF02D /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		9B8E09612CC728F0008DF02D /* BasicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButton.swift; sourceTree = "<group>"; };
@@ -474,6 +478,15 @@
 			path = TestsMocks;
 			sourceTree = "<group>";
 		};
+		9B75196B2D13D23D00E20C08 /* 44-MathQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				9B75196C2D13D24F00E20C08 /* MathQuizViewModel.swift */,
+				9B75196E2D13D45700E20C08 /* MathQuizView.swift */,
+			);
+			path = "44-MathQuiz";
+			sourceTree = "<group>";
+		};
 		9B7BD3D52CC731F200F4D0DA /* UIExamples */ = {
 			isa = PBXGroup;
 			children = (
@@ -618,6 +631,7 @@
 				9BC8DC202D0F5731008CFB87 /* 39-PythagoreanTriplesView */,
 				9BC8DC272D0F7D37008CFB87 /* 40-MultiplicationTables */,
 				9B5BF7A22D12595F000DC8B6 /* 43-WeatherSimulator */,
+				9B75196B2D13D23D00E20C08 /* 44-MathQuiz */,
 				7B11387D2D136C7600AE0BA9 /* 45-AdventCalendar */,
 				7B1138842D137C6300AE0BA9 /* 47-HundredPointsWord */,
 				9BA0F60E2CDB0072005485D5 /* MathExpression */,
@@ -935,6 +949,7 @@
 				3A4BF93D296A3A06000C17EA /* L33tView.swift in Sources */,
 				9B0C68BA2A29937500BD4608 /* SpiralViewModel.swift in Sources */,
 				9B9414BF29E927760080AF4F /* DecimalConversionViewModel.swift in Sources */,
+				9B75196D2D13D25600E20C08 /* MathQuizViewModel.swift in Sources */,
 				9BC3CCA52A1C6C870051AA92 /* WebScrapingViewModel.swift in Sources */,
 				F121182D29C40A2800818C6C /* URLParamsView.swift in Sources */,
 				9B9414C129E92AD20080AF4F /* DecimalConversionView.swift in Sources */,
@@ -998,6 +1013,7 @@
 				F1D0088A29B7E13F00767618 /* RPSLSView.swift in Sources */,
 				9BC3CCA72A1C6D3A0051AA92 /* WebScrapingView.swift in Sources */,
 				9BC8DC2D2D0F8049008CFB87 /* MultiplicationTablesView.swift in Sources */,
+				9B75196F2D13D45700E20C08 /* MathQuizView.swift in Sources */,
 				F1ACEC5A29B9107E003C0FCE /* SortingHatView.swift in Sources */,
 				F1ACEC6029B911EC003C0FCE /* APIView.swift in Sources */,
 				F1D5EDDF29B648A8004D49EA /* PasswordGeneratorViewModel.swift in Sources */,
