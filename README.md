@@ -46,6 +46,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 40 - 15/12/24 | "Multiplication tables"
 - 43 - 18/12/24 | "Weather simulator"
 - 45 - 18/12/24 | "Advent calendar"
+- 47 - 18/12/24 | "Hundred points word"
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
@@ -558,3 +559,16 @@ Crea un programa que simule el mecanismo de participación:
 <img src="/ChallengesImages/Challenge%2045_5.png" width="300" height="620">
 
 <img src="/ChallengesImages/Challenge%2045_6.png" width="300" height="620">
+
+
+### Hundred points word
+
+Crea un programa que calcule los puntos de una palabra.
+ - Cada letra tiene un valor asignado. Por ejemplo, en el abecedario español de 27 letras, la A vale 1 y la Z 27.
+ - El programa muestra el valor de los puntos de cada palabra introducida.
+ - El programa finaliza si logras introducir una palabra de 100 puntos.
+ - Puedes usar la terminal para interactuar con el usuario y solicitarle cada palabra.
+
+<img src="/ChallengesImages/Challenge%2047_1.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2047_2.png" width="300" height="620">

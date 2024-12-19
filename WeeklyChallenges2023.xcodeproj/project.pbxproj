@@ -21,6 +21,9 @@
 		7B11387F2D136C9000AE0BA9 /* AdventCalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B11387E2D136C9000AE0BA9 /* AdventCalendarViewModel.swift */; };
 		7B1138812D136E9300AE0BA9 /* AdventCalendarViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1138802D136E9300AE0BA9 /* AdventCalendarViewModelTests.swift */; };
 		7B1138832D13751200AE0BA9 /* AdventCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1138822D13751200AE0BA9 /* AdventCalendarView.swift */; };
+		7B1138862D137C8E00AE0BA9 /* HundredPointWordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1138852D137C8E00AE0BA9 /* HundredPointWordViewModel.swift */; };
+		7B1138882D13B87100AE0BA9 /* HundredPointWordViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1138872D13B87100AE0BA9 /* HundredPointWordViewModelTests.swift */; };
+		7B11388A2D13BB6D00AE0BA9 /* HundredPointWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1138892D13BB6D00AE0BA9 /* HundredPointWordView.swift */; };
 		7B7614132D08CB2200C1F610 /* ColorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7614122D08CB2200C1F610 /* ColorsViewModel.swift */; };
 		7B7614152D08D1E800C1F610 /* ColorsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7614142D08D1E800C1F610 /* ColorsViewModelTests.swift */; };
 		7B7614172D08DA8100C1F610 /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7614162D08DA8100C1F610 /* ColorsView.swift */; };
@@ -143,6 +146,9 @@
 		7B11387E2D136C9000AE0BA9 /* AdventCalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventCalendarViewModel.swift; sourceTree = "<group>"; };
 		7B1138802D136E9300AE0BA9 /* AdventCalendarViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventCalendarViewModelTests.swift; sourceTree = "<group>"; };
 		7B1138822D13751200AE0BA9 /* AdventCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventCalendarView.swift; sourceTree = "<group>"; };
+		7B1138852D137C8E00AE0BA9 /* HundredPointWordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HundredPointWordViewModel.swift; sourceTree = "<group>"; };
+		7B1138872D13B87100AE0BA9 /* HundredPointWordViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HundredPointWordViewModelTests.swift; sourceTree = "<group>"; };
+		7B1138892D13BB6D00AE0BA9 /* HundredPointWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HundredPointWordView.swift; sourceTree = "<group>"; };
 		7B7614122D08CB2200C1F610 /* ColorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewModel.swift; sourceTree = "<group>"; };
 		7B7614142D08D1E800C1F610 /* ColorsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewModelTests.swift; sourceTree = "<group>"; };
 		7B7614162D08DA8100C1F610 /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
@@ -335,6 +341,15 @@
 				7B1138822D13751200AE0BA9 /* AdventCalendarView.swift */,
 			);
 			path = "45-AdventCalendar";
+			sourceTree = "<group>";
+		};
+		7B1138842D137C6300AE0BA9 /* 47-HundredPointsWord */ = {
+			isa = PBXGroup;
+			children = (
+				7B1138852D137C8E00AE0BA9 /* HundredPointWordViewModel.swift */,
+				7B1138892D13BB6D00AE0BA9 /* HundredPointWordView.swift */,
+			);
+			path = "47-HundredPointsWord";
 			sourceTree = "<group>";
 		};
 		7B7614112D08CAF500C1F610 /* 37-Colors */ = {
@@ -547,6 +562,7 @@
 				9BC8DC2A2D0F7E44008CFB87 /* MultiplicationTablesViewModelTests.swift */,
 				9B5BF7A52D12A0E6000DC8B6 /* WeatherSimulatorViewModelTests.swift */,
 				7B1138802D136E9300AE0BA9 /* AdventCalendarViewModelTests.swift */,
+				7B1138872D13B87100AE0BA9 /* HundredPointWordViewModelTests.swift */,
 			);
 			path = WeeklyChallenges2023Tests;
 			sourceTree = "<group>";
@@ -603,6 +619,7 @@
 				9BC8DC272D0F7D37008CFB87 /* 40-MultiplicationTables */,
 				9B5BF7A22D12595F000DC8B6 /* 43-WeatherSimulator */,
 				7B11387D2D136C7600AE0BA9 /* 45-AdventCalendar */,
+				7B1138842D137C6300AE0BA9 /* 47-HundredPointsWord */,
 				9BA0F60E2CDB0072005485D5 /* MathExpression */,
 				9B7BD3D52CC731F200F4D0DA /* UIExamples */,
 			);
@@ -902,6 +919,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BDCFAD12D07E31C00442F6B /* PermutationsViewModel.swift in Sources */,
+				7B1138862D137C8E00AE0BA9 /* HundredPointWordViewModel.swift in Sources */,
 				9BE5B4182CD72645007300ED /* BasicTextField.swift in Sources */,
 				9B4BC2F629CE8EA9005BE1D8 /* FridayThirteenViewModel.swift in Sources */,
 				9B4630CA29E9BFF7002D7D30 /* AurebeshTranslatorView.swift in Sources */,
@@ -949,6 +967,7 @@
 				9BBB69EE2CF03326003FFFEC /* AbacusView.swift in Sources */,
 				9BA067D42D0650F20073A5B6 /* TXTViewModel.swift in Sources */,
 				F1D5EDE329B6BB59004D49EA /* SwitchButton.swift in Sources */,
+				7B11388A2D13BB6D00AE0BA9 /* HundredPointWordView.swift in Sources */,
 				F1ACEC6429B9B032003C0FCE /* APIViewModel.swift in Sources */,
 				9BE5B41C2CD72D1D007300ED /* String+Extension.swift in Sources */,
 				3A196028295E50AB00CB283B /* FizzBuzzView.swift in Sources */,
@@ -1000,6 +1019,7 @@
 			files = (
 				7B0CCE892CF5387200547FF0 /* ExcelColumnViewModelTests.swift in Sources */,
 				9BBAD4CB2CB4F2FB007180ED /* KonamiCodeViewModelTests.swift in Sources */,
+				7B1138882D13B87100AE0BA9 /* HundredPointWordViewModelTests.swift in Sources */,
 				9B64FCA62D055327004DF5CE /* TetrisMovesMock.swift in Sources */,
 				9BBAD4C42CB4F2CC007180ED /* WeeklyChallenges2023Tests.swift in Sources */,
 				7B7614152D08D1E800C1F610 /* ColorsViewModelTests.swift in Sources */,

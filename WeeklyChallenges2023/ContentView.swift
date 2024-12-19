@@ -56,6 +56,7 @@ struct ContentView: View {
         ChallengesCells(title: "40 - Multiplication Tables", viewClass: AnyView(MultiplicationTablesView())),
         ChallengesCells(title: "43 - Weather Simulator", viewClass: AnyView(WeatherSimulatorView())),
         ChallengesCells(title: "45 - Advent calendar", viewClass: AnyView(AdventCalendarView())),
+        ChallengesCells(title: "47 - Hundred points word", viewClass: AnyView(HundredPointWordView())),
     ]
     
     var body: some View {
