@@ -54,6 +54,7 @@ struct ContentView: View {
         ChallengesCells(title: "38 - Adds", viewClass: AnyView(AddsView())),
         ChallengesCells(title: "39 - Pythagorean Triples", viewClass: AnyView(PythagoreanTriplesView())),
         ChallengesCells(title: "40 - Multiplication Tables", viewClass: AnyView(MultiplicationTablesView())),
+        ChallengesCells(title: "45 - Advent calendar", viewClass: AnyView(AdventCalendarView())),
     ]
     
     var body: some View {
