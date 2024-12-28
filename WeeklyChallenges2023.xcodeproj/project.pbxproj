@@ -24,6 +24,9 @@
 		7B1138862D137C8E00AE0BA9 /* HundredPointWordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1138852D137C8E00AE0BA9 /* HundredPointWordViewModel.swift */; };
 		7B1138882D13B87100AE0BA9 /* HundredPointWordViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1138872D13B87100AE0BA9 /* HundredPointWordViewModelTests.swift */; };
 		7B11388A2D13BB6D00AE0BA9 /* HundredPointWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1138892D13BB6D00AE0BA9 /* HundredPointWordView.swift */; };
+		7B5CB0A62D1F629100EB4328 /* RacingCarsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CB0A52D1F628900EB4328 /* RacingCarsViewModel.swift */; };
+		7B5CB0A82D1F686900EB4328 /* RacingCarsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CB0A72D1F686900EB4328 /* RacingCarsViewModelTests.swift */; };
+		7B5CB0AA2D1F75C900EB4328 /* RacingCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CB0A92D1F75C800EB4328 /* RacingCarView.swift */; };
 		7B7614132D08CB2200C1F610 /* ColorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7614122D08CB2200C1F610 /* ColorsViewModel.swift */; };
 		7B7614152D08D1E800C1F610 /* ColorsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7614142D08D1E800C1F610 /* ColorsViewModelTests.swift */; };
 		7B7614172D08DA8100C1F610 /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7614162D08DA8100C1F610 /* ColorsView.swift */; };
@@ -151,6 +154,9 @@
 		7B1138852D137C8E00AE0BA9 /* HundredPointWordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HundredPointWordViewModel.swift; sourceTree = "<group>"; };
 		7B1138872D13B87100AE0BA9 /* HundredPointWordViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HundredPointWordViewModelTests.swift; sourceTree = "<group>"; };
 		7B1138892D13BB6D00AE0BA9 /* HundredPointWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HundredPointWordView.swift; sourceTree = "<group>"; };
+		7B5CB0A52D1F628900EB4328 /* RacingCarsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingCarsViewModel.swift; sourceTree = "<group>"; };
+		7B5CB0A72D1F686900EB4328 /* RacingCarsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingCarsViewModelTests.swift; sourceTree = "<group>"; };
+		7B5CB0A92D1F75C800EB4328 /* RacingCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingCarView.swift; sourceTree = "<group>"; };
 		7B7614122D08CB2200C1F610 /* ColorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewModel.swift; sourceTree = "<group>"; };
 		7B7614142D08D1E800C1F610 /* ColorsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewModelTests.swift; sourceTree = "<group>"; };
 		7B7614162D08DA8100C1F610 /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
@@ -354,6 +360,15 @@
 				7B1138892D13BB6D00AE0BA9 /* HundredPointWordView.swift */,
 			);
 			path = "47-HundredPointsWord";
+			sourceTree = "<group>";
+		};
+		7B5CB0A42D1F627700EB4328 /* 46-RacingCars */ = {
+			isa = PBXGroup;
+			children = (
+				7B5CB0A52D1F628900EB4328 /* RacingCarsViewModel.swift */,
+				7B5CB0A92D1F75C800EB4328 /* RacingCarView.swift */,
+			);
+			path = "46-RacingCars";
 			sourceTree = "<group>";
 		};
 		7B7614112D08CAF500C1F610 /* 37-Colors */ = {
@@ -576,6 +591,7 @@
 				9B5BF7A52D12A0E6000DC8B6 /* WeatherSimulatorViewModelTests.swift */,
 				7B1138802D136E9300AE0BA9 /* AdventCalendarViewModelTests.swift */,
 				7B1138872D13B87100AE0BA9 /* HundredPointWordViewModelTests.swift */,
+				7B5CB0A72D1F686900EB4328 /* RacingCarsViewModelTests.swift */,
 			);
 			path = WeeklyChallenges2023Tests;
 			sourceTree = "<group>";
@@ -633,6 +649,7 @@
 				9B5BF7A22D12595F000DC8B6 /* 43-WeatherSimulator */,
 				9B75196B2D13D23D00E20C08 /* 44-MathQuiz */,
 				7B11387D2D136C7600AE0BA9 /* 45-AdventCalendar */,
+				7B5CB0A42D1F627700EB4328 /* 46-RacingCars */,
 				7B1138842D137C6300AE0BA9 /* 47-HundredPointsWord */,
 				9BA0F60E2CDB0072005485D5 /* MathExpression */,
 				9B7BD3D52CC731F200F4D0DA /* UIExamples */,
@@ -1000,6 +1017,7 @@
 				7BF830562D07ADFB00310514 /* FirstStepsView.swift in Sources */,
 				9BC1364829FCF7A30095AA66 /* LadderView.swift in Sources */,
 				F1CD78E129BA37A400787330 /* TennisGameView.swift in Sources */,
+				7B5CB0A62D1F629100EB4328 /* RacingCarsViewModel.swift in Sources */,
 				F1D0089129B84B1200767618 /* Pseudorandom.swift in Sources */,
 				9BF72A3729E6897D0046FF82 /* WordGuessView.swift in Sources */,
 				9BF1504229D16E180083976E /* FridayThirteenView.swift in Sources */,
@@ -1014,6 +1032,7 @@
 				9BC3CCA72A1C6D3A0051AA92 /* WebScrapingView.swift in Sources */,
 				9BC8DC2D2D0F8049008CFB87 /* MultiplicationTablesView.swift in Sources */,
 				9B75196F2D13D45700E20C08 /* MathQuizView.swift in Sources */,
+				7B5CB0AA2D1F75C900EB4328 /* RacingCarView.swift in Sources */,
 				F1ACEC5A29B9107E003C0FCE /* SortingHatView.swift in Sources */,
 				F1ACEC6029B911EC003C0FCE /* APIView.swift in Sources */,
 				F1D5EDDF29B648A8004D49EA /* PasswordGeneratorViewModel.swift in Sources */,
@@ -1033,6 +1052,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B5CB0A82D1F686900EB4328 /* RacingCarsViewModelTests.swift in Sources */,
 				7B0CCE892CF5387200547FF0 /* ExcelColumnViewModelTests.swift in Sources */,
 				9BBAD4CB2CB4F2FB007180ED /* KonamiCodeViewModelTests.swift in Sources */,
 				7B1138882D13B87100AE0BA9 /* HundredPointWordViewModelTests.swift in Sources */,
