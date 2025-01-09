@@ -43,6 +43,9 @@
 		9B0C68B82A29871000BD4608 /* PrimeTwinsNumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C68B72A29871000BD4608 /* PrimeTwinsNumberViewModel.swift */; };
 		9B0C68BA2A29937500BD4608 /* SpiralViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C68B92A29937500BD4608 /* SpiralViewModel.swift */; };
 		9B0C68BD2A29939200BD4608 /* SpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C68BC2A29939200BD4608 /* SpiralView.swift */; };
+		9B16785C2D1537F10023D876 /* HauntedHouseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B16785B2D1537E90023D876 /* HauntedHouseViewModel.swift */; };
+		9B16785E2D1540A00023D876 /* HauntedHouseViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B16785D2D1540A00023D876 /* HauntedHouseViewModelTests.swift */; };
+		9B1678602D1541860023D876 /* HauntedHouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B16785F2D1541860023D876 /* HauntedHouseView.swift */; };
 		9B4630CA29E9BFF7002D7D30 /* AurebeshTranslatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4630C929E9BFF7002D7D30 /* AurebeshTranslatorView.swift */; };
 		9B4630CC29E9D768002D7D30 /* AurebeshTranslatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4630CB29E9D768002D7D30 /* AurebeshTranslatorViewModel.swift */; };
 		9B4BC2F629CE8EA9005BE1D8 /* FridayThirteenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BC2F529CE8EA9005BE1D8 /* FridayThirteenViewModel.swift */; };
@@ -176,6 +179,9 @@
 		9B0C68B72A29871000BD4608 /* PrimeTwinsNumberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeTwinsNumberViewModel.swift; sourceTree = "<group>"; };
 		9B0C68B92A29937500BD4608 /* SpiralViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralViewModel.swift; sourceTree = "<group>"; };
 		9B0C68BC2A29939200BD4608 /* SpiralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralView.swift; sourceTree = "<group>"; };
+		9B16785B2D1537E90023D876 /* HauntedHouseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HauntedHouseViewModel.swift; sourceTree = "<group>"; };
+		9B16785D2D1540A00023D876 /* HauntedHouseViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HauntedHouseViewModelTests.swift; sourceTree = "<group>"; };
+		9B16785F2D1541860023D876 /* HauntedHouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HauntedHouseView.swift; sourceTree = "<group>"; };
 		9B4630C529E9BDB3002D7D30 /* Aurebesh Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aurebesh Bold.otf"; sourceTree = "<group>"; };
 		9B4630C729E9BF8D002D7D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9B4630C929E9BFF7002D7D30 /* AurebeshTranslatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AurebeshTranslatorView.swift; sourceTree = "<group>"; };
@@ -457,6 +463,15 @@
 			path = "22-Spiral";
 			sourceTree = "<group>";
 		};
+		9B16785A2D1537BB0023D876 /* 41-HauntedHouse */ = {
+			isa = PBXGroup;
+			children = (
+				9B16785B2D1537E90023D876 /* HauntedHouseViewModel.swift */,
+				9B16785F2D1541860023D876 /* HauntedHouseView.swift */,
+			);
+			path = "41-HauntedHouse";
+			sourceTree = "<group>";
+		};
 		9B4630C429E9BD9D002D7D30 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -606,6 +621,7 @@
 				9B5BF7A52D12A0E6000DC8B6 /* WeatherSimulatorViewModelTests.swift */,
 				7B1138802D136E9300AE0BA9 /* AdventCalendarViewModelTests.swift */,
 				7B1138872D13B87100AE0BA9 /* HundredPointWordViewModelTests.swift */,
+				9B16785D2D1540A00023D876 /* HauntedHouseViewModelTests.swift */,
 				7B5CB0A72D1F686900EB4328 /* RacingCarsViewModelTests.swift */,
 				7B2B71842D244D0A004550FD /* MeetingPointViewModelTests.swift */,
 			);
@@ -662,6 +678,7 @@
 				7B7614182D08E2A700C1F610 /* 38-Adds */,
 				9BC8DC202D0F5731008CFB87 /* 39-PythagoreanTriplesView */,
 				9BC8DC272D0F7D37008CFB87 /* 40-MultiplicationTables */,
+				9B16785A2D1537BB0023D876 /* 41-HauntedHouse */,
 				7B2B71812D244CA9004550FD /* 42-MeetingPoint */,
 				9B5BF7A22D12595F000DC8B6 /* 43-WeatherSimulator */,
 				9B75196B2D13D23D00E20C08 /* 44-MathQuiz */,
@@ -1058,6 +1075,8 @@
 				9B0C68B62A29870700BD4608 /* PrimeTwinsNumberView.swift in Sources */,
 				7B1138832D13751200AE0BA9 /* AdventCalendarView.swift in Sources */,
 				3A196018295E4B1600CB283B /* WeeklyChallenges2023App.swift in Sources */,
+				9B1678602D1541860023D876 /* HauntedHouseView.swift in Sources */,
+				9B16785C2D1537F10023D876 /* HauntedHouseViewModel.swift in Sources */,
 				9BA899B52A1DDF1900972307 /* TextAnalysisViewModel.swift in Sources */,
 				9BBAD4CE2CB4FA5A007180ED /* CountdownViewModel.swift in Sources */,
 				9B5BF7A42D12599F000DC8B6 /* WeatherSimulatorViewModel.swift in Sources */,
@@ -1078,6 +1097,7 @@
 				7B1138882D13B87100AE0BA9 /* HundredPointWordViewModelTests.swift in Sources */,
 				9B64FCA62D055327004DF5CE /* TetrisMovesMock.swift in Sources */,
 				9BBAD4C42CB4F2CC007180ED /* WeeklyChallenges2023Tests.swift in Sources */,
+				9B16785E2D1540A00023D876 /* HauntedHouseViewModelTests.swift in Sources */,
 				7B7614152D08D1E800C1F610 /* ColorsViewModelTests.swift in Sources */,
 				7B76141C2D0C942D00C1F610 /* AddsViewModelTests.swift in Sources */,
 				9B56F0792D054EEF0065440C /* TetrisViewModelTests.swift in Sources */,
