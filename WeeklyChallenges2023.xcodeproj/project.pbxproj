@@ -27,6 +27,9 @@
 		7B5CB0A62D1F629100EB4328 /* RacingCarsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CB0A52D1F628900EB4328 /* RacingCarsViewModel.swift */; };
 		7B5CB0A82D1F686900EB4328 /* RacingCarsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CB0A72D1F686900EB4328 /* RacingCarsViewModelTests.swift */; };
 		7B5CB0AA2D1F75C900EB4328 /* RacingCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CB0A92D1F75C800EB4328 /* RacingCarView.swift */; };
+		7B2B71832D244CD9004550FD /* MeetingPointViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2B71822D244CD3004550FD /* MeetingPointViewModel.swift */; };
+		7B2B71852D244D0A004550FD /* MeetingPointViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2B71842D244D0A004550FD /* MeetingPointViewModelTests.swift */; };
+		7B2B71882D2735EE004550FD /* MeetingPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2B71872D2735EE004550FD /* MeetingPointView.swift */; };
 		7B7614132D08CB2200C1F610 /* ColorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7614122D08CB2200C1F610 /* ColorsViewModel.swift */; };
 		7B7614152D08D1E800C1F610 /* ColorsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7614142D08D1E800C1F610 /* ColorsViewModelTests.swift */; };
 		7B7614172D08DA8100C1F610 /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7614162D08DA8100C1F610 /* ColorsView.swift */; };
@@ -157,6 +160,9 @@
 		7B5CB0A52D1F628900EB4328 /* RacingCarsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingCarsViewModel.swift; sourceTree = "<group>"; };
 		7B5CB0A72D1F686900EB4328 /* RacingCarsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingCarsViewModelTests.swift; sourceTree = "<group>"; };
 		7B5CB0A92D1F75C800EB4328 /* RacingCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingCarView.swift; sourceTree = "<group>"; };
+		7B2B71822D244CD3004550FD /* MeetingPointViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingPointViewModel.swift; sourceTree = "<group>"; };
+		7B2B71842D244D0A004550FD /* MeetingPointViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingPointViewModelTests.swift; sourceTree = "<group>"; };
+		7B2B71872D2735EE004550FD /* MeetingPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingPointView.swift; sourceTree = "<group>"; };
 		7B7614122D08CB2200C1F610 /* ColorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewModel.swift; sourceTree = "<group>"; };
 		7B7614142D08D1E800C1F610 /* ColorsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewModelTests.swift; sourceTree = "<group>"; };
 		7B7614162D08DA8100C1F610 /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
@@ -369,6 +375,15 @@
 				7B5CB0A92D1F75C800EB4328 /* RacingCarView.swift */,
 			);
 			path = "46-RacingCars";
+			sourceTree = "<group>";
+		};
+		7B2B71812D244CA9004550FD /* 42-MeetingPoint */ = {
+			isa = PBXGroup;
+			children = (
+				7B2B71822D244CD3004550FD /* MeetingPointViewModel.swift */,
+				7B2B71872D2735EE004550FD /* MeetingPointView.swift */,
+			);
+			path = "42-MeetingPoint";
 			sourceTree = "<group>";
 		};
 		7B7614112D08CAF500C1F610 /* 37-Colors */ = {
@@ -592,6 +607,7 @@
 				7B1138802D136E9300AE0BA9 /* AdventCalendarViewModelTests.swift */,
 				7B1138872D13B87100AE0BA9 /* HundredPointWordViewModelTests.swift */,
 				7B5CB0A72D1F686900EB4328 /* RacingCarsViewModelTests.swift */,
+				7B2B71842D244D0A004550FD /* MeetingPointViewModelTests.swift */,
 			);
 			path = WeeklyChallenges2023Tests;
 			sourceTree = "<group>";
@@ -646,6 +662,7 @@
 				7B7614182D08E2A700C1F610 /* 38-Adds */,
 				9BC8DC202D0F5731008CFB87 /* 39-PythagoreanTriplesView */,
 				9BC8DC272D0F7D37008CFB87 /* 40-MultiplicationTables */,
+				7B2B71812D244CA9004550FD /* 42-MeetingPoint */,
 				9B5BF7A22D12595F000DC8B6 /* 43-WeatherSimulator */,
 				9B75196B2D13D23D00E20C08 /* 44-MathQuiz */,
 				7B11387D2D136C7600AE0BA9 /* 45-AdventCalendar */,
@@ -998,6 +1015,7 @@
 				7B11387F2D136C9000AE0BA9 /* AdventCalendarViewModel.swift in Sources */,
 				9BBB69EE2CF03326003FFFEC /* AbacusView.swift in Sources */,
 				9BA067D42D0650F20073A5B6 /* TXTViewModel.swift in Sources */,
+				7B2B71832D244CD9004550FD /* MeetingPointViewModel.swift in Sources */,
 				F1D5EDE329B6BB59004D49EA /* SwitchButton.swift in Sources */,
 				7B11388A2D13BB6D00AE0BA9 /* HundredPointWordView.swift in Sources */,
 				F1ACEC6429B9B032003C0FCE /* APIViewModel.swift in Sources */,
@@ -1045,6 +1063,7 @@
 				9B5BF7A42D12599F000DC8B6 /* WeatherSimulatorViewModel.swift in Sources */,
 				7BB035FA2CEE911B0009A40E /* AbacusViewModel.swift in Sources */,
 				9BC8DC262D0F7774008CFB87 /* PythagoreanTriplesView.swift in Sources */,
+				7B2B71882D2735EE004550FD /* MeetingPointView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1054,6 +1073,7 @@
 			files = (
 				7B5CB0A82D1F686900EB4328 /* RacingCarsViewModelTests.swift in Sources */,
 				7B0CCE892CF5387200547FF0 /* ExcelColumnViewModelTests.swift in Sources */,
+				7B2B71852D244D0A004550FD /* MeetingPointViewModelTests.swift in Sources */,
 				9BBAD4CB2CB4F2FB007180ED /* KonamiCodeViewModelTests.swift in Sources */,
 				7B1138882D13B87100AE0BA9 /* HundredPointWordViewModelTests.swift in Sources */,
 				9B64FCA62D055327004DF5CE /* TetrisMovesMock.swift in Sources */,

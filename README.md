@@ -44,6 +44,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 38 - 14/12/24 | "Adds"
 - 39 - 15/12/24 | "Pythagorean triples"
 - 40 - 15/12/24 | "Multiplication tables"
+- 42 - 09/01/25 | "Meeting point"
 - 43 - 18/12/24 | "Weather simulator"
 - 44 - 18/12/24 | "Math quiz"
 - 45 - 18/12/24 | "Advent calendar"
@@ -520,6 +521,18 @@ Crea un programa que sea capaz de solicitarte un número y se encargue de imprim
 <img src="/ChallengesImages/Challenge%2040_1.png" width="300" height="620">
 
 <img src="/ChallengesImages/Challenge%2040_2.png" width="300" height="620">
+
+
+### Meeting point
+
+Crea una función que calcule el punto de encuentro de dos objetos en movimiento en dos dimensiones.
+ - Cada objeto está compuesto por una coordenada xy y una velocidad de desplazamiento (vector de desplazamiento) por unidad de tiempo (también en formato xy).
+ - La función recibirá las coordenadas de inicio de ambos objetos y sus velocidades. tardarán en lograrlo.
+ - La función debe tener en cuenta que los objetos pueden no llegar a encontrarse.   
+
+<img src="/ChallengesImages/Challenge%2042_1.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2042_2.png" width="300" height="620">
 
 
 ### Weather simulator
