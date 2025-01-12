@@ -7,29 +7,6 @@
 
 import Foundation
 
-struct HauntedHouseRoom: Identifiable, Equatable {
-    enum RoomType {
-        case entrance
-        case exit
-        case normalRoom
-        case ghostRoom
-    }
-
-    enum RoomMoves {
-        case north
-        case south
-        case east
-        case west
-    }
-    
-    let id = UUID()
-    let type: RoomType
-    var occupied: Bool = false
-    var moves: [RoomMoves] = []
-    var question: String = ""
-    var answer: String = ""
-}
-
 final class HauntedHouseViewModel: ObservableObject {
     @Published var map: [[HauntedHouseRoom]] = []
     @Published var movementsButtons: [HauntedHouseRoom.RoomMoves] = []
@@ -40,8 +17,11 @@ final class HauntedHouseViewModel: ObservableObject {
 
     private var currentRoomPos: (Int, Int) = (0, 0)
     private var currentAnswer: String = ""
+    private var currentQuestion: Int = 0
+    private let randomizerDelegate: HauntedHouseRandomizerProtocol
 
-    init() {
+    init(delegate: HauntedHouseRandomizerProtocol = LiveHauntedHouseRandomizer()) {
+        randomizerDelegate = delegate
         createMap()
     }
 
@@ -53,62 +33,23 @@ final class HauntedHouseViewModel: ObservableObject {
     }
     
     public func createMap() {
-        var rooms = [
-            HauntedHouseRoom(type: .entrance, occupied: true),
-            HauntedHouseRoom(type: .exit)
-        ]
-
-        for _ in 0..<14 {
-            rooms.append(HauntedHouseRoom(type: getRoomType()))
-        }
-        rooms.shuffle()
-        var newMap = [[HauntedHouseRoom]]()
-        var index = 0
-        for i in 0..<4 {
-            newMap.append([])
-            for j in 0..<4 {
-                var moves: [HauntedHouseRoom.RoomMoves] = []
-                if i == 0 {
-                    moves.append(.south)
-                }
-                if i == 1 || i == 2 {
-                    moves.append(.north)
-                    moves.append(.south)
-                }
-                if i == 3 {
-                    moves.append(.north)
-                }
-                switch j {
-                case 0:
-                    moves.append(.west)
-                case 1, 2:
-                    moves.append(.east)
-                    moves.append(.west)
-                case 3:
-                    moves.append(.east)
-                default:
-                    break
-                }
-                var room = rooms[index]
-                room.moves = moves
-                let question = getQuestion(for: index)
-                room.question = question.0
-                room.answer = question.1
-                newMap[i].append(room)
-                if room.occupied {
-                    movementsButtons = room.moves
-                    currentRoomPos = (i, j)
-                    questionString = question.0
-                    currentAnswer = question.1
-                }
-                index += 1
-            }
-        }
-        self.map = newMap
+        let resultFromDelegate = randomizerDelegate.createMap()
+        map = resultFromDelegate.0
+        movementsButtons = resultFromDelegate.1
+        currentRoomPos = resultFromDelegate.2
+        questionString = resultFromDelegate.3
+        currentAnswer = resultFromDelegate.4
     }
 
     public func moveToRoom(_ move: HauntedHouseRoom.RoomMoves) {
         guard checkAnswer() else { return wrongAnswer = true }
+        if map[currentRoomPos.0][currentRoomPos.1].type == .ghostRoom {
+            guard currentQuestion != 0 else {
+                currentQuestion = 1
+                return setNewQuestion(map[currentRoomPos.0][currentRoomPos.1])
+            }
+            currentQuestion = 0
+        }
         var newPos: (Int, Int)
         switch move {
         case .north:
@@ -132,26 +73,17 @@ final class HauntedHouseViewModel: ObservableObject {
     }
 
     private func checkAnswer() -> Bool {
-        answerText.lowercased() == currentAnswer.lowercased()
-    }
-
-    private func getRoomType() -> HauntedHouseRoom.RoomType {
-        let randomNumber = Int.random(in: 0..<100)
-        return randomNumber < 10 ? .ghostRoom : .normalRoom
+        let isCorrect = answerText.lowercased() == currentAnswer.lowercased()
+        answerText = ""
+        return isCorrect
     }
 
     private func setNewQuestion(_ room: HauntedHouseRoom) {
-        questionString = room.question
-        currentAnswer = room.answer
+        questionString = room.questions[currentQuestion]
+        currentAnswer = room.answers[currentQuestion]
     }
 
     private func checkIfWin(room: HauntedHouseRoom) -> Bool {
         room.type == .exit
-    }
-}
-
-extension HauntedHouseViewModel {
-    private func getQuestion(for index: Int) -> (String, String) {
-        return ("Who?", "Me")
     }
 }

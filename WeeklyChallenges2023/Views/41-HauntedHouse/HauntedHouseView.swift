@@ -25,6 +25,8 @@ struct HauntedHouseView: View {
             TextField(text: $viewModel.answerText) {
                 Text("Answer right so you can move")
             }
+            .textFieldStyle(OvalTextFieldStyle())
+            .keyboardType(.decimalPad)
             HauntedHouseButtonsView(moves: viewModel.movementsButtons, action: viewModel.moveToRoom(_:))
         }.alert("Wrong answer", isPresented: $viewModel.wrongAnswer, actions: {
             Button {
