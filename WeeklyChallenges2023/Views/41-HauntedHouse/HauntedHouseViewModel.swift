@@ -36,11 +36,19 @@ final class HauntedHouseViewModel: ObservableObject {
     @Published var questionString: String = ""
     @Published var answerText: String = ""
     @Published var wrongAnswer: Bool = false
+    @Published var didWin: Bool = false
 
     private var currentRoomPos: (Int, Int) = (0, 0)
     private var currentAnswer: String = ""
 
     init() {
+        createMap()
+    }
+
+    public func reset() {
+        didWin = false
+        questionString = ""
+        answerText = ""
         createMap()
     }
     
@@ -115,8 +123,12 @@ final class HauntedHouseViewModel: ObservableObject {
         map[currentRoomPos.0][currentRoomPos.1].occupied = false
         map[newPos.0][newPos.1].occupied = true
         currentRoomPos = newPos
-        movementsButtons = map[currentRoomPos.0][currentRoomPos.1].moves
-        setNewQuestion(map[currentRoomPos.0][currentRoomPos.1])
+        let currentRoom = map[currentRoomPos.0][currentRoomPos.1]
+        guard !checkIfWin(room: currentRoom) else {
+            return didWin = true
+        }
+        movementsButtons = currentRoom.moves
+        setNewQuestion(currentRoom)
     }
 
     private func checkAnswer() -> Bool {
@@ -131,6 +143,10 @@ final class HauntedHouseViewModel: ObservableObject {
     private func setNewQuestion(_ room: HauntedHouseRoom) {
         questionString = room.question
         currentAnswer = room.answer
+    }
+
+    private func checkIfWin(room: HauntedHouseRoom) -> Bool {
+        room.type == .exit
     }
 }
 

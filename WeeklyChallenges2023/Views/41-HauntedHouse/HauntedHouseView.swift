@@ -36,6 +36,16 @@ struct HauntedHouseView: View {
             Text("Try again")
                 .font(.title)
         })
+        .alert("You won!", isPresented: $viewModel.didWin, actions: {
+            Button {
+                viewModel.reset()
+            } label: {
+                Text("Ok")
+            }
+        }, message: {
+            Text("Congratulations!")
+                .font(.title)
+        })
     }
 }
 
