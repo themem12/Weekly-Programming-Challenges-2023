@@ -39,7 +39,7 @@ struct ContentView: View {
         // TODO: 23 Data base
         ChallengesCells(title: "24 - Cesar Cypher", viewClass: AnyView(CesarCypherView())),
         ChallengesCells(title: "25 - Konami Code", viewClass: AnyView(KonamiCodeView())),
-        // TODO: 26 Testing
+        ChallengesCells(title: "26 - Testing", viewClass: AnyView(TestingView())),
         ChallengesCells(title: "27 - Countdown", viewClass: AnyView(CountdownView())),
         ChallengesCells(title: "28 - Math expression", viewClass: AnyView(MathExpressionView())),
         ChallengesCells(title: "29 - Infiltrated Characters", viewClass: AnyView(InfiltratedCharacterView())),
