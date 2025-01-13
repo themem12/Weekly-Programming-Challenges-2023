@@ -23,14 +23,29 @@ final class MathExpressionViewModel: ObservableObject {
     var validatorTitle: String = "Empty"
     
     private func validateExpression() {
-        print(fieldText)
         guard !fieldText.isEmpty else {
             return updateUI(.empty)
         }
-        guard fieldText != "ab" else {
+        guard validateText(text: fieldText) else {
             return updateUI(.invalid)
         }
         updateUI(.valid)
+    }
+
+    private func validateText(text: String) -> Bool {
+        let symbols = ["+", "-", "*", "/"]
+        var canContinueWithSymbol = true
+        for char in text {
+            if symbols.contains(String(char)), canContinueWithSymbol {
+                canContinueWithSymbol = false
+            } else {
+                guard let _ = Int(String(char)) else {
+                    return false
+                }
+                canContinueWithSymbol = true
+            }
+        }
+        return true
     }
     
     private func updateUI(_ state: ExpressionState) {

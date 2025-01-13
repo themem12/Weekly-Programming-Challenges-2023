@@ -13,13 +13,11 @@ struct MathExpressionView: View {
     var body: some View {
         VStack {
             TextField("Math expression", text: $viewModel.fieldText)
-                .textFieldStyle(.roundedBorder)
+                .textFieldStyle(OvalTextFieldStyle())
             BasicButton(
                 buttonTittle: viewModel.validatorTitle,
                 backgroundColor: viewModel.validatorColor
-            ) {
-                
-            }
+            ) {}
         }.padding()
     }
 }

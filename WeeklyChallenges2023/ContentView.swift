@@ -41,7 +41,7 @@ struct ContentView: View {
         ChallengesCells(title: "25 - Konami Code", viewClass: AnyView(KonamiCodeView())),
         // TODO: 26 Testing
         ChallengesCells(title: "27 - Countdown", viewClass: AnyView(CountdownView())),
-        // TODO: 28 ???
+        ChallengesCells(title: "28 - Math expression", viewClass: AnyView(MathExpressionView())),
         ChallengesCells(title: "29 - Infiltrated Characters", viewClass: AnyView(InfiltratedCharacterView())),
         ChallengesCells(title: "30 - T9 Keyboard", viewClass: AnyView(T9KeyboardView())),
         ChallengesCells(title: "31 - Abacus", viewClass: AnyView(AbacusView())),

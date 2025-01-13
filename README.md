@@ -32,6 +32,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 25 - 07/10/24 | "Konami Code"
 - 26 - 07/10/24 | "Testing"
 - 27 - 21/10/24 | "Countdown"
+- 28 - 12/01/25 | "Math Expression"
 - 29 - 02/11/24 | "Infiltrated Characters"
 - 30 - 10/11/24 | "T9 Keyboard"
 - 31 - 25/11/24 | "Abacus"
@@ -354,6 +355,20 @@ Crea una función que reciba dos parámetros para crear una cuenta atrás.
 <img src="/ChallengesImages/Challenge%2027_1.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2027_2.png" width="300" height="620">
 <img src="/ChallengesImages/Challenge%2027_3.png" width="300" height="620">
+
+
+### Math Expression
+
+Crea una función que reciba una expresión matemática (String) y compruebe si es correcta. Retornará true o false.
+ - Para que una expresión matemática sea correcta debe poseer un número, una operación y otro número separados por espacios. Tantos números y operaciones como queramos.
+ - Números positivos, negativos, enteros o decimales.
+ - Operaciones soportadas: + - * / % 
+
+<img src="/ChallengesImages/Challenge%2028_1.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2028_2.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2028_3.png" width="300" height="620">
+<img src="/ChallengesImages/Challenge%2028_4.png" width="300" height="620">
+
 
 ### Infiltrated Characters
 
