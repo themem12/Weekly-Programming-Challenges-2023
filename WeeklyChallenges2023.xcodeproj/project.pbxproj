@@ -53,6 +53,7 @@
 		9B54E0442D347FFA003D6F0A /* HauntedHouseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54E0432D347FEC003D6F0A /* HauntedHouseModels.swift */; };
 		9B54E0462D34986F003D6F0A /* MockHauntedHouseRandomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54E0452D34986C003D6F0A /* MockHauntedHouseRandomizer.swift */; };
 		9B54E0492D34C7C2003D6F0A /* MathExpressionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54E0482D34C7C2003D6F0A /* MathExpressionViewModelTests.swift */; };
+		9B54E04C2D34CD9C003D6F0A /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54E04B2D34CD9C003D6F0A /* TestingView.swift */; };
 		9B56F0792D054EEF0065440C /* TetrisViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56F0782D054EEE0065440C /* TetrisViewModelTests.swift */; };
 		9B5BF7A42D12599F000DC8B6 /* WeatherSimulatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BF7A32D12599F000DC8B6 /* WeatherSimulatorViewModel.swift */; };
 		9B5BF7A62D12A0E6000DC8B6 /* WeatherSimulatorViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BF7A52D12A0E6000DC8B6 /* WeatherSimulatorViewModelTests.swift */; };
@@ -195,6 +196,7 @@
 		9B54E0432D347FEC003D6F0A /* HauntedHouseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HauntedHouseModels.swift; sourceTree = "<group>"; };
 		9B54E0452D34986C003D6F0A /* MockHauntedHouseRandomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHauntedHouseRandomizer.swift; sourceTree = "<group>"; };
 		9B54E0482D34C7C2003D6F0A /* MathExpressionViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathExpressionViewModelTests.swift; sourceTree = "<group>"; };
+		9B54E04B2D34CD9C003D6F0A /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
 		9B56F0782D054EEE0065440C /* TetrisViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisViewModelTests.swift; sourceTree = "<group>"; };
 		9B5BF7A32D12599F000DC8B6 /* WeatherSimulatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSimulatorViewModel.swift; sourceTree = "<group>"; };
 		9B5BF7A52D12A0E6000DC8B6 /* WeatherSimulatorViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSimulatorViewModelTests.swift; sourceTree = "<group>"; };
@@ -508,6 +510,14 @@
 			path = "12-Viernes13";
 			sourceTree = "<group>";
 		};
+		9B54E04A2D34CD85003D6F0A /* 26-Testing */ = {
+			isa = PBXGroup;
+			children = (
+				9B54E04B2D34CD9C003D6F0A /* TestingView.swift */,
+			);
+			path = "26-Testing";
+			sourceTree = "<group>";
+		};
 		9B5BF7A22D12595F000DC8B6 /* 43-WeatherSimulator */ = {
 			isa = PBXGroup;
 			children = (
@@ -677,6 +687,7 @@
 				9B0C68BB2A29938500BD4608 /* 22-Spiral */,
 				9B9D92702A3C44BE00CA2A31 /* 24-CesarCypher */,
 				9BFB3B602CB262BD009966F1 /* 25-KonamiCode */,
+				9B54E04A2D34CD85003D6F0A /* 26-Testing */,
 				9BBAD4CC2CB4F8CD007180ED /* 27-Countdown */,
 				9BA0F60E2CDB0072005485D5 /* 28-MathExpression */,
 				9BE5B4142CD7258F007300ED /* 29-InfiltratedCharacter */,
@@ -1005,6 +1016,7 @@
 				9BE5B4162CD725B3007300ED /* InfiltratedCharacterView.swift in Sources */,
 				9B54E0442D347FFA003D6F0A /* HauntedHouseModels.swift in Sources */,
 				9BE5B41A2CD72A5E007300ED /* InfiltratedCharacterViewModel.swift in Sources */,
+				9B54E04C2D34CD9C003D6F0A /* TestingView.swift in Sources */,
 				9B9D92742A3C459900CA2A31 /* CesarCypherViewModel.swift in Sources */,
 				9BF72A3329E684230046FF82 /* WordList.swift in Sources */,
 				9BE5B4242CD738F7007300ED /* T9KeyboardView.swift in Sources */,

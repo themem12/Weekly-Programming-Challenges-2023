@@ -336,12 +336,12 @@ Si sucede esto, debe notificarse mostrando un mensaje en la terminal.
 
 ### Testing
 
-Crea tres test sobre el reto 12: "Viernes 13".
- - Puedes copiar una solución ya creada por otro usuario en el lenguaje que estés utilizando.
+Crea Tests para todos los Challenges.
  - Debes emplear un mecanismo de ejecución de test que posea el lenguaje de programación que hayas seleccionado.
- - Los tres test deben de funcionar y comprobar diferentes situaciones (a tu elección).
+ - Haz tests para la lógica de cada Challenge.
 
-<img src="/ChallengesImages/Challenge%2026.png" width="600" height="250">
+<img src="/ChallengesImages/Challenge%2026_1.png" width="600" height="250">
+<img src="/ChallengesImages/Challenge%2026_2.png" width="600" height="250">
 
 ### Countdown
 
