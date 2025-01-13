@@ -52,6 +52,7 @@
 		9B54E0422D347FA8003D6F0A /* LiveHauntedHouseRandomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54E0412D347FA3003D6F0A /* LiveHauntedHouseRandomizer.swift */; };
 		9B54E0442D347FFA003D6F0A /* HauntedHouseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54E0432D347FEC003D6F0A /* HauntedHouseModels.swift */; };
 		9B54E0462D34986F003D6F0A /* MockHauntedHouseRandomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54E0452D34986C003D6F0A /* MockHauntedHouseRandomizer.swift */; };
+		9B54E0492D34C7C2003D6F0A /* MathExpressionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54E0482D34C7C2003D6F0A /* MathExpressionViewModelTests.swift */; };
 		9B56F0792D054EEF0065440C /* TetrisViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56F0782D054EEE0065440C /* TetrisViewModelTests.swift */; };
 		9B5BF7A42D12599F000DC8B6 /* WeatherSimulatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BF7A32D12599F000DC8B6 /* WeatherSimulatorViewModel.swift */; };
 		9B5BF7A62D12A0E6000DC8B6 /* WeatherSimulatorViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BF7A52D12A0E6000DC8B6 /* WeatherSimulatorViewModelTests.swift */; };
@@ -193,6 +194,7 @@
 		9B54E0412D347FA3003D6F0A /* LiveHauntedHouseRandomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveHauntedHouseRandomizer.swift; sourceTree = "<group>"; };
 		9B54E0432D347FEC003D6F0A /* HauntedHouseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HauntedHouseModels.swift; sourceTree = "<group>"; };
 		9B54E0452D34986C003D6F0A /* MockHauntedHouseRandomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHauntedHouseRandomizer.swift; sourceTree = "<group>"; };
+		9B54E0482D34C7C2003D6F0A /* MathExpressionViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathExpressionViewModelTests.swift; sourceTree = "<group>"; };
 		9B56F0782D054EEE0065440C /* TetrisViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisViewModelTests.swift; sourceTree = "<group>"; };
 		9B5BF7A32D12599F000DC8B6 /* WeatherSimulatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSimulatorViewModel.swift; sourceTree = "<group>"; };
 		9B5BF7A52D12A0E6000DC8B6 /* WeatherSimulatorViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSimulatorViewModelTests.swift; sourceTree = "<group>"; };
@@ -595,13 +597,13 @@
 			path = "34-TXT";
 			sourceTree = "<group>";
 		};
-		9BA0F60E2CDB0072005485D5 /* MathExpression */ = {
+		9BA0F60E2CDB0072005485D5 /* 28-MathExpression */ = {
 			isa = PBXGroup;
 			children = (
 				9BA0F60C2CDB0072005485D5 /* MathExpressionView.swift */,
 				9BA0F60D2CDB0072005485D5 /* MathExpressionViewModel.swift */,
 			);
-			path = MathExpression;
+			path = "28-MathExpression";
 			sourceTree = "<group>";
 		};
 		9BA899B62A1DE2A500972307 /* 19-TextAnalysis */ = {
@@ -633,6 +635,7 @@
 				9B16785D2D1540A00023D876 /* HauntedHouseViewModelTests.swift */,
 				7B5CB0A72D1F686900EB4328 /* RacingCarsViewModelTests.swift */,
 				7B2B71842D244D0A004550FD /* MeetingPointViewModelTests.swift */,
+				9B54E0482D34C7C2003D6F0A /* MathExpressionViewModelTests.swift */,
 			);
 			path = WeeklyChallenges2023Tests;
 			sourceTree = "<group>";
@@ -675,6 +678,7 @@
 				9B9D92702A3C44BE00CA2A31 /* 24-CesarCypher */,
 				9BFB3B602CB262BD009966F1 /* 25-KonamiCode */,
 				9BBAD4CC2CB4F8CD007180ED /* 27-Countdown */,
+				9BA0F60E2CDB0072005485D5 /* 28-MathExpression */,
 				9BE5B4142CD7258F007300ED /* 29-InfiltratedCharacter */,
 				9BE5B4202CD735FA007300ED /* 30-T9Keyboard */,
 				7BB035F82CEE91070009A40E /* 31-Abacus */,
@@ -694,7 +698,6 @@
 				7B11387D2D136C7600AE0BA9 /* 45-AdventCalendar */,
 				7B5CB0A42D1F627700EB4328 /* 46-RacingCars */,
 				7B1138842D137C6300AE0BA9 /* 47-HundredPointsWord */,
-				9BA0F60E2CDB0072005485D5 /* MathExpression */,
 				9B7BD3D52CC731F200F4D0DA /* UIExamples */,
 			);
 			path = Views;
@@ -1104,6 +1107,7 @@
 				7B5CB0A82D1F686900EB4328 /* RacingCarsViewModelTests.swift in Sources */,
 				7B0CCE892CF5387200547FF0 /* ExcelColumnViewModelTests.swift in Sources */,
 				7B2B71852D244D0A004550FD /* MeetingPointViewModelTests.swift in Sources */,
+				9B54E0492D34C7C2003D6F0A /* MathExpressionViewModelTests.swift in Sources */,
 				9BBAD4CB2CB4F2FB007180ED /* KonamiCodeViewModelTests.swift in Sources */,
 				7B1138882D13B87100AE0BA9 /* HundredPointWordViewModelTests.swift in Sources */,
 				9B64FCA62D055327004DF5CE /* TetrisMovesMock.swift in Sources */,
