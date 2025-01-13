@@ -44,6 +44,7 @@ The complete project is made with MVVM pattern and SwiftUI.
 - 38 - 14/12/24 | "Adds"
 - 39 - 15/12/24 | "Pythagorean triples"
 - 40 - 15/12/24 | "Multiplication tables"
+- 41 - 12/01/24 | "Haunted house"
 - 42 - 09/01/25 | "Meeting point"
 - 43 - 18/12/24 | "Weather simulator"
 - 44 - 18/12/24 | "Math quiz"
@@ -521,6 +522,28 @@ Crea un programa que sea capaz de solicitarte un número y se encargue de imprim
 <img src="/ChallengesImages/Challenge%2040_1.png" width="300" height="620">
 
 <img src="/ChallengesImages/Challenge%2040_2.png" width="300" height="620">
+
+
+### Haunted house
+
+Este es un reto especial por Halloween.
+Te encuentras explorando una mansión abandonada llena de habitaciones.
+En cada habitación tendrás que resolver un acertijo para poder avanzar a la siguiente.
+Tu misión es encontrar la habitación de los dulces.
+
+Se trata de implementar un juego interactivo de preguntas y respuestas por terminal. (Tienes total libertad para ser creativo con los textos)
+
+- 🏰 Casa: La mansión se corresponde con una estructura cuadrada 4 x 4 que deberás modelar. Las habitaciones de puerta y dulces no tienen enigma. (16 habitaciones, siendo una de entrada y otra donde están los dulces)
+- ❓ Enigmas: Cada habitación propone un enigma aleatorio que deberás responder con texto. Si no lo aciertas no podrás desplazarte.
+- 🧭 Movimiento: Si resuelves el enigma se te preguntará a donde quieres desplazarte. (Ejemplo: norte/sur/este/oeste. Sólo deben proporcionarse las opciones posibles)
+- 🍭 Salida: Sales de la casa si encuentras la habitación de los dulces.
+- 👻 (Bonus) Fantasmas: Existe un 10% de que en una habitación aparezca un fantasma y tengas que responder dos preguntas para salir de ella.
+
+<img src="/ChallengesImages/Challenge%2041_1.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2041_2.png" width="300" height="620">
+
+<img src="/ChallengesImages/Challenge%2041_3.png" width="300" height="620">
 
 
 ### Meeting point
