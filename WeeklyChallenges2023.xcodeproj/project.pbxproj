@@ -51,6 +51,7 @@
 		9B4BC2F629CE8EA9005BE1D8 /* FridayThirteenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BC2F529CE8EA9005BE1D8 /* FridayThirteenViewModel.swift */; };
 		9B54E0422D347FA8003D6F0A /* LiveHauntedHouseRandomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54E0412D347FA3003D6F0A /* LiveHauntedHouseRandomizer.swift */; };
 		9B54E0442D347FFA003D6F0A /* HauntedHouseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54E0432D347FEC003D6F0A /* HauntedHouseModels.swift */; };
+		9B54E0462D34986F003D6F0A /* MockHauntedHouseRandomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54E0452D34986C003D6F0A /* MockHauntedHouseRandomizer.swift */; };
 		9B56F0792D054EEF0065440C /* TetrisViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56F0782D054EEE0065440C /* TetrisViewModelTests.swift */; };
 		9B5BF7A42D12599F000DC8B6 /* WeatherSimulatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BF7A32D12599F000DC8B6 /* WeatherSimulatorViewModel.swift */; };
 		9B5BF7A62D12A0E6000DC8B6 /* WeatherSimulatorViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5BF7A52D12A0E6000DC8B6 /* WeatherSimulatorViewModelTests.swift */; };
@@ -191,6 +192,7 @@
 		9B4BC2F529CE8EA9005BE1D8 /* FridayThirteenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridayThirteenViewModel.swift; sourceTree = "<group>"; };
 		9B54E0412D347FA3003D6F0A /* LiveHauntedHouseRandomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveHauntedHouseRandomizer.swift; sourceTree = "<group>"; };
 		9B54E0432D347FEC003D6F0A /* HauntedHouseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HauntedHouseModels.swift; sourceTree = "<group>"; };
+		9B54E0452D34986C003D6F0A /* MockHauntedHouseRandomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHauntedHouseRandomizer.swift; sourceTree = "<group>"; };
 		9B56F0782D054EEE0065440C /* TetrisViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisViewModelTests.swift; sourceTree = "<group>"; };
 		9B5BF7A32D12599F000DC8B6 /* WeatherSimulatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSimulatorViewModel.swift; sourceTree = "<group>"; };
 		9B5BF7A52D12A0E6000DC8B6 /* WeatherSimulatorViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSimulatorViewModelTests.swift; sourceTree = "<group>"; };
@@ -524,6 +526,7 @@
 		9B64FCA42D05530E004DF5CE /* TestsMocks */ = {
 			isa = PBXGroup;
 			children = (
+				9B54E0452D34986C003D6F0A /* MockHauntedHouseRandomizer.swift */,
 				9B64FCA52D05531B004DF5CE /* TetrisMovesMock.swift */,
 			);
 			path = TestsMocks;
@@ -1115,6 +1118,7 @@
 				9BC8DC2B2D0F7E44008CFB87 /* MultiplicationTablesViewModelTests.swift in Sources */,
 				9B5BF7A62D12A0E6000DC8B6 /* WeatherSimulatorViewModelTests.swift in Sources */,
 				9BC8DC242D0F579F008CFB87 /* PythagoreanTriplesViewModelTests.swift in Sources */,
+				9B54E0462D34986F003D6F0A /* MockHauntedHouseRandomizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
