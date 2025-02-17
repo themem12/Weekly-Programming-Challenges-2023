@@ -4,54 +4,54 @@ Project for MoureDev Weekly Programming Challenges 2023 [MoureDev github](https:
 
 The complete project is made with MVVM pattern and SwiftUI.
 
-- 0  - 26/12/22 | "FIZZ BUZZ"
-- 1  - 02/01/23 | "Hacker languaje"
-- 2  - 09/01/23 | "Tennis game"
-- 3  - 16/01/23 | "Password generator"
-- 4  - 23/01/23 | "Prime, Fibonacci and Pair"
-- 5  - 30/01/23 | "Hello world"
-- 6  - 06/02/23 | "Stone, Paper, Scissors, Lizard, Spock"
-- 7  - 13/02/23 | "Sorting hat"
-- 8  - 20/02/23 | "Pseudorandom"
-- 9  - 27/02/23 | "Hetero, Iso, Pan Grama"
-- 10 - 06/03/23 | "API"
-- 11 - 13/03/23 | "URL Params"
-- 12 - 20/03/23 | "Viernes 13"
-- 13 - 27/03/23 | "Adivina la palabra"
-- 14 - 03/04/23 | "Octal y Hexadecimal"
-- 15 - 10/04/23 | "Aurebesh"
-- 16 - 17/04/23 | "La escalera"
-- 17 - 24/04/23 | "GIT & GITHUB "
-- 18 - 01/05/23 | "WEB SCRAPING "
-- 19 - 11/05/23 | "Text Analysis"
-- 20 - 15/05/23 | "Triforce"
-- 21 - 22/05/23 | "Prime Twin numbers"
-- 22 - 29/05/23 | "Spiral"
-- 23 - 12/06/23 | "Data base"
-- 24 - 19/06/23 | "Cesar Cypher"
-- 25 - 07/10/24 | "Konami Code"
-- 26 - 07/10/24 | "Testing"
-- 27 - 21/10/24 | "Countdown"
-- 28 - 12/01/25 | "Math Expression"
-- 29 - 02/11/24 | "Infiltrated Characters"
-- 30 - 10/11/24 | "T9 Keyboard"
-- 31 - 25/11/24 | "Abacus"
-- 32 - 25/11/24 | "Excel column number"
-- 33 - 07/12/24 | "Tetris"
-- 34 - 08/12/24 | "TXT"
-- 35 - 09/12/24 | "First steps"
-- 36 - 14/12/24 | "Permutations"
-- 37 - 10/12/24 | "Color converter"
-- 38 - 14/12/24 | "Adds"
-- 39 - 15/12/24 | "Pythagorean triples"
-- 40 - 15/12/24 | "Multiplication tables"
-- 41 - 12/01/24 | "Haunted house"
-- 42 - 09/01/25 | "Meeting point"
-- 43 - 18/12/24 | "Weather simulator"
-- 44 - 18/12/24 | "Math quiz"
-- 45 - 18/12/24 | "Advent calendar"
-- 46 - 27/12/24 | "Racing cars"
-- 47 - 18/12/24 | "Hundred points word"
+- 0  - 26/12/22 | [FIZZ BUZZ](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/0-FizzBuzz)
+- 1  - 02/01/23 | [Hacker languaje](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/1-L33t)
+- 2  - 09/01/23 | [Tennis game](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/2-TennisGame)
+- 3  - 16/01/23 | [Password generator](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/3-PasswordGenerator)
+- 4  - 23/01/23 | [Prime, Fibonacci and Pair](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/4-PrimeFibonachiPair)
+- 5  - 30/01/23 | [Hello world](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/5-HolaMundo)
+- 6  - 06/02/23 | [Stone, Paper, Scissors, Lizard, Spock](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/6-RPSLS)
+- 7  - 13/02/23 | [Sorting hat](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/7-SortingHat)
+- 8  - 20/02/23 | [Pseudorandom](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/8-Pseudorandom)
+- 9  - 27/02/23 | [Hetero, Iso, Pan Grama](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/9-Hete-Iso-Pan%20grama)
+- 10 - 06/03/23 | [API](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/10-API)
+- 11 - 13/03/23 | [URL Params](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/11-URLParams)
+- 12 - 20/03/23 | [Viernes 13](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/12-Viernes13)
+- 13 - 27/03/23 | [Adivina la palabra](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/13-WordGuess)
+- 14 - 03/04/23 | [Octal y Hexadecimal](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/14-DecimalConversion)
+- 15 - 10/04/23 | [Aurebesh](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/15-AurebeshTranslator)
+- 16 - 17/04/23 | [La escalera](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/16-Ladder)
+- 17 - 24/04/23 | [GIT & GITHUB](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/17-GitCommits)
+- 18 - 01/05/23 | [WEB SCRAPING](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/18-Web%20Scraping)
+- 19 - 11/05/23 | [Text Analysis](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/19-TextAnalysis)
+- 20 - 15/05/23 | [Triforce](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/20-Triforce)
+- 21 - 22/05/23 | [Prime Twin numbers](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/21-PrimeTwinsNumbers)
+- 22 - 29/05/23 | [Spiral](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/22-Spiral)
+- 23 - 12/06/23 | [Data base](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/23-DataBase)
+- 24 - 19/06/23 | [Cesar Cypher](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/24-CesarCypher)
+- 25 - 07/10/24 | [Konami Code](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/25-KonamiCode)
+- 26 - 07/10/24 | [Testing](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/26-Testing)
+- 27 - 21/10/24 | [Countdown](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/27-Countdown)
+- 28 - 12/01/25 | [Math Expression](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/28-MathExpression)
+- 29 - 02/11/24 | [Infiltrated Characters](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/29-InfiltratedCharacter)
+- 30 - 10/11/24 | [T9 Keyboard](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/30-T9Keyboard)
+- 31 - 25/11/24 | [Abacus](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/31-Abacus)
+- 32 - 25/11/24 | [Excel column number](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/32-ExcelColumn)
+- 33 - 07/12/24 | [Tetris](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/33-Tetris)
+- 34 - 08/12/24 | [TXT](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/34-TXT)
+- 35 - 09/12/24 | [First steps](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/35-FirstSteps)
+- 36 - 14/12/24 | [Permutations](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/36-Permutations)
+- 37 - 10/12/24 | [Color converter](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/37-Colors)
+- 38 - 14/12/24 | [Adds](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/38-Adds)
+- 39 - 15/12/24 | [Pythagorean triples](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/39-PythagoreanTables)
+- 40 - 15/12/24 | [Multiplication tables](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/40-MultiplicationTables)
+- 41 - 12/01/24 | [Haunted house](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/41-HauntedHouse)
+- 42 - 09/01/25 | [Meeting point](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/42-MeetingPoint)
+- 43 - 18/12/24 | [Weather simulator](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/43-WeatherSimulator)
+- 44 - 18/12/24 | [Math quiz](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/44-MathQuiz)
+- 45 - 18/12/24 | [Advent calendar](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/45-AdventCalendar)
+- 46 - 27/12/24 | [Racing cars](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/46-RacingCars)
+- 47 - 18/12/24 | [Hundred points word](https://github.com/themem12/Weekly-Programming-Challenges-2023/tree/CHORE/update-documentation/WeeklyChallenges2023/Views/47-HundredPointsWord)
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
