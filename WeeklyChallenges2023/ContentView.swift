@@ -18,7 +18,7 @@ struct ContentView: View {
         ChallengesCells(title: "2 - Tennis game", viewClass: AnyView(TennisGameView())),
         ChallengesCells(title: "3  - Password Generator", viewClass: AnyView(PassWordGeneratorView())),
         ChallengesCells(title: "4 - Prime Fibonachi or Pair", viewClass: AnyView(PrimeFibonachiPairView())),
-        ChallengesCells(title: "5 - Hola Mundo", viewClass: AnyView(HolaMundoView())),
+        ChallengesCells(title: "5 - Hello World", viewClass: AnyView(HelloWorldView())),
         ChallengesCells(title: "6 - Rock Paper Sissors Lizard Spock", viewClass: AnyView(RPSLSView())),
         ChallengesCells(title: "7 - Sorting Hat", viewClass: AnyView(SortingHatView())),
         ChallengesCells(title: "8 - Pseudorandom", viewClass: AnyView(Pseudorandom())),
