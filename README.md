@@ -55,43 +55,6 @@ The complete project is made with MVVM pattern and SwiftUI.
 
 <img src="/ChallengesImages/0%20MainMenu.png" width="300" height="620">
 
-### URL Params
-
-Dada una URL con parámetros, crea una función que obtenga sus valores.
-No se pueden usar operaciones del lenguaje que realicen esta tarea directamente.
-
-Ejemplo: En la url https://retosdeprogramacion.com?year=2023&challenge=0
-los parámetros serían ["2023", "0"]
-
-<img src="/ChallengesImages/Challenge%2011_1.png" width="300" height="620">
-<img src="/ChallengesImages/Challenge%2011_2.png" width="300" height="620">
-
-### Viernes 13
-
-Crea una función que sea capaz de detectar si existe un viernes 13 en el mes y el año indicados.
-La función recibirá el mes y el año y retornará verdadero o falso.
-
-<img src="/ChallengesImages/Challenge%2012_1.png" width="300" height="620">
-<img src="/ChallengesImages/Challenge%2012_2.png" width="300" height="620">
-<img src="/ChallengesImages/Challenge%2012_3.png" width="300" height="620">
-
-### Adivina la palabra
-
-Crea un pequeño juego que consista en adivinar palabras en un número máximo de intentos:
- - El juego comienza proponiendo una palabra aleatoria incompleta
- - Por ejemplo "m_ur_d_v", y el número de intentos que le quedan
- - El usuario puede introducir únicamente una letra o una palabra (de la misma longitud que la palabra a adivinar)
- - Si escribe una letra y acierta, se muestra esa letra en la palabra. Si falla, se resta uno al número de intentos
- - Si escribe una resolución y acierta, finaliza el juego, en caso contrario, se resta uno al número de intentos
- - Si el contador de intentos llega a 0, el jugador pierde
- - La palabra debe ocultar de forma aleatoria letras, y nunca puede comenzar ocultando más del 60%
- - Puedes utilizar las palabras que quieras y el número de intentos que consideres
-
-<img src="/ChallengesImages/Challenge%2013_1.png" width="300" height="620">
-<img src="/ChallengesImages/Challenge%2013_2.png" width="300" height="620">
-<img src="/ChallengesImages/Challenge%2013_3.png" width="300" height="620">
-
-
 ### Octal y Hexadecimal
 
 Crea una función que reciba un número entero y lo trasforme a Octal y Hexadecimal.
