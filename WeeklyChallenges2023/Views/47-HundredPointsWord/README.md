@@ -1,6 +1,7 @@
 # Challenge 47 - Hundred points word
 
 Write a program that calculates the points of a word.
+
 - Each letter has a value assigned. For example, in the Spanish alphabet of 27 letters, A is worth 1 and Z is 27.
 - The program shows the point value of each word entered.
 - The program ends if you manage to enter a 100-point word.

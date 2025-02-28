@@ -1,6 +1,6 @@
 # Challenge 34 - TXT 
 
-Create a program capable of interacting with a TXT file.
+Write a program capable of interacting with a TXT file.
 
 - If it does not exist, you must create a file called "text.txt".
 - From the program you should be able to enter text through the console and save it on a new line each time the "Enter" button is pressed.
