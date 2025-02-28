@@ -1,6 +1,7 @@
 # Challenge 13 - Word guess
 
 Write a program that lets the user guess words in a maximum number of tries:
+
 - The game starts showing an incomplete random word
 - For example "m_ur_d_v" and the number of tries remaining
 - The user only can write a letter or a word (from the same lenght of the word to guess)
