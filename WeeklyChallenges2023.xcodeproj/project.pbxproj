@@ -68,6 +68,10 @@
 		9B8E09622CC728F0008DF02D /* BasicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E09612CC728F0008DF02D /* BasicButton.swift */; };
 		9B9414BF29E927760080AF4F /* DecimalConversionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9414BE29E927760080AF4F /* DecimalConversionViewModel.swift */; };
 		9B9414C129E92AD20080AF4F /* DecimalConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9414C029E92AD20080AF4F /* DecimalConversionView.swift */; };
+		9B998FBE2D7172D300827817 /* InlineSnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 9B998FBD2D7172D300827817 /* InlineSnapshotTesting */; };
+		9B998FC02D7172D300827817 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 9B998FBF2D7172D300827817 /* SnapshotTesting */; };
+		9B998FC22D7172D300827817 /* SnapshotTestingCustomDump in Frameworks */ = {isa = PBXBuildFile; productRef = 9B998FC12D7172D300827817 /* SnapshotTestingCustomDump */; };
+		9B998FC52D71733000827817 /* L33tSnapshotTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B998FC42D71733000827817 /* L33tSnapshotTest.swift */; };
 		9B9D57CE2CB31881009ABA52 /* KonamiCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D57CD2CB31881009ABA52 /* KonamiCodeViewModel.swift */; };
 		9B9D92722A3C44D700CA2A31 /* CesarCypherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D92712A3C44D700CA2A31 /* CesarCypherView.swift */; };
 		9B9D92742A3C459900CA2A31 /* CesarCypherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D92732A3C459900CA2A31 /* CesarCypherViewModel.swift */; };
@@ -211,6 +215,8 @@
 		9B8E09612CC728F0008DF02D /* BasicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButton.swift; sourceTree = "<group>"; };
 		9B9414BE29E927760080AF4F /* DecimalConversionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalConversionViewModel.swift; sourceTree = "<group>"; };
 		9B9414C029E92AD20080AF4F /* DecimalConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalConversionView.swift; sourceTree = "<group>"; };
+		9B998FC42D71733000827817 /* L33tSnapshotTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L33tSnapshotTest.swift; sourceTree = "<group>"; };
+		9B998FC82D717D0700827817 /* UnitTesting.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UnitTesting.xctestplan; sourceTree = "<group>"; };
 		9B9D57CD2CB31881009ABA52 /* KonamiCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonamiCodeViewModel.swift; sourceTree = "<group>"; };
 		9B9D92712A3C44D700CA2A31 /* CesarCypherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CesarCypherView.swift; sourceTree = "<group>"; };
 		9B9D92732A3C459900CA2A31 /* CesarCypherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CesarCypherViewModel.swift; sourceTree = "<group>"; };
@@ -292,6 +298,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B998FC22D7172D300827817 /* SnapshotTestingCustomDump in Frameworks */,
+				9B998FBE2D7172D300827817 /* InlineSnapshotTesting in Frameworks */,
+				9B998FC02D7172D300827817 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +310,7 @@
 		3A19600B295E4B1600CB283B = {
 			isa = PBXGroup;
 			children = (
+				9B998FC82D717D0700827817 /* UnitTesting.xctestplan */,
 				3A196016295E4B1600CB283B /* WeeklyChallenges2023 */,
 				9BBAD4C22CB4F2CC007180ED /* WeeklyChallenges2023Tests */,
 				3A196015295E4B1600CB283B /* Products */,
@@ -582,6 +592,38 @@
 			path = "14-DecimalConversion";
 			sourceTree = "<group>";
 		};
+		9B998FC32D7172F200827817 /* SnapshotTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B998FC42D71733000827817 /* L33tSnapshotTest.swift */,
+			);
+			path = SnapshotTests;
+			sourceTree = "<group>";
+		};
+		9B998FC62D71734D00827817 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BBAD4C32CB4F2CC007180ED /* WeeklyChallenges2023Tests.swift */,
+				9BBAD4CA2CB4F2FB007180ED /* KonamiCodeViewModelTests.swift */,
+				7B0CCE882CF5387200547FF0 /* ExcelColumnViewModelTests.swift */,
+				9B56F0782D054EEE0065440C /* TetrisViewModelTests.swift */,
+				9BA067D82D0658550073A5B6 /* TXTViewModelTests.swift */,
+				9BDCFAD22D07E6AC00442F6B /* PermutationsViewModelTests.swift */,
+				7B7614142D08D1E800C1F610 /* ColorsViewModelTests.swift */,
+				7B76141B2D0C942D00C1F610 /* AddsViewModelTests.swift */,
+				9BC8DC232D0F579F008CFB87 /* PythagoreanTriplesViewModelTests.swift */,
+				9BC8DC2A2D0F7E44008CFB87 /* MultiplicationTablesViewModelTests.swift */,
+				9B5BF7A52D12A0E6000DC8B6 /* WeatherSimulatorViewModelTests.swift */,
+				7B1138802D136E9300AE0BA9 /* AdventCalendarViewModelTests.swift */,
+				7B1138872D13B87100AE0BA9 /* HundredPointWordViewModelTests.swift */,
+				9B16785D2D1540A00023D876 /* HauntedHouseViewModelTests.swift */,
+				7B5CB0A72D1F686900EB4328 /* RacingCarsViewModelTests.swift */,
+				7B2B71842D244D0A004550FD /* MeetingPointViewModelTests.swift */,
+				9B54E0482D34C7C2003D6F0A /* MathExpressionViewModelTests.swift */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
 		9B9D92702A3C44BE00CA2A31 /* 24-CesarCypher */ = {
 			isa = PBXGroup;
 			children = (
@@ -621,24 +663,9 @@
 		9BBAD4C22CB4F2CC007180ED /* WeeklyChallenges2023Tests */ = {
 			isa = PBXGroup;
 			children = (
+				9B998FC62D71734D00827817 /* UnitTests */,
+				9B998FC32D7172F200827817 /* SnapshotTests */,
 				9B64FCA42D05530E004DF5CE /* TestsMocks */,
-				9BBAD4C32CB4F2CC007180ED /* WeeklyChallenges2023Tests.swift */,
-				9BBAD4CA2CB4F2FB007180ED /* KonamiCodeViewModelTests.swift */,
-				7B0CCE882CF5387200547FF0 /* ExcelColumnViewModelTests.swift */,
-				9B56F0782D054EEE0065440C /* TetrisViewModelTests.swift */,
-				9BA067D82D0658550073A5B6 /* TXTViewModelTests.swift */,
-				9BDCFAD22D07E6AC00442F6B /* PermutationsViewModelTests.swift */,
-				7B7614142D08D1E800C1F610 /* ColorsViewModelTests.swift */,
-				7B76141B2D0C942D00C1F610 /* AddsViewModelTests.swift */,
-				9BC8DC232D0F579F008CFB87 /* PythagoreanTriplesViewModelTests.swift */,
-				9BC8DC2A2D0F7E44008CFB87 /* MultiplicationTablesViewModelTests.swift */,
-				9B5BF7A52D12A0E6000DC8B6 /* WeatherSimulatorViewModelTests.swift */,
-				7B1138802D136E9300AE0BA9 /* AdventCalendarViewModelTests.swift */,
-				7B1138872D13B87100AE0BA9 /* HundredPointWordViewModelTests.swift */,
-				9B16785D2D1540A00023D876 /* HauntedHouseViewModelTests.swift */,
-				7B5CB0A72D1F686900EB4328 /* RacingCarsViewModelTests.swift */,
-				7B2B71842D244D0A004550FD /* MeetingPointViewModelTests.swift */,
-				9B54E0482D34C7C2003D6F0A /* MathExpressionViewModelTests.swift */,
 			);
 			path = WeeklyChallenges2023Tests;
 			sourceTree = "<group>";
@@ -974,6 +1001,9 @@
 				Base,
 			);
 			mainGroup = 3A19600B295E4B1600CB283B;
+			packageReferences = (
+				9B998FBC2D7172D300827817 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = 3A196015295E4B1600CB283B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1130,6 +1160,7 @@
 				9BBAD4C42CB4F2CC007180ED /* WeeklyChallenges2023Tests.swift in Sources */,
 				9B16785E2D1540A00023D876 /* HauntedHouseViewModelTests.swift in Sources */,
 				7B7614152D08D1E800C1F610 /* ColorsViewModelTests.swift in Sources */,
+				9B998FC52D71733000827817 /* L33tSnapshotTest.swift in Sources */,
 				7B76141C2D0C942D00C1F610 /* AddsViewModelTests.swift in Sources */,
 				9B56F0792D054EEF0065440C /* TetrisViewModelTests.swift in Sources */,
 				9BDCFAD32D07E6AC00442F6B /* PermutationsViewModelTests.swift in Sources */,
@@ -1410,6 +1441,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9B998FBC2D7172D300827817 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.18.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9B998FBD2D7172D300827817 /* InlineSnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B998FBC2D7172D300827817 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = InlineSnapshotTesting;
+		};
+		9B998FBF2D7172D300827817 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B998FBC2D7172D300827817 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+		9B998FC12D7172D300827817 /* SnapshotTestingCustomDump */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B998FBC2D7172D300827817 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTestingCustomDump;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3A19600C295E4B1600CB283B /* Project object */;
 }

@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "70E024EF-EA50-4F15-AF5B-A409C2AF9815",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:WeeklyChallenges2023.xcodeproj",
+        "identifier" : "9BBAD4C02CB4F2CC007180ED",
+        "name" : "WeeklyChallenges2023Tests"
+      }
+    }
+  ],
+  "version" : 1
+}
